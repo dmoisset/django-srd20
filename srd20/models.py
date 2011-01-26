@@ -36,6 +36,10 @@ class Spell(models.Model):
     full_text = models.TextField()
     reference = models.CharField(max_length=30) # Should be a FK
 
+    def __unicode__(self):
+        return self.name
+    
     class Meta:
         db_table = 'spell'
+        ordering = ('name',)
 
