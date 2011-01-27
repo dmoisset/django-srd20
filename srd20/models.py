@@ -36,6 +36,10 @@ class Spell(models.Model):
     full_text = models.TextField()
     reference = models.CharField(max_length=30) # Should be a FK
 
+    @models.permalink
+    def get_absolute_url(self):
+        return ('spell_detail', [], {'id': self.id})
+
     def __unicode__(self):
         return self.name
     
