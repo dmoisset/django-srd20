@@ -17,8 +17,8 @@ class Spell(models.Model):
     area = models.CharField(max_length=256)
     effect = models.CharField(max_length=256)
     duration = models.CharField(max_length=128)
-    saving_throw = models.CharField(max_length=128) # maybe normalized, not sure 
-    spell_resistance = models.CharField(max_length=64) # maybe normalized, not sure 
+    saving_throw = models.CharField(max_length=128) # may be normalized, not sure 
+    spell_resistance = models.CharField(max_length=64) # may be normalized, not sure 
     short_description = models.CharField(max_length=128)
     to_develop = models.TextField()
     material_components = models.TextField()
