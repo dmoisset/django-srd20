@@ -27,10 +27,10 @@ class Spell(models.Model):
     description = models.TextField()
     xp_cost = models.TextField()
     arcane_focus = models.CharField(max_length=256)
-    wizard_focus = models.CharField(max_length=256)
-    verbal_components = models.CharField(max_length=256)
-    sorcerer_focus = models.CharField(max_length=256)
-    bard_focus = models.CharField(max_length=256)
+    wizard_focus = models.CharField(max_length=256) # Only used in scrying spells. probably could be removed
+    verbal_components = models.CharField(max_length=256) # only used in 1 spell. Possibly should meld into description
+    sorcerer_focus = models.CharField(max_length=256) # Overlaps with wizard_focus. remove!
+    bard_focus = models.CharField(max_length=256) # Overlaps with wizard_focus. remove!
     cleric_focus = models.CharField(max_length=256)
     druid_focus = models.CharField(max_length=256)
     full_text = models.TextField()
