@@ -1,13 +1,15 @@
 <h1>D20 SRD search</h1>
 
 <form method="get">
+<table>
 {{ form }}
+</table>
 <input type="Submit" />
 </form>
 
 <ul>
 {% for r in results %}
-    <li><a href="{{ r.get_absolute_url }}">{{ r }}</li>
+    <li><a href="{{ r.get_absolute_url }}">{{ r }}</a>: {{ r.short_description }}</li>
 {% empty %}
 No results found
 {% endfor %}
