@@ -4,6 +4,12 @@
     {% if spell.subschool %}({{ spell.subschool }}){% endif %}
     {% if spell.descriptor %}[{{spell.descriptor}}]{% endif %}</h2>
 
+{% if editable %}
+<p>
+<a href="{% url admin:srd20_spell_change spell.id %}">edit</a>
+</p>
+{% endif %}
+
 <table>
     {% if spell.level %}
     <tr>
