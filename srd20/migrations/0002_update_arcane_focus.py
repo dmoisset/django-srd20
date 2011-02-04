@@ -17,9 +17,9 @@ class Migration(DataMigration):
             s.sorcerer_focus = ''
             s.bard_focus = ''
             s.save()
-        assert not Spell.objects.exclude(wizard_focus='')
-        assert not Spell.objects.exclude(sorcerer_focus='')
-        assert not Spell.objects.exclude(bard_focus='')
+        assert not orm.Spell.objects.exclude(wizard_focus='')
+        assert not orm.Spell.objects.exclude(sorcerer_focus='')
+        assert not orm.Spell.objects.exclude(bard_focus='')
 
     def backwards(self, orm):
         pass 
