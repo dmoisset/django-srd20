@@ -99,3 +99,9 @@ INSTALLED_APPS = (
     'search',
     'browse',
 )
+
+try:
+    from local_settings import *
+except:
+    pass
+
