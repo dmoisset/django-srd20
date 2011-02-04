@@ -18,9 +18,6 @@ sys.path[:0] = new_sys_path
 
 os.environ['DJANGO_SETTINGS_MODULE'] = 'settings'
 
-print vepath
-print sys.path
-
 import django.core.handlers.wsgi
 application = django.core.handlers.wsgi.WSGIHandler()
 
