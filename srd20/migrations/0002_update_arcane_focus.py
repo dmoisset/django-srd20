@@ -9,7 +9,7 @@ from srd20.models import Spell
 class Migration(DataMigration):
 
     def forwards(self, orm):
-        for s in Spell.objects.exclude(wizard_focus=''):
+        for s in orm.Spell.objects.exclude(wizard_focus=''):
             assert s.wizard_focus == s.sorcerer_focus
             assert s.wizard_focus == s.bard_focus
             s.arcane_focus = s.wizard_focus
