@@ -16,7 +16,7 @@ for item in new_sys_path:
     sys.path.remove(item)
 sys.path[:0] = new_sys_path
 
-os.environ['DJANGO_SETTINGS_MODULE'] = 'settings'
+os.environ['DJANGO_SETTINGS_MODULE'] = 'django_srd20.settings'
 
 import django.core.handlers.wsgi
 application = django.core.handlers.wsgi.WSGIHandler()
