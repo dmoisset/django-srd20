@@ -9,7 +9,7 @@ prev_sys_path = list(sys.path)
 # add the site-packages of our virtualenv as a site dir
 site.addsitedir(vepath)
 # add the app's directory to the PYTHONPATH
-sys.path.append(os.path.join(BASE_PATH, 'django-srd20'))
+sys.path.append(os.path.join(BASE_PATH, 'django_srd20'))
 
 new_sys_path = [p for p in sys.path if p not in prev_sys_path]
 for item in new_sys_path:
