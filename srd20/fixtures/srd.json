@@ -30,7 +30,7 @@
       "descriptor": "Acid", 
       "range": "Long (400 ft. + 40 ft./level)", 
       "components": "V, S, M, F", 
-      "altname": "acid arrow", 
+      "altname": "acid-arrow", 
       "arcane_material_components": ""
     }
   }, 
@@ -65,7 +65,7 @@
       "descriptor": "Acid", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S, M/DF", 
-      "altname": "acid fog", 
+      "altname": "acid-fog", 
       "arcane_material_components": "A pinch of dried, powdered peas combined with powdered animal hoof."
     }
   }, 
@@ -100,7 +100,7 @@
       "descriptor": "Acid", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S", 
-      "altname": "acid splash", 
+      "altname": "acid-splash", 
       "arcane_material_components": ""
     }
   }, 
@@ -170,7 +170,7 @@
       "descriptor": "Air", 
       "range": "Touch", 
       "components": "V, S, DF", 
-      "altname": "air walk", 
+      "altname": "air-walk", 
       "arcane_material_components": ""
     }
   }, 
@@ -240,7 +240,7 @@
       "descriptor": "see text", 
       "range": "Touch", 
       "components": "V, S, DF", 
-      "altname": "align weapon", 
+      "altname": "align-weapon", 
       "arcane_material_components": ""
     }
   }, 
@@ -275,7 +275,7 @@
       "descriptor": "", 
       "range": "Personal", 
       "components": "V, S", 
-      "altname": "alter self", 
+      "altname": "alter-self", 
       "arcane_material_components": ""
     }
   }, 
@@ -310,7 +310,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, F", 
-      "altname": "analyze dweomer", 
+      "altname": "analyze-dweomer", 
       "arcane_material_components": ""
     }
   }, 
@@ -345,7 +345,7 @@
       "descriptor": "", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S", 
-      "altname": "animal growth", 
+      "altname": "animal-growth", 
       "arcane_material_components": ""
     }
   }, 
@@ -380,7 +380,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, M", 
-      "altname": "animal messenger", 
+      "altname": "animal-messenger", 
       "arcane_material_components": ""
     }
   }, 
@@ -415,7 +415,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, DF", 
-      "altname": "animal shapes", 
+      "altname": "animal-shapes", 
       "arcane_material_components": ""
     }
   }, 
@@ -450,7 +450,7 @@
       "descriptor": "Mind-Affecting, Sonic", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S", 
-      "altname": "animal trance", 
+      "altname": "animal-trance", 
       "arcane_material_components": ""
     }
   }, 
@@ -485,7 +485,7 @@
       "descriptor": "Evil", 
       "range": "Touch", 
       "components": "V, S, M", 
-      "altname": "animate dead", 
+      "altname": "animate-dead", 
       "arcane_material_components": ""
     }
   }, 
@@ -520,7 +520,7 @@
       "descriptor": "", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S", 
-      "altname": "animate objects", 
+      "altname": "animate-objects", 
       "arcane_material_components": ""
     }
   }, 
@@ -555,7 +555,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V", 
-      "altname": "animate plants", 
+      "altname": "animate-plants", 
       "arcane_material_components": ""
     }
   }, 
@@ -590,7 +590,7 @@
       "descriptor": "", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S", 
-      "altname": "animate rope", 
+      "altname": "animate-rope", 
       "arcane_material_components": ""
     }
   }, 
@@ -625,7 +625,7 @@
       "descriptor": "Cold", 
       "range": "300 ft.", 
       "components": "V, S", 
-      "altname": "animus blast", 
+      "altname": "animus-blast", 
       "arcane_material_components": ""
     }
   }, 
@@ -660,7 +660,7 @@
       "descriptor": "Cold", 
       "range": "300 ft.", 
       "components": "V, S", 
-      "altname": "animus blizzard", 
+      "altname": "animus-blizzard", 
       "arcane_material_components": ""
     }
   }, 
@@ -695,7 +695,7 @@
       "descriptor": "", 
       "range": "10 ft.", 
       "components": "V, S, DF", 
-      "altname": "antilife shell", 
+      "altname": "antilife-shell", 
       "arcane_material_components": ""
     }
   }, 
@@ -730,7 +730,7 @@
       "descriptor": "", 
       "range": "10 ft.", 
       "components": "V, S, M/DF", 
-      "altname": "antimagic field", 
+      "altname": "antimagic-field", 
       "arcane_material_components": "A pinch of powdered iron or iron filings."
     }
   }, 
@@ -800,7 +800,7 @@
       "descriptor": "", 
       "range": "10 ft.", 
       "components": "V, S, DF", 
-      "altname": "antiplant shell", 
+      "altname": "antiplant-shell", 
       "arcane_material_components": ""
     }
   }, 
@@ -835,7 +835,7 @@
       "descriptor": "", 
       "range": "Unlimited", 
       "components": "V, S, M", 
-      "altname": "arcane eye", 
+      "altname": "arcane-eye", 
       "arcane_material_components": ""
     }
   }, 
@@ -870,7 +870,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, M", 
-      "altname": "arcane lock", 
+      "altname": "arcane-lock", 
       "arcane_material_components": ""
     }
   }, 
@@ -905,7 +905,7 @@
       "descriptor": "", 
       "range": "0 ft.", 
       "components": "V, S", 
-      "altname": "arcane mark", 
+      "altname": "arcane-mark", 
       "arcane_material_components": ""
     }
   }, 
@@ -940,7 +940,7 @@
       "descriptor": "", 
       "range": "Personal", 
       "components": "V, S", 
-      "altname": "arcane sight", 
+      "altname": "arcane-sight", 
       "arcane_material_components": ""
     }
   }, 
@@ -975,7 +975,7 @@
       "descriptor": "", 
       "range": "Personal", 
       "components": "V, S", 
-      "altname": "greater arcane sight", 
+      "altname": "greater-arcane-sight", 
       "arcane_material_components": ""
     }
   }, 
@@ -1010,7 +1010,7 @@
       "descriptor": "Darkness", 
       "range": "Touch", 
       "components": "V, S, DF", 
-      "altname": "armor of darkness", 
+      "altname": "armor-of-darkness", 
       "arcane_material_components": ""
     }
   }, 
@@ -1045,7 +1045,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, M", 
-      "altname": "astral projection", 
+      "altname": "astral-projection", 
       "arcane_material_components": ""
     }
   }, 
@@ -1185,7 +1185,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S", 
-      "altname": "baleful polymorph", 
+      "altname": "baleful-polymorph", 
       "arcane_material_components": ""
     }
   }, 
@@ -1325,7 +1325,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, DF", 
-      "altname": "bear's endurance", 
+      "altname": "bears-endurance", 
       "arcane_material_components": ""
     }
   }, 
@@ -1360,7 +1360,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, DF", 
-      "altname": "mass bear's endurance", 
+      "altname": "mass-bears-endurance", 
       "arcane_material_components": ""
     }
   }, 
@@ -1395,7 +1395,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S", 
-      "altname": "bestow curse", 
+      "altname": "bestow-curse", 
       "arcane_material_components": ""
     }
   }, 
@@ -1465,7 +1465,7 @@
       "descriptor": "", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S, M", 
-      "altname": "black tentacles", 
+      "altname": "black-tentacles", 
       "arcane_material_components": ""
     }
   }, 
@@ -1535,7 +1535,7 @@
       "descriptor": "Force", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S", 
-      "altname": "blade barrier", 
+      "altname": "blade-barrier", 
       "arcane_material_components": ""
     }
   }, 
@@ -1640,7 +1640,7 @@
       "descriptor": "Good", 
       "range": "Touch", 
       "components": "V, S, M", 
-      "altname": "bless water", 
+      "altname": "bless-water", 
       "arcane_material_components": ""
     }
   }, 
@@ -1675,7 +1675,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S", 
-      "altname": "bless weapon", 
+      "altname": "bless-weapon", 
       "arcane_material_components": ""
     }
   }, 
@@ -1745,7 +1745,7 @@
       "descriptor": "", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V", 
-      "altname": "blindness/deafness", 
+      "altname": "blindness-deafness", 
       "arcane_material_components": ""
     }
   }, 
@@ -1850,7 +1850,7 @@
       "descriptor": "Good", 
       "range": "Close (25 ft. + 5 ft./level)", 
       "components": "V, S, DF", 
-      "altname": "bolt of glory", 
+      "altname": "bolt-of-glory", 
       "arcane_material_components": ""
     }
   }, 
@@ -1885,7 +1885,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S", 
-      "altname": "bolts of bedevilment", 
+      "altname": "bolts-of-bedevilment", 
       "arcane_material_components": ""
     }
   }, 
@@ -1920,7 +1920,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "Long (400 ft. + 40 ft./level)", 
       "components": "V, S, M, DF", 
-      "altname": "brain spider", 
+      "altname": "brain-spider", 
       "arcane_material_components": ""
     }
   }, 
@@ -1955,7 +1955,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S", 
-      "altname": "break enchantment", 
+      "altname": "break-enchantment", 
       "arcane_material_components": ""
     }
   }, 
@@ -1990,7 +1990,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, M/DF", 
-      "altname": "bull's strength", 
+      "altname": "bulls-strength", 
       "arcane_material_components": "A few hairs, or a pinch of dung, from a bull."
     }
   }, 
@@ -2025,7 +2025,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, M/DF", 
-      "altname": "mass bull's strength", 
+      "altname": "mass-bulls-strength", 
       "arcane_material_components": "A few hairs, or a pinch of dung, from a bull."
     }
   }, 
@@ -2060,7 +2060,7 @@
       "descriptor": "Fire", 
       "range": "15 ft.", 
       "components": "V, S", 
-      "altname": "burning hands", 
+      "altname": "burning-hands", 
       "arcane_material_components": ""
     }
   }, 
@@ -2095,7 +2095,7 @@
       "descriptor": "Electricity", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S", 
-      "altname": "call lightning", 
+      "altname": "call-lightning", 
       "arcane_material_components": ""
     }
   }, 
@@ -2130,7 +2130,7 @@
       "descriptor": "Electricity", 
       "range": "Long (400 ft. + 40 ft./level)", 
       "components": "V, S", 
-      "altname": "call lightning storm", 
+      "altname": "call-lightning-storm", 
       "arcane_material_components": ""
     }
   }, 
@@ -2165,7 +2165,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S", 
-      "altname": "calm animals", 
+      "altname": "calm-animals", 
       "arcane_material_components": ""
     }
   }, 
@@ -2200,7 +2200,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S, DF", 
-      "altname": "calm emotions", 
+      "altname": "calm-emotions", 
       "arcane_material_components": ""
     }
   }, 
@@ -2235,7 +2235,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, M", 
-      "altname": "cat's grace", 
+      "altname": "cats-grace", 
       "arcane_material_components": ""
     }
   }, 
@@ -2270,7 +2270,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, M", 
-      "altname": "mass cat's grace", 
+      "altname": "mass-cats-grace", 
       "arcane_material_components": ""
     }
   }, 
@@ -2305,7 +2305,7 @@
       "descriptor": "Fear, Mind-Affecting", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S", 
-      "altname": "cause fear", 
+      "altname": "cause-fear", 
       "arcane_material_components": ""
     }
   }, 
@@ -2340,7 +2340,7 @@
       "descriptor": "Electricity", 
       "range": "Long (400 ft. + 40 ft./level)", 
       "components": "V, S, F", 
-      "altname": "chain lightning", 
+      "altname": "chain-lightning", 
       "arcane_material_components": ""
     }
   }, 
@@ -2410,7 +2410,7 @@
       "descriptor": "Chaotic", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S", 
-      "altname": "chaos hammer", 
+      "altname": "chaos-hammer", 
       "arcane_material_components": ""
     }
   }, 
@@ -2445,7 +2445,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S", 
-      "altname": "charm animal", 
+      "altname": "charm-animal", 
       "arcane_material_components": ""
     }
   }, 
@@ -2480,7 +2480,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S", 
-      "altname": "charm monster", 
+      "altname": "charm-monster", 
       "arcane_material_components": ""
     }
   }, 
@@ -2515,7 +2515,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V", 
-      "altname": "mass charm monster", 
+      "altname": "mass-charm-monster", 
       "arcane_material_components": ""
     }
   }, 
@@ -2550,7 +2550,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S", 
-      "altname": "charm person", 
+      "altname": "charm-person", 
       "arcane_material_components": ""
     }
   }, 
@@ -2585,7 +2585,7 @@
       "descriptor": "Cold", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, DF", 
-      "altname": "chill metal", 
+      "altname": "chill-metal", 
       "arcane_material_components": ""
     }
   }, 
@@ -2620,7 +2620,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S", 
-      "altname": "chill touch", 
+      "altname": "chill-touch", 
       "arcane_material_components": ""
     }
   }, 
@@ -2655,7 +2655,7 @@
       "descriptor": "Death", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S, M", 
-      "altname": "circle of death", 
+      "altname": "circle-of-death", 
       "arcane_material_components": ""
     }
   }, 
@@ -2690,7 +2690,7 @@
       "descriptor": "", 
       "range": "Long (400 ft. + 40 ft./level)", 
       "components": "V, S, F/DF", 
-      "altname": "clairaudience/clairvoyance", 
+      "altname": "clairaudience-clairvoyance", 
       "arcane_material_components": ""
     }
   }, 
@@ -2725,7 +2725,7 @@
       "descriptor": "Force", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S, F/DF", 
-      "altname": "clenched fist", 
+      "altname": "clenched-fist", 
       "arcane_material_components": ""
     }
   }, 
@@ -2760,7 +2760,7 @@
       "descriptor": "Chaotic", 
       "range": "20 ft.", 
       "components": "V, S, F", 
-      "altname": "cloak of chaos", 
+      "altname": "cloak-of-chaos", 
       "arcane_material_components": ""
     }
   }, 
@@ -2865,7 +2865,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "15 ft.", 
       "components": "V, S, M", 
-      "altname": "color spray", 
+      "altname": "color-spray", 
       "arcane_material_components": ""
     }
   }, 
@@ -2935,7 +2935,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V", 
-      "altname": "command plants", 
+      "altname": "command-plants", 
       "arcane_material_components": ""
     }
   }, 
@@ -2970,7 +2970,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, M", 
-      "altname": "command undead", 
+      "altname": "command-undead", 
       "arcane_material_components": ""
     }
   }, 
@@ -3005,7 +3005,7 @@
       "descriptor": "Language-Dependent, Mind-Affecting", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V", 
-      "altname": "greater command", 
+      "altname": "greater-command", 
       "arcane_material_components": ""
     }
   }, 
@@ -3075,7 +3075,7 @@
       "descriptor": "", 
       "range": "Personal", 
       "components": "V, S", 
-      "altname": "commune with nature", 
+      "altname": "commune-with-nature", 
       "arcane_material_components": ""
     }
   }, 
@@ -3110,7 +3110,7 @@
       "descriptor": "", 
       "range": "Personal", 
       "components": "V, S, M/DF", 
-      "altname": "comprehend languages", 
+      "altname": "comprehend-languages", 
       "arcane_material_components": "A pinch of soot and a few grains of salt."
     }
   }, 
@@ -3145,7 +3145,7 @@
       "descriptor": "Cold", 
       "range": "60 ft.", 
       "components": "V, S, M/DF", 
-      "altname": "cone of cold", 
+      "altname": "cone-of-cold", 
       "arcane_material_components": "A very small crystal or glass cone."
     }
   }, 
@@ -3215,7 +3215,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, DF", 
-      "altname": "lesser confusion", 
+      "altname": "lesser-confusion", 
       "arcane_material_components": "A set of three nut shells."
     }
   }, 
@@ -3285,7 +3285,7 @@
       "descriptor": "", 
       "range": "Personal", 
       "components": "V", 
-      "altname": "contact other plane", 
+      "altname": "contact-other-plane", 
       "arcane_material_components": ""
     }
   }, 
@@ -3390,7 +3390,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, DF", 
-      "altname": "contingent resurrection", 
+      "altname": "contingent-resurrection", 
       "arcane_material_components": ""
     }
   }, 
@@ -3425,7 +3425,7 @@
       "descriptor": "Light", 
       "range": "Touch", 
       "components": "V, S, M", 
-      "altname": "continual flame", 
+      "altname": "continual-flame", 
       "arcane_material_components": ""
     }
   }, 
@@ -3460,7 +3460,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, DF", 
-      "altname": "control plants", 
+      "altname": "control-plants", 
       "arcane_material_components": ""
     }
   }, 
@@ -3495,7 +3495,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, M", 
-      "altname": "control undead", 
+      "altname": "control-undead", 
       "arcane_material_components": ""
     }
   }, 
@@ -3530,7 +3530,7 @@
       "descriptor": "Water", 
       "range": "Long (400 ft. + 40 ft./level)", 
       "components": "V, S, M/DF", 
-      "altname": "control water", 
+      "altname": "control-water", 
       "arcane_material_components": "A drop of water (for raise water) or a pinch of dust (for lower water)."
     }
   }, 
@@ -3565,7 +3565,7 @@
       "descriptor": "", 
       "range": "2 miles", 
       "components": "V, S", 
-      "altname": "control weather", 
+      "altname": "control-weather", 
       "arcane_material_components": ""
     }
   }, 
@@ -3600,7 +3600,7 @@
       "descriptor": "Air", 
       "range": "40 ft./level", 
       "components": "V, S", 
-      "altname": "control winds", 
+      "altname": "control-winds", 
       "arcane_material_components": ""
     }
   }, 
@@ -3635,7 +3635,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S", 
-      "altname": "corrupt weapon", 
+      "altname": "corrupt-weapon", 
       "arcane_material_components": ""
     }
   }, 
@@ -3670,7 +3670,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S", 
-      "altname": "create food and water", 
+      "altname": "create-food-and-water", 
       "arcane_material_components": ""
     }
   }, 
@@ -3705,7 +3705,7 @@
       "descriptor": "Evil", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, M", 
-      "altname": "create greater undead", 
+      "altname": "create-greater-undead", 
       "arcane_material_components": ""
     }
   }, 
@@ -3740,7 +3740,7 @@
       "descriptor": "", 
       "range": "0 ft.", 
       "components": "V, S, XP", 
-      "altname": "create living vault (ritual)", 
+      "altname": "create-living-vault-ritual", 
       "arcane_material_components": ""
     }
   }, 
@@ -3775,7 +3775,7 @@
       "descriptor": "Evil", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, M", 
-      "altname": "create undead", 
+      "altname": "create-undead", 
       "arcane_material_components": ""
     }
   }, 
@@ -3810,7 +3810,7 @@
       "descriptor": "Water", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S", 
-      "altname": "create water", 
+      "altname": "create-water", 
       "arcane_material_components": ""
     }
   }, 
@@ -3845,7 +3845,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)/100 ft.; see text", 
       "components": "V, S", 
-      "altname": "creeping doom", 
+      "altname": "creeping-doom", 
       "arcane_material_components": ""
     }
   }, 
@@ -3880,7 +3880,7 @@
       "descriptor": "", 
       "range": "Personal", 
       "components": "V, S, M, DF", 
-      "altname": "crown of glory", 
+      "altname": "crown-of-glory", 
       "arcane_material_components": ""
     }
   }, 
@@ -3915,7 +3915,7 @@
       "descriptor": "", 
       "range": "Personal", 
       "components": "V, S", 
-      "altname": "crown of vermin", 
+      "altname": "crown-of-vermin", 
       "arcane_material_components": ""
     }
   }, 
@@ -3950,7 +3950,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "30 ft.", 
       "components": "V, S, M", 
-      "altname": "crushing despair", 
+      "altname": "crushing-despair", 
       "arcane_material_components": ""
     }
   }, 
@@ -3985,7 +3985,7 @@
       "descriptor": "Force", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S, M, F/DF", 
-      "altname": "crushing hand", 
+      "altname": "crushing-hand", 
       "arcane_material_components": "The shell of an egg."
     }
   }, 
@@ -4020,7 +4020,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S", 
-      "altname": "cure critical wounds", 
+      "altname": "cure-critical-wounds", 
       "arcane_material_components": ""
     }
   }, 
@@ -4055,7 +4055,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S", 
-      "altname": "mass cure critical wounds", 
+      "altname": "mass-cure-critical-wounds", 
       "arcane_material_components": ""
     }
   }, 
@@ -4090,7 +4090,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S", 
-      "altname": "cure light wounds", 
+      "altname": "cure-light-wounds", 
       "arcane_material_components": ""
     }
   }, 
@@ -4125,7 +4125,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S", 
-      "altname": "mass cure light wounds", 
+      "altname": "mass-cure-light-wounds", 
       "arcane_material_components": ""
     }
   }, 
@@ -4160,7 +4160,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S", 
-      "altname": "cure minor wounds", 
+      "altname": "cure-minor-wounds", 
       "arcane_material_components": ""
     }
   }, 
@@ -4195,7 +4195,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S", 
-      "altname": "cure moderate wounds", 
+      "altname": "cure-moderate-wounds", 
       "arcane_material_components": ""
     }
   }, 
@@ -4230,7 +4230,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S", 
-      "altname": "mass cure moderate wounds", 
+      "altname": "mass-cure-moderate-wounds", 
       "arcane_material_components": ""
     }
   }, 
@@ -4265,7 +4265,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S", 
-      "altname": "cure serious wounds", 
+      "altname": "cure-serious-wounds", 
       "arcane_material_components": ""
     }
   }, 
@@ -4300,7 +4300,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S", 
-      "altname": "mass cure serious wounds", 
+      "altname": "mass-cure-serious-wounds", 
       "arcane_material_components": ""
     }
   }, 
@@ -4335,7 +4335,7 @@
       "descriptor": "Evil", 
       "range": "Touch", 
       "components": "V, S, M", 
-      "altname": "curse water", 
+      "altname": "curse-water", 
       "arcane_material_components": ""
     }
   }, 
@@ -4405,7 +4405,7 @@
       "descriptor": "Light", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S", 
-      "altname": "dancing lights", 
+      "altname": "dancing-lights", 
       "arcane_material_components": ""
     }
   }, 
@@ -4580,7 +4580,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S, M", 
-      "altname": "daze monster", 
+      "altname": "daze-monster", 
       "arcane_material_components": ""
     }
   }, 
@@ -4615,7 +4615,7 @@
       "descriptor": "Death, Evil", 
       "range": "Touch", 
       "components": "V, S", 
-      "altname": "death knell", 
+      "altname": "death-knell", 
       "arcane_material_components": ""
     }
   }, 
@@ -4650,7 +4650,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, DF", 
-      "altname": "death ward", 
+      "altname": "death-ward", 
       "arcane_material_components": ""
     }
   }, 
@@ -4720,7 +4720,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, M", 
-      "altname": "deep slumber", 
+      "altname": "deep-slumber", 
       "arcane_material_components": ""
     }
   }, 
@@ -4755,7 +4755,7 @@
       "descriptor": "Darkness", 
       "range": "Touch", 
       "components": "V, M/DF", 
-      "altname": "deeper darkness", 
+      "altname": "deeper-darkness", 
       "arcane_material_components": "A bit of bat fur and either a drop of pitch or a piece of coal."
     }
   }, 
@@ -4790,7 +4790,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, DF", 
-      "altname": "delay poison", 
+      "altname": "delay-poison", 
       "arcane_material_components": ""
     }
   }, 
@@ -4825,7 +4825,7 @@
       "descriptor": "Fire", 
       "range": "Long (400 ft. + 40 ft./level)", 
       "components": "V, S, M", 
-      "altname": "delayed blast fireball", 
+      "altname": "delayed-blast-fireball", 
       "arcane_material_components": ""
     }
   }, 
@@ -4895,7 +4895,7 @@
       "descriptor": "", 
       "range": "300 ft.", 
       "components": "V, S", 
-      "altname": "demise unseen", 
+      "altname": "demise-unseen", 
       "arcane_material_components": ""
     }
   }, 
@@ -5000,7 +5000,7 @@
       "descriptor": "", 
       "range": "Long (400 ft. + 40 ft./level)", 
       "components": "V, S", 
-      "altname": "detect animals or plants", 
+      "altname": "detect-animals-or-plants", 
       "arcane_material_components": ""
     }
   }, 
@@ -5035,7 +5035,7 @@
       "descriptor": "", 
       "range": "60 ft.", 
       "components": "V, S, DF", 
-      "altname": "detect chaos", 
+      "altname": "detect-chaos", 
       "arcane_material_components": ""
     }
   }, 
@@ -5070,7 +5070,7 @@
       "descriptor": "", 
       "range": "60 ft.", 
       "components": "V, S, DF", 
-      "altname": "detect evil", 
+      "altname": "detect-evil", 
       "arcane_material_components": ""
     }
   }, 
@@ -5105,7 +5105,7 @@
       "descriptor": "", 
       "range": "60 ft.", 
       "components": "V, S, DF", 
-      "altname": "detect good", 
+      "altname": "detect-good", 
       "arcane_material_components": ""
     }
   }, 
@@ -5140,7 +5140,7 @@
       "descriptor": "", 
       "range": "60 ft.", 
       "components": "V, S, DF", 
-      "altname": "detect law", 
+      "altname": "detect-law", 
       "arcane_material_components": ""
     }
   }, 
@@ -5175,7 +5175,7 @@
       "descriptor": "", 
       "range": "60 ft.", 
       "components": "V, S", 
-      "altname": "detect magic", 
+      "altname": "detect-magic", 
       "arcane_material_components": ""
     }
   }, 
@@ -5210,7 +5210,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S", 
-      "altname": "detect poison", 
+      "altname": "detect-poison", 
       "arcane_material_components": ""
     }
   }, 
@@ -5245,7 +5245,7 @@
       "descriptor": "", 
       "range": "40 ft.", 
       "components": "V, S, M", 
-      "altname": "detect scrying", 
+      "altname": "detect-scrying", 
       "arcane_material_components": ""
     }
   }, 
@@ -5280,7 +5280,7 @@
       "descriptor": "", 
       "range": "60 ft.", 
       "components": "V, S", 
-      "altname": "detect secret doors", 
+      "altname": "detect-secret-doors", 
       "arcane_material_components": ""
     }
   }, 
@@ -5315,7 +5315,7 @@
       "descriptor": "", 
       "range": "60 ft.", 
       "components": "V, S", 
-      "altname": "detect snares and pits", 
+      "altname": "detect-snares-and-pits", 
       "arcane_material_components": ""
     }
   }, 
@@ -5350,7 +5350,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "60 ft.", 
       "components": "V, S, F/DF", 
-      "altname": "detect thoughts", 
+      "altname": "detect-thoughts", 
       "arcane_material_components": ""
     }
   }, 
@@ -5385,7 +5385,7 @@
       "descriptor": "", 
       "range": "60 ft.", 
       "components": "V, S, M/DF", 
-      "altname": "detect undead", 
+      "altname": "detect-undead", 
       "arcane_material_components": "A bit of earth from a grave."
     }
   }, 
@@ -5455,7 +5455,7 @@
       "descriptor": "", 
       "range": "Long (400 ft. + 40 ft./level)", 
       "components": "V", 
-      "altname": "dimension door", 
+      "altname": "dimension-door", 
       "arcane_material_components": ""
     }
   }, 
@@ -5490,7 +5490,7 @@
       "descriptor": "", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S", 
-      "altname": "dimensional anchor", 
+      "altname": "dimensional-anchor", 
       "arcane_material_components": ""
     }
   }, 
@@ -5525,7 +5525,7 @@
       "descriptor": "", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S", 
-      "altname": "dimensional lock", 
+      "altname": "dimensional-lock", 
       "arcane_material_components": ""
     }
   }, 
@@ -5560,7 +5560,7 @@
       "descriptor": "", 
       "range": "See text", 
       "components": "V, S, DF", 
-      "altname": "diminish plants", 
+      "altname": "diminish-plants", 
       "arcane_material_components": ""
     }
   }, 
@@ -5595,7 +5595,7 @@
       "descriptor": "Cold", 
       "range": "1,000 ft.", 
       "components": "V, S, XP", 
-      "altname": "dire winter", 
+      "altname": "dire-winter", 
       "arcane_material_components": ""
     }
   }, 
@@ -5630,7 +5630,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, DF", 
-      "altname": "discern lies", 
+      "altname": "discern-lies", 
       "arcane_material_components": ""
     }
   }, 
@@ -5665,7 +5665,7 @@
       "descriptor": "", 
       "range": "Unlimited", 
       "components": "V, S, DF", 
-      "altname": "discern location", 
+      "altname": "discern-location", 
       "arcane_material_components": ""
     }
   }, 
@@ -5700,7 +5700,7 @@
       "descriptor": "", 
       "range": "Personal", 
       "components": "V, S", 
-      "altname": "disguise self", 
+      "altname": "disguise-self", 
       "arcane_material_components": ""
     }
   }, 
@@ -5805,7 +5805,7 @@
       "descriptor": "Lawful", 
       "range": "Touch", 
       "components": "V, S, DF", 
-      "altname": "dispel chaos", 
+      "altname": "dispel-chaos", 
       "arcane_material_components": ""
     }
   }, 
@@ -5840,7 +5840,7 @@
       "descriptor": "Good", 
       "range": "Touch", 
       "components": "V, S, DF", 
-      "altname": "dispel evil", 
+      "altname": "dispel-evil", 
       "arcane_material_components": ""
     }
   }, 
@@ -5875,7 +5875,7 @@
       "descriptor": "Evil", 
       "range": "Touch", 
       "components": "V, S, DF", 
-      "altname": "dispel good", 
+      "altname": "dispel-good", 
       "arcane_material_components": ""
     }
   }, 
@@ -5910,7 +5910,7 @@
       "descriptor": "Chaotic", 
       "range": "Touch", 
       "components": "V, S, DF", 
-      "altname": "dispel law", 
+      "altname": "dispel-law", 
       "arcane_material_components": ""
     }
   }, 
@@ -5945,7 +5945,7 @@
       "descriptor": "", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S", 
-      "altname": "dispel magic", 
+      "altname": "dispel-magic", 
       "arcane_material_components": ""
     }
   }, 
@@ -5980,7 +5980,7 @@
       "descriptor": "", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S", 
-      "altname": "greater dispel magic", 
+      "altname": "greater-dispel-magic", 
       "arcane_material_components": ""
     }
   }, 
@@ -6050,7 +6050,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S", 
-      "altname": "disrupt undead", 
+      "altname": "disrupt-undead", 
       "arcane_material_components": ""
     }
   }, 
@@ -6085,7 +6085,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S", 
-      "altname": "disrupting weapon", 
+      "altname": "disrupting-weapon", 
       "arcane_material_components": ""
     }
   }, 
@@ -6155,7 +6155,7 @@
       "descriptor": "", 
       "range": "Personal", 
       "components": "V, S, DF", 
-      "altname": "divine favor", 
+      "altname": "divine-favor", 
       "arcane_material_components": ""
     }
   }, 
@@ -6190,7 +6190,7 @@
       "descriptor": "", 
       "range": "Personal", 
       "components": "V, S, DF", 
-      "altname": "divine power", 
+      "altname": "divine-power", 
       "arcane_material_components": ""
     }
   }, 
@@ -6225,7 +6225,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S", 
-      "altname": "dominate animal", 
+      "altname": "dominate-animal", 
       "arcane_material_components": ""
     }
   }, 
@@ -6260,7 +6260,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S", 
-      "altname": "dominate monster", 
+      "altname": "dominate-monster", 
       "arcane_material_components": ""
     }
   }, 
@@ -6295,7 +6295,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S", 
-      "altname": "dominate person", 
+      "altname": "dominate-person", 
       "arcane_material_components": ""
     }
   }, 
@@ -6365,7 +6365,7 @@
       "descriptor": "Fire", 
       "range": "75 ft.", 
       "components": "V, S, Ritual", 
-      "altname": "dragon knight (ritual)", 
+      "altname": "dragon-knight-ritual", 
       "arcane_material_components": ""
     }
   }, 
@@ -6400,7 +6400,7 @@
       "descriptor": "Fire", 
       "range": "75 ft.", 
       "components": "V, S, Ritual, XP", 
-      "altname": "dragon strike (ritual)", 
+      "altname": "dragon-strike-ritual", 
       "arcane_material_components": ""
     }
   }, 
@@ -6505,7 +6505,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S", 
-      "altname": "dweomer of transference", 
+      "altname": "dweomer-of-transference", 
       "arcane_material_components": ""
     }
   }, 
@@ -6540,7 +6540,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, M/DF", 
-      "altname": "eagle's splendor", 
+      "altname": "eagles-splendor", 
       "arcane_material_components": "A few feathers or a pinch of droppings from an eagle."
     }
   }, 
@@ -6575,7 +6575,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, M/DF", 
-      "altname": "mass eagle's splendor", 
+      "altname": "mass-eagles-splendor", 
       "arcane_material_components": "A few feathers or a pinch of droppings from an eagle."
     }
   }, 
@@ -6715,7 +6715,7 @@
       "descriptor": "see text", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S", 
-      "altname": "elemental swarm", 
+      "altname": "elemental-swarm", 
       "arcane_material_components": ""
     }
   }, 
@@ -6750,7 +6750,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S", 
-      "altname": "endure elements", 
+      "altname": "endure-elements", 
       "arcane_material_components": ""
     }
   }, 
@@ -6785,7 +6785,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S", 
-      "altname": "energy drain", 
+      "altname": "energy-drain", 
       "arcane_material_components": ""
     }
   }, 
@@ -6855,7 +6855,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, M", 
-      "altname": "enlarge person", 
+      "altname": "enlarge-person", 
       "arcane_material_components": ""
     }
   }, 
@@ -6890,7 +6890,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, M", 
-      "altname": "mass enlarge person", 
+      "altname": "mass-enlarge-person", 
       "arcane_material_components": ""
     }
   }, 
@@ -6925,7 +6925,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "75 ft.", 
       "components": "V, S, XP", 
-      "altname": "enslave (ritual)", 
+      "altname": "enslave-ritual", 
       "arcane_material_components": ""
     }
   }, 
@@ -7030,7 +7030,7 @@
       "descriptor": "", 
       "range": "Personal", 
       "components": "V, S", 
-      "altname": "entropic shield", 
+      "altname": "entropic-shield", 
       "arcane_material_components": ""
     }
   }, 
@@ -7065,7 +7065,7 @@
       "descriptor": "", 
       "range": "300 ft.", 
       "components": "V, S", 
-      "altname": "epic counterspell", 
+      "altname": "epic-counterspell", 
       "arcane_material_components": ""
     }
   }, 
@@ -7100,7 +7100,7 @@
       "descriptor": "Force", 
       "range": "Touch", 
       "components": "V, S", 
-      "altname": "epic mage armor", 
+      "altname": "epic-mage-armor", 
       "arcane_material_components": ""
     }
   }, 
@@ -7135,7 +7135,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S", 
-      "altname": "epic repulsion", 
+      "altname": "epic-repulsion", 
       "arcane_material_components": ""
     }
   }, 
@@ -7170,7 +7170,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, XP", 
-      "altname": "epic spell reflection", 
+      "altname": "epic-spell-reflection", 
       "arcane_material_components": ""
     }
   }, 
@@ -7240,7 +7240,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, Ritual, XP", 
-      "altname": "eternal freedom", 
+      "altname": "eternal-freedom", 
       "arcane_material_components": ""
     }
   }, 
@@ -7275,7 +7275,7 @@
       "descriptor": "", 
       "range": "Personal", 
       "components": "V, S", 
-      "altname": "ethereal jaunt", 
+      "altname": "ethereal-jaunt", 
       "arcane_material_components": ""
     }
   }, 
@@ -7345,7 +7345,7 @@
       "descriptor": "", 
       "range": "Personal", 
       "components": "V, S", 
-      "altname": "expeditious retreat", 
+      "altname": "expeditious-retreat", 
       "arcane_material_components": ""
     }
   }, 
@@ -7380,7 +7380,7 @@
       "descriptor": "Force", 
       "range": "Touch", 
       "components": "V, S", 
-      "altname": "explosive runes", 
+      "altname": "explosive-runes", 
       "arcane_material_components": ""
     }
   }, 
@@ -7485,7 +7485,7 @@
       "descriptor": "Light", 
       "range": "Long (400 ft. + 40 ft./level)", 
       "components": "V, S, DF", 
-      "altname": "faerie fire", 
+      "altname": "faerie-fire", 
       "arcane_material_components": ""
     }
   }, 
@@ -7520,7 +7520,7 @@
       "descriptor": "", 
       "range": "Personal", 
       "components": "V, S, M", 
-      "altname": "false life", 
+      "altname": "false-life", 
       "arcane_material_components": ""
     }
   }, 
@@ -7555,7 +7555,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, M", 
-      "altname": "false vision", 
+      "altname": "false-vision", 
       "arcane_material_components": "The ground dust of a piece of jade worth at least 250 gp, which is sprinkled into the air when the spell is cast."
     }
   }, 
@@ -7625,7 +7625,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V", 
-      "altname": "feather fall", 
+      "altname": "feather-fall", 
       "arcane_material_components": ""
     }
   }, 
@@ -7695,7 +7695,7 @@
       "descriptor": "", 
       "range": "Personal", 
       "components": "V, S", 
-      "altname": "find traps", 
+      "altname": "find-traps", 
       "arcane_material_components": ""
     }
   }, 
@@ -7730,7 +7730,7 @@
       "descriptor": "", 
       "range": "Personal or touch", 
       "components": "V, S, F", 
-      "altname": "find the path", 
+      "altname": "find-the-path", 
       "arcane_material_components": ""
     }
   }, 
@@ -7765,7 +7765,7 @@
       "descriptor": "Death", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S", 
-      "altname": "finger of death", 
+      "altname": "finger-of-death", 
       "arcane_material_components": ""
     }
   }, 
@@ -7800,7 +7800,7 @@
       "descriptor": "Fire", 
       "range": "Touch", 
       "components": "V, S, M", 
-      "altname": "fire seeds", 
+      "altname": "fire-seeds", 
       "arcane_material_components": ""
     }
   }, 
@@ -7835,7 +7835,7 @@
       "descriptor": "Fire or Cold", 
       "range": "Personal", 
       "components": "V, S, M/DF", 
-      "altname": "fire shield", 
+      "altname": "fire-shield", 
       "arcane_material_components": "A bit of phosphorus for the warm shield; a live firefly or glowworm or the tail portions of four dead ones for the chill shield."
     }
   }, 
@@ -7870,7 +7870,7 @@
       "descriptor": "Fire", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S", 
-      "altname": "fire storm", 
+      "altname": "fire-storm", 
       "arcane_material_components": ""
     }
   }, 
@@ -7905,7 +7905,7 @@
       "descriptor": "Fire", 
       "range": "Touch", 
       "components": "V, S, M", 
-      "altname": "fire trap", 
+      "altname": "fire-trap", 
       "arcane_material_components": ""
     }
   }, 
@@ -7975,7 +7975,7 @@
       "descriptor": "Fire", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, M", 
-      "altname": "flame arrow", 
+      "altname": "flame-arrow", 
       "arcane_material_components": ""
     }
   }, 
@@ -8010,7 +8010,7 @@
       "descriptor": "Fire", 
       "range": "0 ft.", 
       "components": "V, S, DF", 
-      "altname": "flame blade", 
+      "altname": "flame-blade", 
       "arcane_material_components": ""
     }
   }, 
@@ -8045,7 +8045,7 @@
       "descriptor": "Fire", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S, DF", 
-      "altname": "flame strike", 
+      "altname": "flame-strike", 
       "arcane_material_components": ""
     }
   }, 
@@ -8080,7 +8080,7 @@
       "descriptor": "Fire", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S, M/DF", 
-      "altname": "flaming sphere", 
+      "altname": "flaming-sphere", 
       "arcane_material_components": "A bit of tallow, a pinch of brimstone, and a dusting of powdered iron."
     }
   }, 
@@ -8150,7 +8150,7 @@
       "descriptor": "", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S, M", 
-      "altname": "flesh to stone", 
+      "altname": "flesh-to-stone", 
       "arcane_material_components": ""
     }
   }, 
@@ -8185,7 +8185,7 @@
       "descriptor": "Force", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, M", 
-      "altname": "floating disk", 
+      "altname": "floating-disk", 
       "arcane_material_components": ""
     }
   }, 
@@ -8255,7 +8255,7 @@
       "descriptor": "", 
       "range": "Medium (100 ft. + 10 ft. level)", 
       "components": "V, S", 
-      "altname": "fog cloud", 
+      "altname": "fog-cloud", 
       "arcane_material_components": ""
     }
   }, 
@@ -8360,7 +8360,7 @@
       "descriptor": "Force", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S, F", 
-      "altname": "forceful hand", 
+      "altname": "forceful-hand", 
       "arcane_material_components": ""
     }
   }, 
@@ -8430,7 +8430,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, M/DF", 
-      "altname": "fox's cunning", 
+      "altname": "foxs-cunning", 
       "arcane_material_components": "A few hairs, or a pinch of dung, from a fox."
     }
   }, 
@@ -8465,7 +8465,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, M/DF", 
-      "altname": "mass fox's cunning", 
+      "altname": "mass-foxs-cunning", 
       "arcane_material_components": "A few hairs, or a pinch of dung, from a fox."
     }
   }, 
@@ -8535,7 +8535,7 @@
       "descriptor": "", 
       "range": "Personal or touch", 
       "components": "V, S, M, DF", 
-      "altname": "freedom of movement", 
+      "altname": "freedom-of-movement", 
       "arcane_material_components": ""
     }
   }, 
@@ -8570,7 +8570,7 @@
       "descriptor": "Cold", 
       "range": "Long (400 ft. + 40 ft./level)", 
       "components": "V, S, F", 
-      "altname": "freezing sphere", 
+      "altname": "freezing-sphere", 
       "arcane_material_components": ""
     }
   }, 
@@ -8605,7 +8605,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "S, M/DF", 
-      "altname": "gaseous form", 
+      "altname": "gaseous-form", 
       "arcane_material_components": "A bit of gauze and a wisp of smoke."
     }
   }, 
@@ -8675,7 +8675,7 @@
       "descriptor": "", 
       "range": "None", 
       "components": "V, S, DF", 
-      "altname": "gathering of maggots", 
+      "altname": "gathering-of-maggots", 
       "arcane_material_components": ""
     }
   }, 
@@ -8710,7 +8710,7 @@
       "descriptor": "Language-Dependent, Mind-Affecting", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V", 
-      "altname": "lesser geas", 
+      "altname": "lesser-geas", 
       "arcane_material_components": ""
     }
   }, 
@@ -8745,7 +8745,7 @@
       "descriptor": "Language-Dependent, Mind-Affecting", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V", 
-      "altname": "geas/quest", 
+      "altname": "geas-quest", 
       "arcane_material_components": ""
     }
   }, 
@@ -8850,7 +8850,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, M/DF", 
-      "altname": "gentle repose", 
+      "altname": "gentle-repose", 
       "arcane_material_components": "A pinch of salt, and a copper piece for each eye the corpse has (or had)."
     }
   }, 
@@ -8885,7 +8885,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, M", 
-      "altname": "ghost sound", 
+      "altname": "ghost-sound", 
       "arcane_material_components": ""
     }
   }, 
@@ -8920,7 +8920,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, M", 
-      "altname": "ghoul touch", 
+      "altname": "ghoul-touch", 
       "arcane_material_components": ""
     }
   }, 
@@ -8955,7 +8955,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, DF", 
-      "altname": "giant vermin", 
+      "altname": "giant-vermin", 
       "arcane_material_components": ""
     }
   }, 
@@ -9060,7 +9060,7 @@
       "descriptor": "", 
       "range": "10 ft.", 
       "components": "V, S, M", 
-      "altname": "globe of invulnerability", 
+      "altname": "globe-of-invulnerability", 
       "arcane_material_components": ""
     }
   }, 
@@ -9095,7 +9095,7 @@
       "descriptor": "", 
       "range": "10 ft.", 
       "components": "V, S, M", 
-      "altname": "lesser globe of invulnerability", 
+      "altname": "lesser-globe-of-invulnerability", 
       "arcane_material_components": ""
     }
   }, 
@@ -9165,7 +9165,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, M", 
-      "altname": "glyph of warding", 
+      "altname": "glyph-of-warding", 
       "arcane_material_components": ""
     }
   }, 
@@ -9200,7 +9200,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, M", 
-      "altname": "greater glyph of warding", 
+      "altname": "greater-glyph-of-warding", 
       "arcane_material_components": ""
     }
   }, 
@@ -9235,7 +9235,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S", 
-      "altname": "good hope", 
+      "altname": "good-hope", 
       "arcane_material_components": ""
     }
   }, 
@@ -9305,7 +9305,7 @@
       "descriptor": "Force", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S, F/DF", 
-      "altname": "grasping hand", 
+      "altname": "grasping-hand", 
       "arcane_material_components": ""
     }
   }, 
@@ -9375,7 +9375,7 @@
       "descriptor": "", 
       "range": "12,000 ft.", 
       "components": "V, S, XP", 
-      "altname": "greater ruin", 
+      "altname": "greater-ruin", 
       "arcane_material_components": ""
     }
   }, 
@@ -9410,7 +9410,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, Ritual", 
-      "altname": "greater spell resistance", 
+      "altname": "greater-spell-resistance", 
       "arcane_material_components": ""
     }
   }, 
@@ -9445,7 +9445,7 @@
       "descriptor": "", 
       "range": "Anywhere within the area to be warded", 
       "components": "V, S, M, F", 
-      "altname": "guards and wards", 
+      "altname": "guards-and-wards", 
       "arcane_material_components": ""
     }
   }, 
@@ -9515,7 +9515,7 @@
       "descriptor": "Air", 
       "range": "60 ft.", 
       "components": "V, S", 
-      "altname": "gust of wind", 
+      "altname": "gust-of-wind", 
       "arcane_material_components": ""
     }
   }, 
@@ -9585,7 +9585,7 @@
       "descriptor": "", 
       "range": "Long (400 ft. + 40 ft./level)", 
       "components": "V, S, M", 
-      "altname": "hallucinatory terrain", 
+      "altname": "hallucinatory-terrain", 
       "arcane_material_components": ""
     }
   }, 
@@ -9620,7 +9620,7 @@
       "descriptor": "", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S, M", 
-      "altname": "halt undead", 
+      "altname": "halt-undead", 
       "arcane_material_components": ""
     }
   }, 
@@ -9795,7 +9795,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S", 
-      "altname": "heal mount", 
+      "altname": "heal-mount", 
       "arcane_material_components": ""
     }
   }, 
@@ -9830,7 +9830,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S", 
-      "altname": "mass heal", 
+      "altname": "mass-heal", 
       "arcane_material_components": ""
     }
   }, 
@@ -9865,7 +9865,7 @@
       "descriptor": "Fire", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, DF", 
-      "altname": "heat metal", 
+      "altname": "heat-metal", 
       "arcane_material_components": ""
     }
   }, 
@@ -9935,7 +9935,7 @@
       "descriptor": "", 
       "range": "5 miles", 
       "components": "V, S, DF", 
-      "altname": "helping hand", 
+      "altname": "helping-hand", 
       "arcane_material_components": ""
     }
   }, 
@@ -9970,7 +9970,7 @@
       "descriptor": "Creation", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, DF", 
-      "altname": "heroes' feast", 
+      "altname": "heroes-feast", 
       "arcane_material_components": ""
     }
   }, 
@@ -10040,7 +10040,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "Touch", 
       "components": "V, S", 
-      "altname": "greater heroism", 
+      "altname": "greater-heroism", 
       "arcane_material_components": ""
     }
   }, 
@@ -10075,7 +10075,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "S, DF", 
-      "altname": "hide from animals", 
+      "altname": "hide-from-animals", 
       "arcane_material_components": ""
     }
   }, 
@@ -10110,7 +10110,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, DF", 
-      "altname": "hide from undead", 
+      "altname": "hide-from-undead", 
       "arcane_material_components": ""
     }
   }, 
@@ -10145,7 +10145,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, M", 
-      "altname": "hideous laughter", 
+      "altname": "hideous-laughter", 
       "arcane_material_components": ""
     }
   }, 
@@ -10180,7 +10180,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S", 
-      "altname": "hold animal", 
+      "altname": "hold-animal", 
       "arcane_material_components": ""
     }
   }, 
@@ -10215,7 +10215,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S, M/DF", 
-      "altname": "hold monster", 
+      "altname": "hold-monster", 
       "arcane_material_components": "One hard metal bar or rod, which can be as small as a three-penny nail."
     }
   }, 
@@ -10250,7 +10250,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S, F/DF", 
-      "altname": "mass hold monster", 
+      "altname": "mass-hold-monster", 
       "arcane_material_components": ""
     }
   }, 
@@ -10285,7 +10285,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S, F/DF", 
-      "altname": "hold person", 
+      "altname": "hold-person", 
       "arcane_material_components": ""
     }
   }, 
@@ -10320,7 +10320,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S, F/DF", 
-      "altname": "mass hold person", 
+      "altname": "mass-hold-person", 
       "arcane_material_components": ""
     }
   }, 
@@ -10355,7 +10355,7 @@
       "descriptor": "", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V", 
-      "altname": "hold portal", 
+      "altname": "hold-portal", 
       "arcane_material_components": ""
     }
   }, 
@@ -10390,7 +10390,7 @@
       "descriptor": "Good", 
       "range": "20 ft.", 
       "components": "V, S, F", 
-      "altname": "holy aura", 
+      "altname": "holy-aura", 
       "arcane_material_components": ""
     }
   }, 
@@ -10425,7 +10425,7 @@
       "descriptor": "Good", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S", 
-      "altname": "holy smite", 
+      "altname": "holy-smite", 
       "arcane_material_components": ""
     }
   }, 
@@ -10460,7 +10460,7 @@
       "descriptor": "Good", 
       "range": "Touch", 
       "components": "V, S", 
-      "altname": "holy sword", 
+      "altname": "holy-sword", 
       "arcane_material_components": ""
     }
   }, 
@@ -10495,7 +10495,7 @@
       "descriptor": "Good, Sonic", 
       "range": "40 ft.", 
       "components": "V", 
-      "altname": "holy word", 
+      "altname": "holy-word", 
       "arcane_material_components": ""
     }
   }, 
@@ -10530,7 +10530,7 @@
       "descriptor": "", 
       "range": "Long (400 ft. + 40 ft./level)", 
       "components": "V, S, M/DF", 
-      "altname": "horrid wilting", 
+      "altname": "horrid-wilting", 
       "arcane_material_components": "A bit of sponge."
     }
   }, 
@@ -10565,7 +10565,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V (Brd only), S, M; see text", 
-      "altname": "hypnotic pattern", 
+      "altname": "hypnotic-pattern", 
       "arcane_material_components": ""
     }
   }, 
@@ -10635,7 +10635,7 @@
       "descriptor": "Cold", 
       "range": "Long (400 ft. + 40 ft./level)", 
       "components": "V, S, M/DF", 
-      "altname": "ice storm", 
+      "altname": "ice-storm", 
       "arcane_material_components": "A pinch of dust and a few drops of water."
     }
   }, 
@@ -10705,7 +10705,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "Touch", 
       "components": "V, S, M", 
-      "altname": "illusory script", 
+      "altname": "illusory-script", 
       "arcane_material_components": ""
     }
   }, 
@@ -10740,7 +10740,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S", 
-      "altname": "illusory wall", 
+      "altname": "illusory-wall", 
       "arcane_material_components": ""
     }
   }, 
@@ -10775,7 +10775,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, DF", 
-      "altname": "imbue with spell ability", 
+      "altname": "imbue-with-spell-ability", 
       "arcane_material_components": ""
     }
   }, 
@@ -10880,7 +10880,7 @@
       "descriptor": "Fire", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S", 
-      "altname": "incendiary cloud", 
+      "altname": "incendiary-cloud", 
       "arcane_material_components": ""
     }
   }, 
@@ -10915,7 +10915,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S", 
-      "altname": "inflict critical wounds", 
+      "altname": "inflict-critical-wounds", 
       "arcane_material_components": ""
     }
   }, 
@@ -10950,7 +10950,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S", 
-      "altname": "mass inflict critical wounds", 
+      "altname": "mass-inflict-critical-wounds", 
       "arcane_material_components": ""
     }
   }, 
@@ -10985,7 +10985,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S", 
-      "altname": "inflict light wounds", 
+      "altname": "inflict-light-wounds", 
       "arcane_material_components": ""
     }
   }, 
@@ -11020,7 +11020,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S", 
-      "altname": "mass inflict light wounds", 
+      "altname": "mass-inflict-light-wounds", 
       "arcane_material_components": ""
     }
   }, 
@@ -11055,7 +11055,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S", 
-      "altname": "inflict minor wounds", 
+      "altname": "inflict-minor-wounds", 
       "arcane_material_components": ""
     }
   }, 
@@ -11090,7 +11090,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S", 
-      "altname": "inflict moderate wounds", 
+      "altname": "inflict-moderate-wounds", 
       "arcane_material_components": ""
     }
   }, 
@@ -11125,7 +11125,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S", 
-      "altname": "mass inflict moderate wounds", 
+      "altname": "mass-inflict-moderate-wounds", 
       "arcane_material_components": ""
     }
   }, 
@@ -11160,7 +11160,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S", 
-      "altname": "inflict serious wounds", 
+      "altname": "inflict-serious-wounds", 
       "arcane_material_components": ""
     }
   }, 
@@ -11195,7 +11195,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S", 
-      "altname": "mass inflict serious wounds", 
+      "altname": "mass-inflict-serious-wounds", 
       "arcane_material_components": ""
     }
   }, 
@@ -11265,7 +11265,7 @@
       "descriptor": "", 
       "range": "Long (400 ft. + 40 ft./level)", 
       "components": "V, S, DF", 
-      "altname": "insect plague", 
+      "altname": "insect-plague", 
       "arcane_material_components": ""
     }
   }, 
@@ -11300,7 +11300,7 @@
       "descriptor": "", 
       "range": "See text", 
       "components": "V, S, M", 
-      "altname": "instant summons", 
+      "altname": "instant-summons", 
       "arcane_material_components": ""
     }
   }, 
@@ -11335,7 +11335,7 @@
       "descriptor": "Force", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S, F", 
-      "altname": "interposing hand", 
+      "altname": "interposing-hand", 
       "arcane_material_components": ""
     }
   }, 
@@ -11405,7 +11405,7 @@
       "descriptor": "", 
       "range": "Personal", 
       "components": "V, S", 
-      "altname": "invisibility purge", 
+      "altname": "invisibility-purge", 
       "arcane_material_components": ""
     }
   }, 
@@ -11440,7 +11440,7 @@
       "descriptor": "", 
       "range": "Personal or touch", 
       "components": "V, S, M", 
-      "altname": "invisibility sphere", 
+      "altname": "invisibility-sphere", 
       "arcane_material_components": "An eyelash encased in a bit of gum arabic."
     }
   }, 
@@ -11475,7 +11475,7 @@
       "descriptor": "", 
       "range": "Personal or touch", 
       "components": "V, S", 
-      "altname": "greater invisibility", 
+      "altname": "greater-invisibility", 
       "arcane_material_components": "An eyelash encased in a bit of gum arabic."
     }
   }, 
@@ -11510,7 +11510,7 @@
       "descriptor": "", 
       "range": "Long (400 ft. + 40 ft./level)", 
       "components": "V, S, M", 
-      "altname": "mass invisibility", 
+      "altname": "mass-invisibility", 
       "arcane_material_components": "An eyelash encased in a bit of gum arabic."
     }
   }, 
@@ -11545,7 +11545,7 @@
       "descriptor": "", 
       "range": "Personal", 
       "components": "V, S, M/DF", 
-      "altname": "iron body", 
+      "altname": "iron-body", 
       "arcane_material_components": "A small piece of iron that was once part of either an iron golem, a hero's armor, or a war machine."
     }
   }, 
@@ -11615,7 +11615,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "Touch", 
       "components": "V", 
-      "altname": "irresistible dance", 
+      "altname": "irresistible-dance", 
       "arcane_material_components": ""
     }
   }, 
@@ -11685,7 +11685,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S", 
-      "altname": "keen edge", 
+      "altname": "keen-edge", 
       "arcane_material_components": ""
     }
   }, 
@@ -11720,7 +11720,7 @@
       "descriptor": "", 
       "range": "Personal; touch", 
       "components": "V, S", 
-      "altname": "kinetic control", 
+      "altname": "kinetic-control", 
       "arcane_material_components": ""
     }
   }, 
@@ -11790,7 +11790,7 @@
       "descriptor": "", 
       "range": "Personal", 
       "components": "V, S", 
-      "altname": "know direction", 
+      "altname": "know-direction", 
       "arcane_material_components": ""
     }
   }, 
@@ -11825,7 +11825,7 @@
       "descriptor": "", 
       "range": "Personal", 
       "components": "V, S, M, F", 
-      "altname": "legend lore", 
+      "altname": "legend-lore", 
       "arcane_material_components": ""
     }
   }, 
@@ -11860,7 +11860,7 @@
       "descriptor": "", 
       "range": "Touch (see text)", 
       "components": "None", 
-      "altname": "let go of me", 
+      "altname": "let-go-of-me", 
       "arcane_material_components": ""
     }
   }, 
@@ -11965,7 +11965,7 @@
       "descriptor": "Electricity", 
       "range": "120 ft.", 
       "components": "V, S, M", 
-      "altname": "lightning bolt", 
+      "altname": "lightning-bolt", 
       "arcane_material_components": ""
     }
   }, 
@@ -12000,7 +12000,7 @@
       "descriptor": "", 
       "range": "See text", 
       "components": "V, S, XP", 
-      "altname": "limited wish", 
+      "altname": "limited-wish", 
       "arcane_material_components": ""
     }
   }, 
@@ -12070,7 +12070,7 @@
       "descriptor": "Electricity", 
       "range": "300 ft. or 150 ft.", 
       "components": "None", 
-      "altname": "living lightning", 
+      "altname": "living-lightning", 
       "arcane_material_components": ""
     }
   }, 
@@ -12105,7 +12105,7 @@
       "descriptor": "", 
       "range": "Long (400 ft. + 40 ft./level)", 
       "components": "V, S, M", 
-      "altname": "locate creature", 
+      "altname": "locate-creature", 
       "arcane_material_components": ""
     }
   }, 
@@ -12140,7 +12140,7 @@
       "descriptor": "", 
       "range": "Long (400 ft. + 40 ft./level)", 
       "components": "V, S, F/DF", 
-      "altname": "locate object", 
+      "altname": "locate-object", 
       "arcane_material_components": ""
     }
   }, 
@@ -12210,7 +12210,7 @@
       "descriptor": "", 
       "range": "75 ft.", 
       "components": "V, S, XP", 
-      "altname": "lord of nightmares", 
+      "altname": "lord-of-nightmares", 
       "arcane_material_components": ""
     }
   }, 
@@ -12280,7 +12280,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "Touch", 
       "components": "V", 
-      "altname": "maddening scream", 
+      "altname": "maddening-scream", 
       "arcane_material_components": ""
     }
   }, 
@@ -12315,7 +12315,7 @@
       "descriptor": "Force", 
       "range": "Touch", 
       "components": "V, S, F", 
-      "altname": "mage armor", 
+      "altname": "mage-armor", 
       "arcane_material_components": ""
     }
   }, 
@@ -12350,7 +12350,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S", 
-      "altname": "mage hand", 
+      "altname": "mage-hand", 
       "arcane_material_components": ""
     }
   }, 
@@ -12385,7 +12385,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V", 
-      "altname": "mage's disjunction", 
+      "altname": "mages-disjunction", 
       "arcane_material_components": ""
     }
   }, 
@@ -12420,7 +12420,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, M", 
-      "altname": "mage's faithful hound", 
+      "altname": "mages-faithful-hound", 
       "arcane_material_components": ""
     }
   }, 
@@ -12455,7 +12455,7 @@
       "descriptor": "", 
       "range": "Personal", 
       "components": "V, S", 
-      "altname": "mage's lucubration", 
+      "altname": "mages-lucubration", 
       "arcane_material_components": ""
     }
   }, 
@@ -12490,7 +12490,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, F", 
-      "altname": "mage's magnificent mansion", 
+      "altname": "mages-magnificent-mansion", 
       "arcane_material_components": ""
     }
   }, 
@@ -12525,7 +12525,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, M", 
-      "altname": "mage's private sanctum", 
+      "altname": "mages-private-sanctum", 
       "arcane_material_components": ""
     }
   }, 
@@ -12560,7 +12560,7 @@
       "descriptor": "Force", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, F", 
-      "altname": "mage's sword", 
+      "altname": "mages-sword", 
       "arcane_material_components": ""
     }
   }, 
@@ -12595,7 +12595,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, F", 
-      "altname": "magic aura", 
+      "altname": "magic-aura", 
       "arcane_material_components": ""
     }
   }, 
@@ -12630,7 +12630,7 @@
       "descriptor": "Lawful", 
       "range": "Touch", 
       "components": "V, S, M/DF", 
-      "altname": "magic circle against chaos", 
+      "altname": "magic-circle-against-chaos", 
       "arcane_material_components": "A little powdered silver with which you trace a 3-footdiameter circle on the floor (or ground) around the creature to be warded."
     }
   }, 
@@ -12665,7 +12665,7 @@
       "descriptor": "Good", 
       "range": "Touch", 
       "components": "V, S, M/DF", 
-      "altname": "magic circle against evil", 
+      "altname": "magic-circle-against-evil", 
       "arcane_material_components": "A little powdered silver with which you trace a 3-footdiameter circle on the floor (or ground) around the creature to be warded."
     }
   }, 
@@ -12700,7 +12700,7 @@
       "descriptor": "Evil", 
       "range": "Touch", 
       "components": "V, S, M/DF", 
-      "altname": "magic circle against good", 
+      "altname": "magic-circle-against-good", 
       "arcane_material_components": "A little powdered silver with which you trace a 3-footdiameter circle on the floor (or ground) around the creature to be warded."
     }
   }, 
@@ -12735,7 +12735,7 @@
       "descriptor": "Chaotic", 
       "range": "Touch", 
       "components": "V, S, M/DF", 
-      "altname": "magic circle against law", 
+      "altname": "magic-circle-against-law", 
       "arcane_material_components": "A little powdered silver with which you trace a 3-footdiameter circle on the floor (or ground) around the creature to be warded."
     }
   }, 
@@ -12770,7 +12770,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, DF", 
-      "altname": "magic fang", 
+      "altname": "magic-fang", 
       "arcane_material_components": ""
     }
   }, 
@@ -12805,7 +12805,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, DF", 
-      "altname": "greater magic fang", 
+      "altname": "greater-magic-fang", 
       "arcane_material_components": ""
     }
   }, 
@@ -12840,7 +12840,7 @@
       "descriptor": "", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S, F", 
-      "altname": "magic jar", 
+      "altname": "magic-jar", 
       "arcane_material_components": ""
     }
   }, 
@@ -12875,7 +12875,7 @@
       "descriptor": "Force", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S", 
-      "altname": "magic missile", 
+      "altname": "magic-missile", 
       "arcane_material_components": ""
     }
   }, 
@@ -12910,7 +12910,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, M", 
-      "altname": "magic mouth", 
+      "altname": "magic-mouth", 
       "arcane_material_components": ""
     }
   }, 
@@ -12945,7 +12945,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, DF", 
-      "altname": "magic stone", 
+      "altname": "magic-stone", 
       "arcane_material_components": ""
     }
   }, 
@@ -12980,7 +12980,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, DF", 
-      "altname": "magic vestment", 
+      "altname": "magic-vestment", 
       "arcane_material_components": ""
     }
   }, 
@@ -13015,7 +13015,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, DF", 
-      "altname": "magic weapon", 
+      "altname": "magic-weapon", 
       "arcane_material_components": ""
     }
   }, 
@@ -13050,7 +13050,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, M/DF", 
-      "altname": "greater magic weapon", 
+      "altname": "greater-magic-weapon", 
       "arcane_material_components": "Powdered lime and carbon."
     }
   }, 
@@ -13085,7 +13085,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, M", 
-      "altname": "major creation", 
+      "altname": "major-creation", 
       "arcane_material_components": ""
     }
   }, 
@@ -13120,7 +13120,7 @@
       "descriptor": "", 
       "range": "Long (400 ft. + 40 ft./level)", 
       "components": "V, S, F", 
-      "altname": "major image", 
+      "altname": "major-image", 
       "arcane_material_components": ""
     }
   }, 
@@ -13155,7 +13155,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S", 
-      "altname": "make whole", 
+      "altname": "make-whole", 
       "arcane_material_components": ""
     }
   }, 
@@ -13190,7 +13190,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, DF", 
-      "altname": "mark of justice", 
+      "altname": "mark-of-justice", 
       "arcane_material_components": ""
     }
   }, 
@@ -13225,7 +13225,7 @@
       "descriptor": "", 
       "range": "300 ft.", 
       "components": "V, S", 
-      "altname": "mass frog", 
+      "altname": "mass-frog", 
       "arcane_material_components": ""
     }
   }, 
@@ -13295,7 +13295,7 @@
       "descriptor": "Earth", 
       "range": "Personal", 
       "components": "V, S, DF", 
-      "altname": "meld into stone", 
+      "altname": "meld-into-stone", 
       "arcane_material_components": ""
     }
   }, 
@@ -13365,7 +13365,7 @@
       "descriptor": "", 
       "range": "Personal", 
       "components": "V, S, M", 
-      "altname": "mental pinnacle", 
+      "altname": "mental-pinnacle", 
       "arcane_material_components": ""
     }
   }, 
@@ -13435,7 +13435,7 @@
       "descriptor": "Fire", 
       "range": "Long (400 ft. + 40 ft./level)", 
       "components": "V, S", 
-      "altname": "meteor swarm", 
+      "altname": "meteor-swarm", 
       "arcane_material_components": ""
     }
   }, 
@@ -13470,7 +13470,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S", 
-      "altname": "mind blank", 
+      "altname": "mind-blank", 
       "arcane_material_components": ""
     }
   }, 
@@ -13505,7 +13505,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S", 
-      "altname": "mind fog", 
+      "altname": "mind-fog", 
       "arcane_material_components": ""
     }
   }, 
@@ -13540,7 +13540,7 @@
       "descriptor": "", 
       "range": "0 ft.", 
       "components": "V, S, M", 
-      "altname": "minor creation", 
+      "altname": "minor-creation", 
       "arcane_material_components": ""
     }
   }, 
@@ -13575,7 +13575,7 @@
       "descriptor": "", 
       "range": "Long (400 ft. + 40 ft./level)", 
       "components": "V, S, F", 
-      "altname": "minor image", 
+      "altname": "minor-image", 
       "arcane_material_components": ""
     }
   }, 
@@ -13645,7 +13645,7 @@
       "descriptor": "", 
       "range": "Long (400 ft. + 40 ft./level)", 
       "components": "V, S", 
-      "altname": "mirage arcana", 
+      "altname": "mirage-arcana", 
       "arcane_material_components": ""
     }
   }, 
@@ -13680,7 +13680,7 @@
       "descriptor": "", 
       "range": "Personal; see text", 
       "components": "V, S", 
-      "altname": "mirror image", 
+      "altname": "mirror-image", 
       "arcane_material_components": ""
     }
   }, 
@@ -13785,7 +13785,7 @@
       "descriptor": "", 
       "range": "Personal", 
       "components": "V, S, M, F", 
-      "altname": "mnemonic enhancer", 
+      "altname": "mnemonic-enhancer", 
       "arcane_material_components": ""
     }
   }, 
@@ -13820,7 +13820,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S", 
-      "altname": "modify memory", 
+      "altname": "modify-memory", 
       "arcane_material_components": ""
     }
   }, 
@@ -13855,7 +13855,7 @@
       "descriptor": "", 
       "range": "Personal", 
       "components": "V, S", 
-      "altname": "moment of prescience", 
+      "altname": "moment-of-prescience", 
       "arcane_material_components": ""
     }
   }, 
@@ -13890,7 +13890,7 @@
       "descriptor": "Death", 
       "range": "300 ft.", 
       "components": "None", 
-      "altname": "momento mori", 
+      "altname": "momento-mori", 
       "arcane_material_components": ""
     }
   }, 
@@ -13960,7 +13960,7 @@
       "descriptor": "Earth", 
       "range": "Long (400 ft. + 40 ft./level)", 
       "components": "V, S, M", 
-      "altname": "move earth", 
+      "altname": "move-earth", 
       "arcane_material_components": ""
     }
   }, 
@@ -13995,7 +13995,7 @@
       "descriptor": "Evil", 
       "range": "Touch", 
       "components": "V, S ,M, XP", 
-      "altname": "mummy dust", 
+      "altname": "mummy-dust", 
       "arcane_material_components": ""
     }
   }, 
@@ -14030,7 +14030,7 @@
       "descriptor": "Teleportation", 
       "range": "300 ft.", 
       "components": "V, S ,XP", 
-      "altname": "nailed to the sky", 
+      "altname": "nailed-to-the-sky", 
       "arcane_material_components": ""
     }
   }, 
@@ -14065,7 +14065,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, M/DF", 
-      "altname": "neutralize poison", 
+      "altname": "neutralize-poison", 
       "arcane_material_components": "A bit of charcoal."
     }
   }, 
@@ -14170,7 +14170,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, M/DF", 
-      "altname": "obscure object", 
+      "altname": "obscure-object", 
       "arcane_material_components": "A piece of chameleon skin."
     }
   }, 
@@ -14205,7 +14205,7 @@
       "descriptor": "", 
       "range": "20 ft.", 
       "components": "V, S", 
-      "altname": "obscuring mist", 
+      "altname": "obscuring-mist", 
       "arcane_material_components": ""
     }
   }, 
@@ -14240,7 +14240,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, F", 
-      "altname": "open/close", 
+      "altname": "open-close", 
       "arcane_material_components": ""
     }
   }, 
@@ -14275,7 +14275,7 @@
       "descriptor": "Lawful", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S", 
-      "altname": "order's wrath", 
+      "altname": "orders-wrath", 
       "arcane_material_components": ""
     }
   }, 
@@ -14310,7 +14310,7 @@
       "descriptor": "", 
       "range": "0 ft.", 
       "components": "V, S, DF, XP", 
-      "altname": "origin of species: achaierai", 
+      "altname": "origin-of-species-achaierai", 
       "arcane_material_components": ""
     }
   }, 
@@ -14345,7 +14345,7 @@
       "descriptor": "", 
       "range": "Personal", 
       "components": "V, S", 
-      "altname": "overland flight", 
+      "altname": "overland-flight", 
       "arcane_material_components": ""
     }
   }, 
@@ -14380,7 +14380,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, M/DF", 
-      "altname": "owl's wisdom", 
+      "altname": "owls-wisdom", 
       "arcane_material_components": "A few feathers, or a pinch of droppings, from an owl."
     }
   }, 
@@ -14415,7 +14415,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, M/DF", 
-      "altname": "mass owl's wisdom", 
+      "altname": "mass-owls-wisdom", 
       "arcane_material_components": "A few feathers, or a pinch of droppings, from an owl."
     }
   }, 
@@ -14450,7 +14450,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, DF", 
-      "altname": "pass without trace", 
+      "altname": "pass-without-trace", 
       "arcane_material_components": ""
     }
   }, 
@@ -14590,7 +14590,7 @@
       "descriptor": "", 
       "range": "Long (400 ft. + 40 ft./level)", 
       "components": "V, S, F", 
-      "altname": "permanent image", 
+      "altname": "permanent-image", 
       "arcane_material_components": ""
     }
   }, 
@@ -14625,7 +14625,7 @@
       "descriptor": "", 
       "range": "Long (400 ft. + 40 ft./level)", 
       "components": "V, S, F", 
-      "altname": "persistent image", 
+      "altname": "persistent-image", 
       "arcane_material_components": ""
     }
   }, 
@@ -14695,7 +14695,7 @@
       "descriptor": "Fear, Mind-Affecting", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S", 
-      "altname": "phantasmal killer", 
+      "altname": "phantasmal-killer", 
       "arcane_material_components": ""
     }
   }, 
@@ -14730,7 +14730,7 @@
       "descriptor": "", 
       "range": "0 ft.", 
       "components": "V, S", 
-      "altname": "phantom steed", 
+      "altname": "phantom-steed", 
       "arcane_material_components": ""
     }
   }, 
@@ -14765,7 +14765,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, M", 
-      "altname": "phantom trap", 
+      "altname": "phantom-trap", 
       "arcane_material_components": ""
     }
   }, 
@@ -14800,7 +14800,7 @@
       "descriptor": "", 
       "range": "0 ft.", 
       "components": "V", 
-      "altname": "phase door", 
+      "altname": "phase-door", 
       "arcane_material_components": ""
     }
   }, 
@@ -14835,7 +14835,7 @@
       "descriptor": "see text for lesser planar ally", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, DF, XP", 
-      "altname": "planar ally", 
+      "altname": "planar-ally", 
       "arcane_material_components": ""
     }
   }, 
@@ -14870,7 +14870,7 @@
       "descriptor": "see text for lesser planar ally", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, DF, XP", 
-      "altname": "greater planar ally", 
+      "altname": "greater-planar-ally", 
       "arcane_material_components": ""
     }
   }, 
@@ -14905,7 +14905,7 @@
       "descriptor": "see text", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, DF, XP", 
-      "altname": "lesser planar ally", 
+      "altname": "lesser-planar-ally", 
       "arcane_material_components": ""
     }
   }, 
@@ -14940,7 +14940,7 @@
       "descriptor": "see text for lesser planar binding", 
       "range": "Close (25 ft. + 5 ft./2 levels); see text", 
       "components": "V, S", 
-      "altname": "planar binding", 
+      "altname": "planar-binding", 
       "arcane_material_components": ""
     }
   }, 
@@ -14975,7 +14975,7 @@
       "descriptor": "see text for lesser planar binding", 
       "range": "Close (25 ft. + 5 ft./2 levels); see text", 
       "components": "V, S", 
-      "altname": "greater planar binding", 
+      "altname": "greater-planar-binding", 
       "arcane_material_components": ""
     }
   }, 
@@ -15010,7 +15010,7 @@
       "descriptor": "see text", 
       "range": "Close (25 ft. + 5 ft./2 levels); see text", 
       "components": "V, S", 
-      "altname": "lesser planar binding", 
+      "altname": "lesser-planar-binding", 
       "arcane_material_components": ""
     }
   }, 
@@ -15045,7 +15045,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, F", 
-      "altname": "plane shift", 
+      "altname": "plane-shift", 
       "arcane_material_components": ""
     }
   }, 
@@ -15080,7 +15080,7 @@
       "descriptor": "", 
       "range": "See text", 
       "components": "V, S, DF", 
-      "altname": "plant growth", 
+      "altname": "plant-growth", 
       "arcane_material_components": ""
     }
   }, 
@@ -15150,7 +15150,7 @@
       "descriptor": "Cold", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, F", 
-      "altname": "polar ray", 
+      "altname": "polar-ray", 
       "arcane_material_components": ""
     }
   }, 
@@ -15220,7 +15220,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, M/DF", 
-      "altname": "polymorph any object", 
+      "altname": "polymorph-any-object", 
       "arcane_material_components": "Mercury, gum arabic, and smoke."
     }
   }, 
@@ -15255,7 +15255,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V", 
-      "altname": "power word blind", 
+      "altname": "power-word-blind", 
       "arcane_material_components": ""
     }
   }, 
@@ -15290,7 +15290,7 @@
       "descriptor": "Death, Mind-Affecting", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V", 
-      "altname": "power word kill", 
+      "altname": "power-word-kill", 
       "arcane_material_components": ""
     }
   }, 
@@ -15325,7 +15325,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V", 
-      "altname": "power word stun", 
+      "altname": "power-word-stun", 
       "arcane_material_components": ""
     }
   }, 
@@ -15430,7 +15430,7 @@
       "descriptor": "", 
       "range": "10 ft.", 
       "components": "V", 
-      "altname": "prismatic sphere", 
+      "altname": "prismatic-sphere", 
       "arcane_material_components": ""
     }
   }, 
@@ -15465,7 +15465,7 @@
       "descriptor": "", 
       "range": "60 ft.", 
       "components": "V, S", 
-      "altname": "prismatic spray", 
+      "altname": "prismatic-spray", 
       "arcane_material_components": ""
     }
   }, 
@@ -15500,7 +15500,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S", 
-      "altname": "prismatic wall", 
+      "altname": "prismatic-wall", 
       "arcane_material_components": ""
     }
   }, 
@@ -15535,7 +15535,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S", 
-      "altname": "probe thoughts", 
+      "altname": "probe-thoughts", 
       "arcane_material_components": ""
     }
   }, 
@@ -15570,7 +15570,7 @@
       "descriptor": "Fire", 
       "range": "0 ft.", 
       "components": "V, S", 
-      "altname": "produce flame", 
+      "altname": "produce-flame", 
       "arcane_material_components": ""
     }
   }, 
@@ -15605,7 +15605,7 @@
       "descriptor": "", 
       "range": "Long (400 ft. + 40 ft./level)", 
       "components": "V, S, F", 
-      "altname": "programmed image", 
+      "altname": "programmed-image", 
       "arcane_material_components": ""
     }
   }, 
@@ -15640,7 +15640,7 @@
       "descriptor": "", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S, M", 
-      "altname": "project image", 
+      "altname": "project-image", 
       "arcane_material_components": ""
     }
   }, 
@@ -15675,7 +15675,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, F", 
-      "altname": "protection from arrows", 
+      "altname": "protection-from-arrows", 
       "arcane_material_components": ""
     }
   }, 
@@ -15710,7 +15710,7 @@
       "descriptor": "Lawful", 
       "range": "Touch", 
       "components": "V, S, M/DF", 
-      "altname": "protection from chaos", 
+      "altname": "protection-from-chaos", 
       "arcane_material_components": "A little powdered silver with which you trace a 3-foot -diameter circle on the floor (or ground) around the creature to be warded."
     }
   }, 
@@ -15745,7 +15745,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, DF", 
-      "altname": "protection from energy", 
+      "altname": "protection-from-energy", 
       "arcane_material_components": ""
     }
   }, 
@@ -15780,7 +15780,7 @@
       "descriptor": "Good", 
       "range": "Touch", 
       "components": "V, S, M/DF", 
-      "altname": "protection from evil", 
+      "altname": "protection-from-evil", 
       "arcane_material_components": "A little powdered silver with which you trace a 3-foot -diameter circle on the floor (or ground) around the creature to be warded."
     }
   }, 
@@ -15815,7 +15815,7 @@
       "descriptor": "Evil", 
       "range": "Touch", 
       "components": "V, S, M/DF", 
-      "altname": "protection from good", 
+      "altname": "protection-from-good", 
       "arcane_material_components": "A little powdered silver with which you trace a 3-foot -diameter circle on the floor (or ground) around the creature to be warded."
     }
   }, 
@@ -15850,7 +15850,7 @@
       "descriptor": "Chaotic", 
       "range": "Touch", 
       "components": "V, S, M/DF", 
-      "altname": "protection from law", 
+      "altname": "protection-from-law", 
       "arcane_material_components": "A little powdered silver with which you trace a 3-foot -diameter circle on the floor (or ground) around the creature to be warded."
     }
   }, 
@@ -15885,7 +15885,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, M, F", 
-      "altname": "protection from spells", 
+      "altname": "protection-from-spells", 
       "arcane_material_components": ""
     }
   }, 
@@ -15920,7 +15920,7 @@
       "descriptor": "", 
       "range": "One mile", 
       "components": "V, S, M", 
-      "altname": "prying eyes", 
+      "altname": "prying-eyes", 
       "arcane_material_components": ""
     }
   }, 
@@ -15955,7 +15955,7 @@
       "descriptor": "", 
       "range": "One mile", 
       "components": "V, S, M", 
-      "altname": "greater prying eyes", 
+      "altname": "greater-prying-eyes", 
       "arcane_material_components": ""
     }
   }, 
@@ -15990,7 +15990,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, M", 
-      "altname": "psychic turmoil", 
+      "altname": "psychic-turmoil", 
       "arcane_material_components": ""
     }
   }, 
@@ -16025,7 +16025,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, M", 
-      "altname": "greater psychic turmoil", 
+      "altname": "greater-psychic-turmoil", 
       "arcane_material_components": ""
     }
   }, 
@@ -16060,7 +16060,7 @@
       "descriptor": "", 
       "range": "10 ft.", 
       "components": "V, S", 
-      "altname": "purify food and drink", 
+      "altname": "purify-food-and-drink", 
       "arcane_material_components": ""
     }
   }, 
@@ -16235,7 +16235,7 @@
       "descriptor": "Fire", 
       "range": "0 ft.", 
       "components": "V, S", 
-      "altname": "rain of fire", 
+      "altname": "rain-of-fire", 
       "arcane_material_components": ""
     }
   }, 
@@ -16270,7 +16270,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V (Brd only), S, M, F; see text", 
-      "altname": "rainbow pattern", 
+      "altname": "rainbow-pattern", 
       "arcane_material_components": ""
     }
   }, 
@@ -16305,7 +16305,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, M, DF", 
-      "altname": "raise dead", 
+      "altname": "raise-dead", 
       "arcane_material_components": ""
     }
   }, 
@@ -16340,7 +16340,7 @@
       "descriptor": "", 
       "range": "0 ft.", 
       "components": "V, S, XP, Ritual", 
-      "altname": "raise island", 
+      "altname": "raise-island", 
       "arcane_material_components": ""
     }
   }, 
@@ -16375,7 +16375,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S", 
-      "altname": "ray of enfeeblement", 
+      "altname": "ray-of-enfeeblement", 
       "arcane_material_components": ""
     }
   }, 
@@ -16410,7 +16410,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, M", 
-      "altname": "ray of exhaustion", 
+      "altname": "ray-of-exhaustion", 
       "arcane_material_components": ""
     }
   }, 
@@ -16445,7 +16445,7 @@
       "descriptor": "Cold", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S", 
-      "altname": "ray of frost", 
+      "altname": "ray-of-frost", 
       "arcane_material_components": ""
     }
   }, 
@@ -16480,7 +16480,7 @@
       "descriptor": "", 
       "range": "Personal", 
       "components": "V, S, F", 
-      "altname": "read magic", 
+      "altname": "read-magic", 
       "arcane_material_components": ""
     }
   }, 
@@ -16515,7 +16515,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S", 
-      "altname": "reduce animal", 
+      "altname": "reduce-animal", 
       "arcane_material_components": ""
     }
   }, 
@@ -16550,7 +16550,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, M", 
-      "altname": "reduce person", 
+      "altname": "reduce-person", 
       "arcane_material_components": ""
     }
   }, 
@@ -16585,7 +16585,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, M", 
-      "altname": "mass reduce person", 
+      "altname": "mass-reduce-person", 
       "arcane_material_components": ""
     }
   }, 
@@ -16725,7 +16725,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S", 
-      "altname": "remove blindness/deafness", 
+      "altname": "remove-blindness-deafness", 
       "arcane_material_components": ""
     }
   }, 
@@ -16760,7 +16760,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S", 
-      "altname": "remove curse", 
+      "altname": "remove-curse", 
       "arcane_material_components": ""
     }
   }, 
@@ -16795,7 +16795,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S", 
-      "altname": "remove disease", 
+      "altname": "remove-disease", 
       "arcane_material_components": ""
     }
   }, 
@@ -16830,7 +16830,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S", 
-      "altname": "remove fear", 
+      "altname": "remove-fear", 
       "arcane_material_components": ""
     }
   }, 
@@ -16865,7 +16865,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S", 
-      "altname": "remove paralysis", 
+      "altname": "remove-paralysis", 
       "arcane_material_components": ""
     }
   }, 
@@ -16900,7 +16900,7 @@
       "descriptor": "Earth", 
       "range": "60 ft.", 
       "components": "V, S", 
-      "altname": "repel metal or stone", 
+      "altname": "repel-metal-or-stone", 
       "arcane_material_components": ""
     }
   }, 
@@ -16935,7 +16935,7 @@
       "descriptor": "", 
       "range": "10 ft.", 
       "components": "V, S, DF", 
-      "altname": "repel vermin", 
+      "altname": "repel-vermin", 
       "arcane_material_components": ""
     }
   }, 
@@ -16970,7 +16970,7 @@
       "descriptor": "", 
       "range": "60 ft.", 
       "components": "V, S", 
-      "altname": "repel wood", 
+      "altname": "repel-wood", 
       "arcane_material_components": ""
     }
   }, 
@@ -17040,7 +17040,7 @@
       "descriptor": "Force", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, M", 
-      "altname": "resilient sphere", 
+      "altname": "resilient-sphere", 
       "arcane_material_components": ""
     }
   }, 
@@ -17075,7 +17075,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, DF", 
-      "altname": "resist energy", 
+      "altname": "resist-energy", 
       "arcane_material_components": ""
     }
   }, 
@@ -17180,7 +17180,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, XP", 
-      "altname": "greater restoration", 
+      "altname": "greater-restoration", 
       "arcane_material_components": ""
     }
   }, 
@@ -17215,7 +17215,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S", 
-      "altname": "lesser restoration", 
+      "altname": "lesser-restoration", 
       "arcane_material_components": ""
     }
   }, 
@@ -17285,7 +17285,7 @@
       "descriptor": "", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S, M/DF", 
-      "altname": "reverse gravity", 
+      "altname": "reverse-gravity", 
       "arcane_material_components": "A lodestone and iron filings."
     }
   }, 
@@ -17320,7 +17320,7 @@
       "descriptor": "", 
       "range": "Personal", 
       "components": "V, S, DF", 
-      "altname": "righteous might", 
+      "altname": "righteous-might", 
       "arcane_material_components": ""
     }
   }, 
@@ -17355,7 +17355,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, M", 
-      "altname": "rope trick", 
+      "altname": "rope-trick", 
       "arcane_material_components": ""
     }
   }, 
@@ -17425,7 +17425,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, DF", 
-      "altname": "rusting grasp", 
+      "altname": "rusting-grasp", 
       "arcane_material_components": ""
     }
   }, 
@@ -17460,7 +17460,7 @@
       "descriptor": "Teleportation", 
       "range": "Touch", 
       "components": "V, S", 
-      "altname": "safe time", 
+      "altname": "safe-time", 
       "arcane_material_components": ""
     }
   }, 
@@ -17565,7 +17565,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, M", 
-      "altname": "scintillating pattern", 
+      "altname": "scintillating-pattern", 
       "arcane_material_components": ""
     }
   }, 
@@ -17600,7 +17600,7 @@
       "descriptor": "Fire", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S", 
-      "altname": "scorching ray", 
+      "altname": "scorching-ray", 
       "arcane_material_components": ""
     }
   }, 
@@ -17705,7 +17705,7 @@
       "descriptor": "", 
       "range": "See text", 
       "components": "V, S", 
-      "altname": "greater scrying", 
+      "altname": "greater-scrying", 
       "arcane_material_components": "The eye of a hawk, an eagle, or a roc, plus nitric acid, copper, and zinc."
     }
   }, 
@@ -17740,7 +17740,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S", 
-      "altname": "sculpt sound", 
+      "altname": "sculpt-sound", 
       "arcane_material_components": ""
     }
   }, 
@@ -17775,7 +17775,7 @@
       "descriptor": "", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S", 
-      "altname": "searing light", 
+      "altname": "searing-light", 
       "arcane_material_components": ""
     }
   }, 
@@ -17810,7 +17810,7 @@
       "descriptor": "", 
       "range": "See text", 
       "components": "V, S, F", 
-      "altname": "secret chest", 
+      "altname": "secret-chest", 
       "arcane_material_components": ""
     }
   }, 
@@ -17845,7 +17845,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, M", 
-      "altname": "secret page", 
+      "altname": "secret-page", 
       "arcane_material_components": ""
     }
   }, 
@@ -17880,7 +17880,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, M, F; see text", 
-      "altname": "secure shelter", 
+      "altname": "secure-shelter", 
       "arcane_material_components": ""
     }
   }, 
@@ -17915,7 +17915,7 @@
       "descriptor": "", 
       "range": "Personal", 
       "components": "V, S, M", 
-      "altname": "see invisibility", 
+      "altname": "see-invisibility", 
       "arcane_material_components": ""
     }
   }, 
@@ -17950,7 +17950,7 @@
       "descriptor": "Fear, Mind-Affecting", 
       "range": "300 ft.", 
       "components": "V, S", 
-      "altname": "seed: afflict", 
+      "altname": "seed-afflict", 
       "arcane_material_components": ""
     }
   }, 
@@ -17985,7 +17985,7 @@
       "descriptor": "", 
       "range": "300 ft.", 
       "components": "V, S", 
-      "altname": "seed: animate", 
+      "altname": "seed-animate", 
       "arcane_material_components": ""
     }
   }, 
@@ -18020,7 +18020,7 @@
       "descriptor": "Evil", 
       "range": "Touch", 
       "components": "V, S", 
-      "altname": "seed: animate dead", 
+      "altname": "seed-animate-dead", 
       "arcane_material_components": ""
     }
   }, 
@@ -18055,7 +18055,7 @@
       "descriptor": "Force", 
       "range": "Touch", 
       "components": "V, S", 
-      "altname": "seed: armor", 
+      "altname": "seed-armor", 
       "arcane_material_components": ""
     }
   }, 
@@ -18090,7 +18090,7 @@
       "descriptor": "", 
       "range": "75 ft.", 
       "components": "V, S", 
-      "altname": "seed: banish", 
+      "altname": "seed-banish", 
       "arcane_material_components": ""
     }
   }, 
@@ -18125,7 +18125,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "75 ft.", 
       "components": "V, M", 
-      "altname": "seed: compel", 
+      "altname": "seed-compel", 
       "arcane_material_components": ""
     }
   }, 
@@ -18160,7 +18160,7 @@
       "descriptor": "", 
       "range": "Personal or touch", 
       "components": "V, S", 
-      "altname": "seed: conceal", 
+      "altname": "seed-conceal", 
       "arcane_material_components": ""
     }
   }, 
@@ -18195,7 +18195,7 @@
       "descriptor": "", 
       "range": "0 ft.", 
       "components": "V, S", 
-      "altname": "seed: conjure", 
+      "altname": "seed-conjure", 
       "arcane_material_components": ""
     }
   }, 
@@ -18230,7 +18230,7 @@
       "descriptor": "", 
       "range": "See text", 
       "components": "V, S", 
-      "altname": "seed: contact", 
+      "altname": "seed-contact", 
       "arcane_material_components": ""
     }
   }, 
@@ -18265,7 +18265,7 @@
       "descriptor": "", 
       "range": "12,000 ft.", 
       "components": "V, S", 
-      "altname": "seed: delude", 
+      "altname": "seed-delude", 
       "arcane_material_components": ""
     }
   }, 
@@ -18300,7 +18300,7 @@
       "descriptor": "", 
       "range": "12,000 ft.", 
       "components": "V, S", 
-      "altname": "seed: destroy", 
+      "altname": "seed-destroy", 
       "arcane_material_components": ""
     }
   }, 
@@ -18335,7 +18335,7 @@
       "descriptor": "", 
       "range": "300 ft.", 
       "components": "V, S", 
-      "altname": "seed: dispel", 
+      "altname": "seed-dispel", 
       "arcane_material_components": ""
     }
   }, 
@@ -18370,7 +18370,7 @@
       "descriptor": "Acid, Fire, Electricity, Cold, or Sonic", 
       "range": "300 ft. or touched creature or object of 2,000 lb. or less", 
       "components": "V, S", 
-      "altname": "seed: energy", 
+      "altname": "seed-energy", 
       "arcane_material_components": ""
     }
   }, 
@@ -18405,7 +18405,7 @@
       "descriptor": "", 
       "range": "Personal", 
       "components": "V, S", 
-      "altname": "seed: foresee", 
+      "altname": "seed-foresee", 
       "arcane_material_components": ""
     }
   }, 
@@ -18440,7 +18440,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S", 
-      "altname": "seed: fortify", 
+      "altname": "seed-fortify", 
       "arcane_material_components": ""
     }
   }, 
@@ -18475,7 +18475,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, DF", 
-      "altname": "seed: heal", 
+      "altname": "seed-heal", 
       "arcane_material_components": ""
     }
   }, 
@@ -18510,7 +18510,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, DF", 
-      "altname": "seed: life", 
+      "altname": "seed-life", 
       "arcane_material_components": ""
     }
   }, 
@@ -18545,7 +18545,7 @@
       "descriptor": "", 
       "range": "Personal", 
       "components": "V, S", 
-      "altname": "seed: reflect", 
+      "altname": "seed-reflect", 
       "arcane_material_components": ""
     }
   }, 
@@ -18580,7 +18580,7 @@
       "descriptor": "", 
       "range": "See text", 
       "components": "V, S", 
-      "altname": "seed: reveal", 
+      "altname": "seed-reveal", 
       "arcane_material_components": ""
     }
   }, 
@@ -18615,7 +18615,7 @@
       "descriptor": "Death", 
       "range": "300 ft.", 
       "components": "V, S", 
-      "altname": "seed: slay", 
+      "altname": "seed-slay", 
       "arcane_material_components": ""
     }
   }, 
@@ -18650,7 +18650,7 @@
       "descriptor": "", 
       "range": "75 ft.", 
       "components": "V, S", 
-      "altname": "seed: summon", 
+      "altname": "seed-summon", 
       "arcane_material_components": ""
     }
   }, 
@@ -18685,7 +18685,7 @@
       "descriptor": "", 
       "range": "300 ft.", 
       "components": "V, S", 
-      "altname": "seed: transform", 
+      "altname": "seed-transform", 
       "arcane_material_components": ""
     }
   }, 
@@ -18720,7 +18720,7 @@
       "descriptor": "Teleportation", 
       "range": "Touch", 
       "components": "V, S", 
-      "altname": "seed: transport", 
+      "altname": "seed-transport", 
       "arcane_material_components": ""
     }
   }, 
@@ -18755,7 +18755,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S", 
-      "altname": "seed: ward", 
+      "altname": "seed-ward", 
       "arcane_material_components": ""
     }
   }, 
@@ -18860,7 +18860,7 @@
       "descriptor": "Force", 
       "range": "Touch", 
       "components": "V, S, M", 
-      "altname": "sepia snake sigil", 
+      "altname": "sepia-snake-sigil", 
       "arcane_material_components": ""
     }
   }, 
@@ -18965,7 +18965,7 @@
       "descriptor": "", 
       "range": "See text", 
       "components": "V, S", 
-      "altname": "shadow conjuration", 
+      "altname": "shadow-conjuration", 
       "arcane_material_components": ""
     }
   }, 
@@ -19000,7 +19000,7 @@
       "descriptor": "", 
       "range": "See text", 
       "components": "V, S", 
-      "altname": "greater shadow conjuration", 
+      "altname": "greater-shadow-conjuration", 
       "arcane_material_components": ""
     }
   }, 
@@ -19035,7 +19035,7 @@
       "descriptor": "", 
       "range": "See text", 
       "components": "V, S", 
-      "altname": "shadow evocation", 
+      "altname": "shadow-evocation", 
       "arcane_material_components": ""
     }
   }, 
@@ -19070,7 +19070,7 @@
       "descriptor": "", 
       "range": "See text", 
       "components": "V, S", 
-      "altname": "greater shadow evocation", 
+      "altname": "greater-shadow-evocation", 
       "arcane_material_components": ""
     }
   }, 
@@ -19105,7 +19105,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S", 
-      "altname": "shadow walk", 
+      "altname": "shadow-walk", 
       "arcane_material_components": ""
     }
   }, 
@@ -19280,7 +19280,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, F", 
-      "altname": "shield other", 
+      "altname": "shield-other", 
       "arcane_material_components": ""
     }
   }, 
@@ -19315,7 +19315,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, M", 
-      "altname": "shield of faith", 
+      "altname": "shield-of-faith", 
       "arcane_material_components": ""
     }
   }, 
@@ -19350,7 +19350,7 @@
       "descriptor": "Lawful", 
       "range": "20 ft.", 
       "components": "V, S, F", 
-      "altname": "shield of law", 
+      "altname": "shield-of-law", 
       "arcane_material_components": ""
     }
   }, 
@@ -19420,7 +19420,7 @@
       "descriptor": "Electricity", 
       "range": "Touch", 
       "components": "V, S", 
-      "altname": "shocking grasp", 
+      "altname": "shocking-grasp", 
       "arcane_material_components": ""
     }
   }, 
@@ -19490,7 +19490,7 @@
       "descriptor": "Sonic", 
       "range": "60 ft.", 
       "components": "V, S, F", 
-      "altname": "greater shout", 
+      "altname": "greater-shout", 
       "arcane_material_components": ""
     }
   }, 
@@ -19525,7 +19525,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S", 
-      "altname": "shrink item", 
+      "altname": "shrink-item", 
       "arcane_material_components": ""
     }
   }, 
@@ -19595,7 +19595,7 @@
       "descriptor": "", 
       "range": "Long (400 ft. + 40 ft./level)", 
       "components": "V, S, F", 
-      "altname": "silent image", 
+      "altname": "silent-image", 
       "arcane_material_components": ""
     }
   }, 
@@ -19665,7 +19665,7 @@
       "descriptor": "Death", 
       "range": "Touch", 
       "components": "V, S", 
-      "altname": "slay living", 
+      "altname": "slay-living", 
       "arcane_material_components": ""
     }
   }, 
@@ -19735,7 +19735,7 @@
       "descriptor": "Cold", 
       "range": "Long (400 ft. + 40 ft./level)", 
       "components": "V, S, M/DF", 
-      "altname": "sleet storm", 
+      "altname": "sleet-storm", 
       "arcane_material_components": "A pinch of dust and a few drops of water."
     }
   }, 
@@ -19840,7 +19840,7 @@
       "descriptor": "Earth", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, DF", 
-      "altname": "soften earth and stone", 
+      "altname": "soften-earth-and-stone", 
       "arcane_material_components": ""
     }
   }, 
@@ -19875,7 +19875,7 @@
       "descriptor": "", 
       "range": "Medium (100 ft. + 10 ft. level)", 
       "components": "V, S, M", 
-      "altname": "solid fog", 
+      "altname": "solid-fog", 
       "arcane_material_components": ""
     }
   }, 
@@ -19910,7 +19910,7 @@
       "descriptor": "Mind-Affecting, Sonic", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S", 
-      "altname": "song of discord", 
+      "altname": "song-of-discord", 
       "arcane_material_components": ""
     }
   }, 
@@ -19945,7 +19945,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, F", 
-      "altname": "soul bind", 
+      "altname": "soul-bind", 
       "arcane_material_components": ""
     }
   }, 
@@ -19980,7 +19980,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "See text", 
       "components": "V, S", 
-      "altname": "soul dominion", 
+      "altname": "soul-dominion", 
       "arcane_material_components": ""
     }
   }, 
@@ -20015,7 +20015,7 @@
       "descriptor": "", 
       "range": "See text", 
       "components": "V, S", 
-      "altname": "soul scry", 
+      "altname": "soul-scry", 
       "arcane_material_components": ""
     }
   }, 
@@ -20050,7 +20050,7 @@
       "descriptor": "Sonic", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, F/DF", 
-      "altname": "sound burst", 
+      "altname": "sound-burst", 
       "arcane_material_components": ""
     }
   }, 
@@ -20085,7 +20085,7 @@
       "descriptor": "", 
       "range": "Personal", 
       "components": "V, S", 
-      "altname": "speak with animals", 
+      "altname": "speak-with-animals", 
       "arcane_material_components": ""
     }
   }, 
@@ -20120,7 +20120,7 @@
       "descriptor": "Language-Dependent", 
       "range": "10 ft.", 
       "components": "V, S, DF", 
-      "altname": "speak with dead", 
+      "altname": "speak-with-dead", 
       "arcane_material_components": ""
     }
   }, 
@@ -20155,7 +20155,7 @@
       "descriptor": "", 
       "range": "Personal", 
       "components": "V, S", 
-      "altname": "speak with plants", 
+      "altname": "speak-with-plants", 
       "arcane_material_components": ""
     }
   }, 
@@ -20190,7 +20190,7 @@
       "descriptor": "", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S", 
-      "altname": "spectral hand", 
+      "altname": "spectral-hand", 
       "arcane_material_components": ""
     }
   }, 
@@ -20225,7 +20225,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, DF", 
-      "altname": "spell immunity", 
+      "altname": "spell-immunity", 
       "arcane_material_components": ""
     }
   }, 
@@ -20260,7 +20260,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, DF", 
-      "altname": "greater spell immunity", 
+      "altname": "greater-spell-immunity", 
       "arcane_material_components": ""
     }
   }, 
@@ -20295,7 +20295,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, DF", 
-      "altname": "spell resistance", 
+      "altname": "spell-resistance", 
       "arcane_material_components": ""
     }
   }, 
@@ -20330,7 +20330,7 @@
       "descriptor": "", 
       "range": "Personal", 
       "components": "V, S, M/DF", 
-      "altname": "spell turning", 
+      "altname": "spell-turning", 
       "arcane_material_components": "A small silver mirror."
     }
   }, 
@@ -20365,7 +20365,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "75 ft.", 
       "components": "V, S", 
-      "altname": "spell worm", 
+      "altname": "spell-worm", 
       "arcane_material_components": ""
     }
   }, 
@@ -20435,7 +20435,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, M", 
-      "altname": "spider climb", 
+      "altname": "spider-climb", 
       "arcane_material_components": ""
     }
   }, 
@@ -20470,7 +20470,7 @@
       "descriptor": "", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S, DF", 
-      "altname": "spike growth", 
+      "altname": "spike-growth", 
       "arcane_material_components": ""
     }
   }, 
@@ -20505,7 +20505,7 @@
       "descriptor": "Earth", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S, DF", 
-      "altname": "spike stones", 
+      "altname": "spike-stones", 
       "arcane_material_components": ""
     }
   }, 
@@ -20540,7 +20540,7 @@
       "descriptor": "Force", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S, DF", 
-      "altname": "spiritual weapon", 
+      "altname": "spiritual-weapon", 
       "arcane_material_components": ""
     }
   }, 
@@ -20645,7 +20645,7 @@
       "descriptor": "", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S, M", 
-      "altname": "stinking cloud", 
+      "altname": "stinking-cloud", 
       "arcane_material_components": ""
     }
   }, 
@@ -20680,7 +20680,7 @@
       "descriptor": "Earth", 
       "range": "Touch", 
       "components": "V, S, M/DF", 
-      "altname": "stone shape", 
+      "altname": "stone-shape", 
       "arcane_material_components": "Soft clay, which must be worked into roughly the desired shape of the stone object and then touched to the stone while the verbal component is uttered."
     }
   }, 
@@ -20715,7 +20715,7 @@
       "descriptor": "", 
       "range": "Personal", 
       "components": "V, S, DF", 
-      "altname": "stone tell", 
+      "altname": "stone-tell", 
       "arcane_material_components": ""
     }
   }, 
@@ -20750,7 +20750,7 @@
       "descriptor": "", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S, M", 
-      "altname": "stone to flesh", 
+      "altname": "stone-to-flesh", 
       "arcane_material_components": ""
     }
   }, 
@@ -20820,7 +20820,7 @@
       "descriptor": "", 
       "range": "Long (400 ft. + 40 ft./level)", 
       "components": "V, S", 
-      "altname": "storm of vengeance", 
+      "altname": "storm-of-vengeance", 
       "arcane_material_components": ""
     }
   }, 
@@ -20890,7 +20890,7 @@
       "descriptor": "Language-Dependent, Mind-Affecting", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, M", 
-      "altname": "mass suggestion", 
+      "altname": "mass-suggestion", 
       "arcane_material_components": ""
     }
   }, 
@@ -20925,7 +20925,7 @@
       "descriptor": "", 
       "range": "75 ft.", 
       "components": "V, S", 
-      "altname": "summon behemoth", 
+      "altname": "summon-behemoth", 
       "arcane_material_components": ""
     }
   }, 
@@ -20960,7 +20960,7 @@
       "descriptor": "", 
       "range": "0 ft.", 
       "components": "V, S", 
-      "altname": "summon instrument", 
+      "altname": "summon-instrument", 
       "arcane_material_components": ""
     }
   }, 
@@ -20995,7 +20995,7 @@
       "descriptor": "see text", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, F/DF", 
-      "altname": "summon monster I", 
+      "altname": "summon-monster-I", 
       "arcane_material_components": ""
     }
   }, 
@@ -21030,7 +21030,7 @@
       "descriptor": "see text for summon monster I", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, F/DF", 
-      "altname": "summon monster II", 
+      "altname": "summon-monster-II", 
       "arcane_material_components": ""
     }
   }, 
@@ -21065,7 +21065,7 @@
       "descriptor": "see text for summon monster I", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, F/DF", 
-      "altname": "summon monster III", 
+      "altname": "summon-monster-III", 
       "arcane_material_components": ""
     }
   }, 
@@ -21100,7 +21100,7 @@
       "descriptor": "see text for summon monster I", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, F/DF", 
-      "altname": "summon monster IV", 
+      "altname": "summon-monster-IV", 
       "arcane_material_components": ""
     }
   }, 
@@ -21135,7 +21135,7 @@
       "descriptor": "see text for summon monster I", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, F/DF", 
-      "altname": "summon monster IX", 
+      "altname": "summon-monster-IX", 
       "arcane_material_components": ""
     }
   }, 
@@ -21170,7 +21170,7 @@
       "descriptor": "see text for summon monster I", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, F/DF", 
-      "altname": "summon monster V", 
+      "altname": "summon-monster-V", 
       "arcane_material_components": ""
     }
   }, 
@@ -21205,7 +21205,7 @@
       "descriptor": "see text for summon monster I", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, F/DF", 
-      "altname": "summon monster VI", 
+      "altname": "summon-monster-VI", 
       "arcane_material_components": ""
     }
   }, 
@@ -21240,7 +21240,7 @@
       "descriptor": "see text for summon monster I", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, F/DF", 
-      "altname": "summon monster VII", 
+      "altname": "summon-monster-VII", 
       "arcane_material_components": ""
     }
   }, 
@@ -21275,7 +21275,7 @@
       "descriptor": "see text for summon monster I", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, F/DF", 
-      "altname": "summon monster VIII", 
+      "altname": "summon-monster-VIII", 
       "arcane_material_components": ""
     }
   }, 
@@ -21310,7 +21310,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, DF", 
-      "altname": "summon nature's ally I", 
+      "altname": "summon-natures-ally-I", 
       "arcane_material_components": ""
     }
   }, 
@@ -21345,7 +21345,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, DF", 
-      "altname": "summon nature's ally II", 
+      "altname": "summon-natures-ally-II", 
       "arcane_material_components": ""
     }
   }, 
@@ -21380,7 +21380,7 @@
       "descriptor": "see text", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, DF", 
-      "altname": "summon nature's ally III", 
+      "altname": "summon-natures-ally-III", 
       "arcane_material_components": ""
     }
   }, 
@@ -21415,7 +21415,7 @@
       "descriptor": "see text", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, DF", 
-      "altname": "summon nature's ally IV", 
+      "altname": "summon-natures-ally-IV", 
       "arcane_material_components": ""
     }
   }, 
@@ -21450,7 +21450,7 @@
       "descriptor": "see text", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, DF", 
-      "altname": "summon nature's ally IX", 
+      "altname": "summon-natures-ally-IX", 
       "arcane_material_components": ""
     }
   }, 
@@ -21485,7 +21485,7 @@
       "descriptor": "see text", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, DF", 
-      "altname": "summon nature's ally V", 
+      "altname": "summon-natures-ally-V", 
       "arcane_material_components": ""
     }
   }, 
@@ -21520,7 +21520,7 @@
       "descriptor": "see text", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, DF", 
-      "altname": "summon nature's ally VI", 
+      "altname": "summon-natures-ally-VI", 
       "arcane_material_components": ""
     }
   }, 
@@ -21555,7 +21555,7 @@
       "descriptor": "see text", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, DF", 
-      "altname": "summon nature's ally VII", 
+      "altname": "summon-natures-ally-VII", 
       "arcane_material_components": ""
     }
   }, 
@@ -21590,7 +21590,7 @@
       "descriptor": "see text", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, DF", 
-      "altname": "summon nature's ally VIII", 
+      "altname": "summon-natures-ally-VIII", 
       "arcane_material_components": ""
     }
   }, 
@@ -21625,7 +21625,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, M/DF", 
-      "altname": "summon swarm", 
+      "altname": "summon-swarm", 
       "arcane_material_components": "A square of red cloth."
     }
   }, 
@@ -21730,7 +21730,7 @@
       "descriptor": "", 
       "range": "300 ft.", 
       "components": "V, S", 
-      "altname": "superb dispelling", 
+      "altname": "superb-dispelling", 
       "arcane_material_components": ""
     }
   }, 
@@ -21800,7 +21800,7 @@
       "descriptor": "Death", 
       "range": "0 ft.; see text", 
       "components": "V, S, M", 
-      "altname": "symbol of death", 
+      "altname": "symbol-of-death", 
       "arcane_material_components": ""
     }
   }, 
@@ -21835,7 +21835,7 @@
       "descriptor": "Fear, Mind-Affecting", 
       "range": "0 ft.; see text", 
       "components": "V, S, M", 
-      "altname": "symbol of fear", 
+      "altname": "symbol-of-fear", 
       "arcane_material_components": ""
     }
   }, 
@@ -21870,7 +21870,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "0 ft.; see text", 
       "components": "V, S, M", 
-      "altname": "symbol of insanity", 
+      "altname": "symbol-of-insanity", 
       "arcane_material_components": ""
     }
   }, 
@@ -21905,7 +21905,7 @@
       "descriptor": "Evil", 
       "range": "0 ft.; see text", 
       "components": "V, S, M", 
-      "altname": "symbol of pain", 
+      "altname": "symbol-of-pain", 
       "arcane_material_components": ""
     }
   }, 
@@ -21940,7 +21940,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "0 ft.; see text", 
       "components": "V, S, M", 
-      "altname": "symbol of persuasion", 
+      "altname": "symbol-of-persuasion", 
       "arcane_material_components": ""
     }
   }, 
@@ -21975,7 +21975,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "0 ft.; see text", 
       "components": "V, S, M", 
-      "altname": "symbol of sleep", 
+      "altname": "symbol-of-sleep", 
       "arcane_material_components": ""
     }
   }, 
@@ -22010,7 +22010,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "0 ft.; see text", 
       "components": "V, S, M", 
-      "altname": "symbol of stunning", 
+      "altname": "symbol-of-stunning", 
       "arcane_material_components": ""
     }
   }, 
@@ -22045,7 +22045,7 @@
       "descriptor": "Death", 
       "range": "0 ft.; see text", 
       "components": "V, S, M", 
-      "altname": "symbol of weakness", 
+      "altname": "symbol-of-weakness", 
       "arcane_material_components": ""
     }
   }, 
@@ -22080,7 +22080,7 @@
       "descriptor": "Sonic", 
       "range": "Touch", 
       "components": "V, S, F", 
-      "altname": "sympathetic vibration", 
+      "altname": "sympathetic-vibration", 
       "arcane_material_components": ""
     }
   }, 
@@ -22185,7 +22185,7 @@
       "descriptor": "Force", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, M", 
-      "altname": "telekinetic sphere", 
+      "altname": "telekinetic-sphere", 
       "arcane_material_components": ""
     }
   }, 
@@ -22220,7 +22220,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, M", 
-      "altname": "telepathic bond", 
+      "altname": "telepathic-bond", 
       "arcane_material_components": ""
     }
   }, 
@@ -22255,7 +22255,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "30 ft.", 
       "components": "V, S", 
-      "altname": "lesser telepathic bond", 
+      "altname": "lesser-telepathic-bond", 
       "arcane_material_components": ""
     }
   }, 
@@ -22325,7 +22325,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V", 
-      "altname": "teleport object", 
+      "altname": "teleport-object", 
       "arcane_material_components": ""
     }
   }, 
@@ -22360,7 +22360,7 @@
       "descriptor": "", 
       "range": "Personal and touch", 
       "components": "V", 
-      "altname": "greater teleport", 
+      "altname": "greater-teleport", 
       "arcane_material_components": ""
     }
   }, 
@@ -22395,7 +22395,7 @@
       "descriptor": "", 
       "range": "0 ft.", 
       "components": "V, M", 
-      "altname": "teleportation circle", 
+      "altname": "teleportation-circle", 
       "arcane_material_components": ""
     }
   }, 
@@ -22430,7 +22430,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, M", 
-      "altname": "temporal stasis", 
+      "altname": "temporal-stasis", 
       "arcane_material_components": ""
     }
   }, 
@@ -22465,7 +22465,7 @@
       "descriptor": "Teleportation", 
       "range": "None", 
       "components": "V, S", 
-      "altname": "time duplicate", 
+      "altname": "time-duplicate", 
       "arcane_material_components": ""
     }
   }, 
@@ -22500,7 +22500,7 @@
       "descriptor": "", 
       "range": "Personal", 
       "components": "V", 
-      "altname": "time stop", 
+      "altname": "time-stop", 
       "arcane_material_components": ""
     }
   }, 
@@ -22535,7 +22535,7 @@
       "descriptor": "Force", 
       "range": "20 ft.", 
       "components": "V, S, M", 
-      "altname": "tiny hut", 
+      "altname": "tiny-hut", 
       "arcane_material_components": ""
     }
   }, 
@@ -22605,7 +22605,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, M", 
-      "altname": "touch of fatigue", 
+      "altname": "touch-of-fatigue", 
       "arcane_material_components": ""
     }
   }, 
@@ -22640,7 +22640,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "Touch", 
       "components": "V, S", 
-      "altname": "touch of idiocy", 
+      "altname": "touch-of-idiocy", 
       "arcane_material_components": ""
     }
   }, 
@@ -22675,7 +22675,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "Touch", 
       "components": "V, S", 
-      "altname": "touch of madness", 
+      "altname": "touch-of-madness", 
       "arcane_material_components": ""
     }
   }, 
@@ -22745,7 +22745,7 @@
       "descriptor": "", 
       "range": "Long (400 ft. + 40 ft./level)", 
       "components": "V, S, DF", 
-      "altname": "transmute metal to wood", 
+      "altname": "transmute-metal-to-wood", 
       "arcane_material_components": ""
     }
   }, 
@@ -22780,7 +22780,7 @@
       "descriptor": "Earth", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S, M/DF", 
-      "altname": "transmute mud to rock", 
+      "altname": "transmute-mud-to-rock", 
       "arcane_material_components": "Sand, lime, and water."
     }
   }, 
@@ -22815,7 +22815,7 @@
       "descriptor": "Earth", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S, M/DF", 
-      "altname": "transmute rock to mud", 
+      "altname": "transmute-rock-to-mud", 
       "arcane_material_components": "Clay and water."
     }
   }, 
@@ -22850,7 +22850,7 @@
       "descriptor": "", 
       "range": "Unlimited", 
       "components": "V, S", 
-      "altname": "transport via plants", 
+      "altname": "transport-via-plants", 
       "arcane_material_components": ""
     }
   }, 
@@ -22885,7 +22885,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, M, (F); see text", 
-      "altname": "trap the soul", 
+      "altname": "trap-the-soul", 
       "arcane_material_components": ""
     }
   }, 
@@ -22920,7 +22920,7 @@
       "descriptor": "", 
       "range": "Personal", 
       "components": "V, S, DF", 
-      "altname": "tree shape", 
+      "altname": "tree-shape", 
       "arcane_material_components": ""
     }
   }, 
@@ -22955,7 +22955,7 @@
       "descriptor": "", 
       "range": "Personal", 
       "components": "V, S, DF", 
-      "altname": "tree stride", 
+      "altname": "tree-stride", 
       "arcane_material_components": ""
     }
   }, 
@@ -22990,7 +22990,7 @@
       "descriptor": "", 
       "range": "0 ft.", 
       "components": "V, S, M, XP", 
-      "altname": "true creation", 
+      "altname": "true-creation", 
       "arcane_material_components": ""
     }
   }, 
@@ -23025,7 +23025,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, M, DF", 
-      "altname": "true resurrection", 
+      "altname": "true-resurrection", 
       "arcane_material_components": ""
     }
   }, 
@@ -23060,7 +23060,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, M", 
-      "altname": "true seeing", 
+      "altname": "true-seeing", 
       "arcane_material_components": ""
     }
   }, 
@@ -23095,7 +23095,7 @@
       "descriptor": "", 
       "range": "Personal", 
       "components": "V, F", 
-      "altname": "true strike", 
+      "altname": "true-strike", 
       "arcane_material_components": ""
     }
   }, 
@@ -23130,7 +23130,7 @@
       "descriptor": "", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S, M, DF", 
-      "altname": "undeath to death", 
+      "altname": "undeath-to-death", 
       "arcane_material_components": ""
     }
   }, 
@@ -23165,7 +23165,7 @@
       "descriptor": "Death", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S, M/DF", 
-      "altname": "undeath to death", 
+      "altname": "undeath-to-death", 
       "arcane_material_components": ""
     }
   }, 
@@ -23200,7 +23200,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S", 
-      "altname": "undetectable alignment", 
+      "altname": "undetectable-alignment", 
       "arcane_material_components": ""
     }
   }, 
@@ -23270,7 +23270,7 @@
       "descriptor": "Evil", 
       "range": "20 ft.", 
       "components": "V, S, F", 
-      "altname": "unholy aura", 
+      "altname": "unholy-aura", 
       "arcane_material_components": ""
     }
   }, 
@@ -23305,7 +23305,7 @@
       "descriptor": "Evil", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S", 
-      "altname": "unholy blight", 
+      "altname": "unholy-blight", 
       "arcane_material_components": ""
     }
   }, 
@@ -23340,7 +23340,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, M", 
-      "altname": "unseen servant", 
+      "altname": "unseen-servant", 
       "arcane_material_components": ""
     }
   }, 
@@ -23375,7 +23375,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S", 
-      "altname": "vampiric touch", 
+      "altname": "vampiric-touch", 
       "arcane_material_components": ""
     }
   }, 
@@ -23445,7 +23445,7 @@
       "descriptor": "", 
       "range": "12,000 ft.", 
       "components": "V, S", 
-      "altname": "vengeful gaze of god", 
+      "altname": "vengeful-gaze-of-god", 
       "arcane_material_components": ""
     }
   }, 
@@ -23550,7 +23550,7 @@
       "descriptor": "", 
       "range": "1,500 ft.", 
       "components": "V, S, Ritual, XP", 
-      "altname": "verdigris tsunami", 
+      "altname": "verdigris-tsunami", 
       "arcane_material_components": ""
     }
   }, 
@@ -23655,7 +23655,7 @@
       "descriptor": "Death, Sonic", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V", 
-      "altname": "wail of the banshee", 
+      "altname": "wail-of-the-banshee", 
       "arcane_material_components": ""
     }
   }, 
@@ -23690,7 +23690,7 @@
       "descriptor": "Fire", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S, M/DF", 
-      "altname": "wall of fire", 
+      "altname": "wall-of-fire", 
       "arcane_material_components": "A small piece of phosphorus."
     }
   }, 
@@ -23725,7 +23725,7 @@
       "descriptor": "Force", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, M", 
-      "altname": "wall of force", 
+      "altname": "wall-of-force", 
       "arcane_material_components": ""
     }
   }, 
@@ -23760,7 +23760,7 @@
       "descriptor": "Cold", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S, M", 
-      "altname": "wall of ice", 
+      "altname": "wall-of-ice", 
       "arcane_material_components": ""
     }
   }, 
@@ -23795,7 +23795,7 @@
       "descriptor": "", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S, M", 
-      "altname": "wall of iron", 
+      "altname": "wall-of-iron", 
       "arcane_material_components": ""
     }
   }, 
@@ -23830,7 +23830,7 @@
       "descriptor": "Earth", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S, M/DF", 
-      "altname": "wall of stone", 
+      "altname": "wall-of-stone", 
       "arcane_material_components": "A small block of granite."
     }
   }, 
@@ -23865,7 +23865,7 @@
       "descriptor": "", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S", 
-      "altname": "wall of thorns", 
+      "altname": "wall-of-thorns", 
       "arcane_material_components": ""
     }
   }, 
@@ -23900,7 +23900,7 @@
       "descriptor": "", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S", 
-      "altname": "warp wood", 
+      "altname": "warp-wood", 
       "arcane_material_components": ""
     }
   }, 
@@ -23935,7 +23935,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, M/DF", 
-      "altname": "water breathing", 
+      "altname": "water-breathing", 
       "arcane_material_components": "A short reed or piece of straw."
     }
   }, 
@@ -23970,7 +23970,7 @@
       "descriptor": "Water", 
       "range": "Touch", 
       "components": "V, S, DF", 
-      "altname": "water walk", 
+      "altname": "water-walk", 
       "arcane_material_components": ""
     }
   }, 
@@ -24005,7 +24005,7 @@
       "descriptor": "", 
       "range": "60 ft.", 
       "components": "V, S", 
-      "altname": "waves of exhaustion", 
+      "altname": "waves-of-exhaustion", 
       "arcane_material_components": ""
     }
   }, 
@@ -24040,7 +24040,7 @@
       "descriptor": "", 
       "range": "30 ft.", 
       "components": "V, S", 
-      "altname": "waves of fatigue", 
+      "altname": "waves-of-fatigue", 
       "arcane_material_components": ""
     }
   }, 
@@ -24180,7 +24180,7 @@
       "descriptor": "Air", 
       "range": "1 mile/level", 
       "components": "V, S", 
-      "altname": "whispering wind", 
+      "altname": "whispering-wind", 
       "arcane_material_components": ""
     }
   }, 
@@ -24215,7 +24215,7 @@
       "descriptor": "Air", 
       "range": "Touch", 
       "components": "V, S, DF", 
-      "altname": "wind walk", 
+      "altname": "wind-walk", 
       "arcane_material_components": ""
     }
   }, 
@@ -24250,7 +24250,7 @@
       "descriptor": "Air", 
       "range": "Medium (100 ft. + 10 ft./level)", 
       "components": "V, S, M/DF", 
-      "altname": "wind wall", 
+      "altname": "wind-wall", 
       "arcane_material_components": "A tiny fan and a feather of exotic origin."
     }
   }, 
@@ -24320,7 +24320,7 @@
       "descriptor": "", 
       "range": "Touch", 
       "components": "V, S, DF", 
-      "altname": "wood shape", 
+      "altname": "wood-shape", 
       "arcane_material_components": ""
     }
   }, 
@@ -24355,7 +24355,7 @@
       "descriptor": "Chaotic, Sonic", 
       "range": "40 ft.", 
       "components": "V", 
-      "altname": "word of chaos", 
+      "altname": "word-of-chaos", 
       "arcane_material_components": ""
     }
   }, 
@@ -24390,7 +24390,7 @@
       "descriptor": "", 
       "range": "Unlimited", 
       "components": "V", 
-      "altname": "word of recall", 
+      "altname": "word-of-recall", 
       "arcane_material_components": ""
     }
   }, 
@@ -24425,7 +24425,7 @@
       "descriptor": "", 
       "range": "Personal", 
       "components": "V, S", 
-      "altname": "zone of silence", 
+      "altname": "zone-of-silence", 
       "arcane_material_components": ""
     }
   }, 
@@ -24460,7 +24460,7 @@
       "descriptor": "Mind-Affecting", 
       "range": "Close (25 ft. + 5 ft./2 levels)", 
       "components": "V, S, DF", 
-      "altname": "zone of truth", 
+      "altname": "zone-of-truth", 
       "arcane_material_components": ""
     }
   }
