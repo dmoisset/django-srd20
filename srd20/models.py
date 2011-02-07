@@ -1,14 +1,26 @@
 from django.db import models
 
 class Spell(models.Model):
-    name = models.CharField(max_length=64)
-    altname = models.SlugField(max_length=64)
-    school = models.CharField(max_length=32) # Probably a FK to a list
-    subschool = models.CharField(max_length=32, blank=True) # probably a FK to a list
-    descriptor = models.CharField(max_length=64, blank=True) # A Many to Many to a table. probably with an attribute (may have all of the descriptors or any of them)
-    spellcraft_dc = models.CharField(max_length=64) # This should be a nullabel int, possibly with a flag for see text notes
-    level = models.CharField(max_length=128, blank=True) # This should be a many-to-many to class level
-    components = models.TextField() # This should be a set of flags: V, S, M, F, DF, XP, ... possibly from the nullability of other fields
+    name = models.CharField(max_length=64,
+        help_text='Complete spell name. Use proper capitalization, and put the '
+                  'base name of the spell at the front, i.e. "Heal, Mass" '
+                  'instead of "Mass Heal".')
+    altname = models.SlugField(max_length=64,
+        help_text='URL version of the name; use only alphanumeric char, dashes '
+                  'and keep the text in lowercase except for roman numerals.')
+    school = models.CharField(max_length=32,
+        help_text='School of magic, for example "Illusion"') # Probably a FK to a list
+    subschool = models.CharField(max_length=32, blank=True,
+        help_text='Subschool of the magic school, if any. Example: "Figment"') # probably a FK to a list
+    descriptor = models.CharField(max_length=64, blank=True,
+        help_text='Descriptor list (comma separated). Example "Fire, Chaos"') # A Many to Many to a table. probably with an attribute (may have all of the descriptors or any of them)
+    spellcraft_dc = models.CharField(max_length=64, blank=True,
+        verbose_name='Spellcraft DC',
+        help_text='DC to cast (epic spells)') # This should be a nullable int, possibly with a flag for see text notes
+    level = models.CharField(max_length=128, blank=True,
+        help_text='Comma separated list of Class lvl. Example: "Bard 3, Sor/Wiz 4"') # This should be a many-to-many to class level
+    components = models.TextField(
+        help_text='Comma separated list,as shown in spell. Example: "V, S, M/DF, XP"') # This should be a set of flags: V, S, M, F, DF, XP, ... possibly from the nullability of other fields
     casting_time = models.CharField(max_length=32) # amount + unit, sometimes with notes
     range = models.CharField(max_length=64) # Maybe normalized, but more complex
     target = models.CharField(max_length=256, blank=True)
@@ -17,8 +29,10 @@ class Spell(models.Model):
     duration = models.CharField(max_length=128)
     saving_throw = models.CharField(max_length=128) # may be normalized, not sure 
     spell_resistance = models.CharField(max_length=64) # may be normalized, not sure 
-    short_description = models.CharField(max_length=128)
-    to_develop = models.TextField()
+    short_description = models.CharField(max_length=128,
+        help_text='Short description shown in spell lists')
+    to_develop = models.TextField(blank=True,
+        help_text='Cost to develop epic spell')
     material_components = models.TextField(blank=True)
     arcane_material_components = models.CharField(max_length=256, blank=True)
     focus = models.TextField(blank=True)
@@ -29,7 +43,8 @@ class Spell(models.Model):
     cleric_focus = models.CharField(max_length=256, blank=True)
     druid_focus = models.CharField(max_length=256, blank=True)
     full_text = models.TextField()
-    reference = models.CharField(max_length=30) # Should be a FK
+    reference = models.CharField(max_length=30,
+        help_text='Book containing the spell and pag. Example: "SpC 31"') # Should be a FK
 
     @models.permalink
     def get_absolute_url(self):
