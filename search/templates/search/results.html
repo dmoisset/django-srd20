@@ -1,5 +1,19 @@
-<h1>D20 SRD search</h1>
+{% extends "base.html" %}
 
+{% block title %}{% if query %}{{ query }} &mdash; {% endif %}Search Results{% endblock %}
+
+{% block bodyclass %}flex{% endblock %}
+
+{% block breadcrumbs %}
+<div class="breadcrumbs">
+    <a href="/">Home</a> &raquo;
+    <a href="{% url search.views.search_results %}">Search</a>
+</div>
+{% endblock %}
+
+{% block content_title %}<h1>Search results{% if query %} for '{{ query }}'{% endif %}</h1>{% endblock %}
+
+{% block content %}
 <form method="get">
 <table>
 {{ form }}
@@ -14,3 +28,4 @@
 No results found
 {% endfor %}
 </ul>
+{% endblock %}

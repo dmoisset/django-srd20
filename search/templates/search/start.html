@@ -1,8 +1,24 @@
-<h1>D20 SRD search</h1>
+{% extends "base.html" %}
 
-<form method="get" action="{%url search.views.search_results %}">
-<table>
-{{ form }}
-</table>
-<input type="Submit" />
-</form>
+{% block title %}d20/SRD Search{% endblock %}
+
+{% block bodyclass %}flex{% endblock %}
+
+{% block breadcrumbs %}
+<div class="breadcrumbs">
+    <a href="/">Home</a>
+</div>
+{% endblock %}
+
+{% block content_title %}<h1>d20/SRD Search</h1>{% endblock %}
+
+{% block content %}
+<div id="content-main">
+    <form method="get" action="{%url search.views.search_results %}">
+    <table>
+    {{ form }}
+    </table>
+    <input type="Submit" />
+    </form>
+</div>
+{% endblock %}

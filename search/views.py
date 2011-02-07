@@ -21,6 +21,7 @@ SEARCH_FIELDS = (
 
 def search_results(request):
     results = None # default if no results are produced
+    query_string= None
     if 'q' in request.GET: # This is a get form, so we use this to decide whether we want a bounded or unbounded form
         form = SearchForm(request.GET)
         if form.is_valid():
@@ -35,4 +36,7 @@ def search_results(request):
     else:
         # No query. Assuming this is not the result of submitting
         form = SearchForm()
-    return render_to_response('search/results.html', {'form': form, 'results': results})
+    return render_to_response('search/results.html', {
+        'form': form,
+        'results': results,
+        'query': query_string})

@@ -1,102 +1,128 @@
-<h1>{{ spell }}</h1>
+{% extends "base.html" %}
 
-<h2>{{ spell.school }}
-    {% if spell.subschool %}({{ spell.subschool }}){% endif %}
-    {% if spell.descriptor %}[{{spell.descriptor}}]{% endif %}</h2>
+{% block title %}{{ spell.name }} | Spell description{% endblock %}
 
-{% if editable %}
-<p>
-<a href="{% url admin:srd20_spell_change spell.id %}">edit</a>
-</p>
-{% endif %}
+{% block bodyclass %}flex{% endblock %}
 
-<table>
-    {% if spell.level %}
-    <tr>
-        <th>Level:</th>
-        <td>{{ spell.level }}</td>
-    </tr>
-    {% endif %}
-    {% if spell.spellcraft_dc %}
-    <tr>
-        <th>Spellcraft DC:</th>
-        <td>{{ spell.spellcraft_dc }}</td>
-    </tr>
-    {% endif %}
-    <tr>
-        <th width="25%">Components:</th>
-        <td>{{ spell.components }}</td>
-    </tr>
-    <tr>
-        <th>Casting Time:</th>
-        <td>{{ spell.casting_time }}</td>
-    </tr>
-    <tr>
-        <th>Range:</th>
-        <td>{{ spell.range }}</td>
-    </tr>
-    {% if spell.effect %}
-    <tr>
-        <th>Effect:</th>
-        <td>{{ spell.effect }}</td>
-    </tr>
-    {% endif %}
-    {% if spell.target %}
-    <tr>
-        <th>Target:</th>
-        <td>{{ spell.target }}</td>
-    </tr>
-    {% endif %}
-    {% if spell.area %}
-    <tr>
-        <th>Area:</th>
-        <td>{{ spell.area }}</td>
-    </tr>
-    {% endif %}
-    <tr>
-        <th>Duration:</th>
-        <td>{{ spell.duration }}</td>
-    </tr>
-    <tr>
-        <th>Saving Throw:</th>
-        <td>{{ spell.saving_throw }}</td>
-    </tr>
-    <tr>
-        <th>Spell Resistance:</th>
-        <td>{{ spell.spell_resistance }}</td>
-    </tr>
-    {% if spell.to_develop %}
-    <tr>
-        <th>To Develop:</th>
-        <td>{{ spell.to_develop }}</td>
-    </tr>
-    {% endif %}
-</table>
+{% block breadcrumbs %}
+<div class="breadcrumbs">
+    <a href="/">Home</a> &rsaquo;
+    <a href="{{ spell.get_absolute_url }}">{{ spell.name }}</a>
+</div>
+{% endblock %}
 
-{{ spell.description|safe }}
+{% block content_title %}<h1>{{ spell }}</h1>{% endblock %}
 
-{% if spell.verbal_components %}
-<p><em>Verbal Components</em>: {{ spell.verbal_components }}</p>
-{% endif %}
-{% if spell.material_components %}
-<p><em>Material Component</em>: {{ spell.material_components }}</p>
-{% endif %}
-{% if spell.arcane_material_components %}
-<p><em>Arcane Material Component</em>: {{ spell.arcane_material_components }}</p>
-{% endif %}
-{% if spell.focus %}
-<p><em>Focus</em>: {{ spell.focus }}</p>
-{% endif %}
-{% if spell.arcane_focus %}
-<p><em>Arcane Focus</em>: {{ spell.arcane_focus }}</p>
-{% endif %}
-{% if spell.cleric_focus %}
-<p><em>Cleric Focus</em>: {{ spell.cleric_focus }}</p>
-{% endif %}
-{% if spell.druid_focus %}
-<p><em>Druid Focus</em>: {{ spell.druid_focus }}</p>
-{% endif %}
-{% if spell.xp_cost %}
-<p><em>XP Cost</em>: {{ spell.xp_cost }}</p>
-{% endif %}
+{% block content %}
+<div id="content-main">
+    <h2>{{ spell.school }}
+        {% if spell.subschool %}({{ spell.subschool }}){% endif %}
+        {% if spell.descriptor %}[{{spell.descriptor}}]{% endif %}</h2>
 
+    {% if editable %}
+    <p>
+    <a href="{% url admin:srd20_spell_change spell.id %}">edit</a>
+    </p>
+    {% endif %}
+
+    <table>
+        {% if spell.spellcraft_dc %}
+        <tr>
+            <th>Spellcraft DC:</th>
+            <td>{{ spell.spellcraft_dc }}</td>
+        </tr>
+        {% endif %}
+        {% if spell.to_develop %}
+        <tr>
+            <th>To Develop:</th>
+            <td>{{ spell.to_develop }}</td>
+        </tr>
+        {% endif %}
+    </table>
+
+    {{ spell.description|safe }}
+
+    {% if spell.verbal_components %}
+    <p><em>Verbal Components</em>: {{ spell.verbal_components }}</p>
+    {% endif %}
+    {% if spell.material_components %}
+    <p><em>Material Component</em>: {{ spell.material_components }}</p>
+    {% endif %}
+    {% if spell.arcane_material_components %}
+    <p><em>Arcane Material Component</em>: {{ spell.arcane_material_components }}</p>
+    {% endif %}
+    {% if spell.focus %}
+    <p><em>Focus</em>: {{ spell.focus }}</p>
+    {% endif %}
+    {% if spell.arcane_focus %}
+    <p><em>Arcane Focus</em>: {{ spell.arcane_focus }}</p>
+    {% endif %}
+    {% if spell.cleric_focus %}
+    <p><em>Cleric Focus</em>: {{ spell.cleric_focus }}</p>
+    {% endif %}
+    {% if spell.druid_focus %}
+    <p><em>Druid Focus</em>: {{ spell.druid_focus }}</p>
+    {% endif %}
+    {% if spell.xp_cost %}
+    <p><em>XP Cost</em>: {{ spell.xp_cost }}</p>
+    {% endif %}
+</div>
+{% endblock %}
+
+{% block sidebar %}
+<div id="content-related">
+    <div class="module">
+        <h2>Description</h2>
+        <table>
+            {% if spell.level %}
+            <tr>
+                <th>Level:</th>
+                <td>{{ spell.level }}</td>
+            </tr>
+            {% endif %}
+            <tr>
+                <th width="25%">Components:</th>
+                <td>{{ spell.components }}</td>
+            </tr>
+            <tr>
+                <th>Casting Time:</th>
+                <td>{{ spell.casting_time }}</td>
+            </tr>
+            <tr>
+                <th>Range:</th>
+                <td>{{ spell.range }}</td>
+            </tr>
+            {% if spell.effect %}
+            <tr>
+                <th>Effect:</th>
+                <td>{{ spell.effect }}</td>
+            </tr>
+            {% endif %}
+            {% if spell.target %}
+            <tr>
+                <th>Target:</th>
+                <td>{{ spell.target }}</td>
+            </tr>
+            {% endif %}
+            {% if spell.area %}
+            <tr>
+                <th>Area:</th>
+                <td>{{ spell.area }}</td>
+            </tr>
+            {% endif %}
+            <tr>
+                <th>Duration:</th>
+                <td>{{ spell.duration }}</td>
+            </tr>
+            <tr>
+                <th>Saving Throw:</th>
+                <td>{{ spell.saving_throw }}</td>
+            </tr>
+            <tr>
+                <th>Spell Resistance:</th>
+                <td>{{ spell.spell_resistance }}</td>
+            </tr>
+        </table>
+    </div>
+</div>
+{% endblock %}
