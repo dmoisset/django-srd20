@@ -42,7 +42,6 @@ class Spell(models.Model):
     verbal_components = models.CharField(max_length=256, blank=True) # only used in 1 spell. Possibly should meld into description
     cleric_focus = models.CharField(max_length=256, blank=True)
     druid_focus = models.CharField(max_length=256, blank=True)
-    full_text = models.TextField()
     reference = models.CharField(max_length=30,
         help_text='Book containing the spell and pag. Example: "SpC 31"') # Should be a FK
 
