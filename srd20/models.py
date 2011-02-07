@@ -2,7 +2,7 @@ from django.db import models
 
 class Spell(models.Model):
     name = models.CharField(max_length=64)
-    altname = models.CharField(max_length=64)
+    altname = models.SlugField(max_length=64)
     school = models.CharField(max_length=32) # Probably a FK to a list
     subschool = models.CharField(max_length=32, blank=True) # probably a FK to a list
     descriptor = models.CharField(max_length=64, blank=True) # A Many to Many to a table. probably with an attribute (may have all of the descriptors or any of them)
