@@ -1,11 +1,14 @@
 # Create your views here.
 from django.shortcuts import render_to_response
 from django.db.models import Q
+from django.template import RequestContext
 from .forms import SearchForm
 from srd20.models import Spell
 
 def search_start(request):
-    return render_to_response('search/start.html', {'form': SearchForm()})
+    return render_to_response('search/start.html',
+        {'form': SearchForm()},
+        context_instance=RequestContext(request))
 
 # These are the fields searched by the full text search
 SEARCH_FIELDS = (
@@ -37,6 +40,9 @@ def search_results(request):
         # No query. Assuming this is not the result of submitting
         form = SearchForm()
     return render_to_response('search/results.html', {
-        'form': form,
-        'results': results,
-        'query': query_string})
+            'form': form,
+            'results': results,
+            'query': query_string
+        },
+        context_instance=RequestContext(request)
+    )
