@@ -1,0 +1,1 @@
+# Added this file because django won't let me run tests otherwise
