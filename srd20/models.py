@@ -47,7 +47,7 @@ class Spell(models.Model):
 
     @models.permalink
     def get_absolute_url(self):
-        return ('spell_detail', [], {'id': self.id})
+        return ('spell_detail', [], {'slug': self.altname})
 
     def __unicode__(self):
         return self.name

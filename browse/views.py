@@ -2,8 +2,8 @@ from django.shortcuts import get_object_or_404, render_to_response
 from django.template import RequestContext
 from srd20.models import Spell
 
-def spell_detail(request, id):
-    spell = get_object_or_404(Spell, pk=id)
+def spell_detail(request, slug):
+    spell = get_object_or_404(Spell, altname=slug)
     return render_to_response('browse/spell.html',
         { 
             'spell': spell,
