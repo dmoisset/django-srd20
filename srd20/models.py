@@ -19,7 +19,7 @@ class Spell(models.Model):
         help_text='DC to cast (epic spells)') # This should be a nullable int, possibly with a flag for see text notes
     level = models.CharField(max_length=128, blank=True,
         help_text='Comma separated list of Class lvl. Example: "Bard 3, Sor/Wiz 4"') # This should be a many-to-many to class level
-    components = models.TextField(
+    components = models.CharField(max_length=64,
         help_text='Comma separated list,as shown in spell. Example: "V, S, M/DF, XP"') # This should be a set of flags: V, S, M, F, DF, XP, ... possibly from the nullability of other fields
     casting_time = models.CharField(max_length=32) # amount + unit, sometimes with notes
     range = models.CharField(max_length=64) # Maybe normalized, but more complex
