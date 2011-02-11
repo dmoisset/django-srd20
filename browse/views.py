@@ -7,7 +7,7 @@ def spell_detail(request, slug):
     return render_to_response('browse/spell.html',
         { 
             'spell': spell,
-            'editable': request.user.has_perm('srd20.can_edit_spell'),
+            'editable': request.user.has_perm('srd20.change_spell'),
         },
         context_instance=RequestContext(request)
     )
