@@ -1,4 +1,5 @@
 from django.test import TestCase
+from django.contrib.auth.models import User, Permission
 
 class BrowseTest(TestCase):
     fixtures = ['srd.json']
@@ -21,4 +22,22 @@ class BrowseTest(TestCase):
         # Check that we got a 404 result
         self.assertEqual(404, response.status_code)
     
+    def test_anonymous_cant_edit(self):
+        response = self.client.get('/browse/spell/alarm/')
+        self.assertEqual(200, response.status_code)
+        self.assertEqual(False, response.context['editable'])
+
+    def test_authenticated_cantedit(self):
+        authenticated, _ = User.objects.get_or_create(
+            username='testuser',
+            password='*',
+            is_staff=True
+        )
+        authenticated.set_password('test')
+        authenticated.user_permissions.add(Permission.objects.get(codename='change_spell', content_type__app_label='srd20'))
+        authenticated.save()
+        self.client.login(username='testuser',password='test')
+        response = self.client.get('/browse/spell/alarm/')
+        self.assertEqual(200, response.status_code)
+        self.assertEqual(True, response.context['editable'])
 
