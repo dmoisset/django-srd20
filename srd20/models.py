@@ -51,8 +51,63 @@ class Spell(models.Model):
 
     def __unicode__(self):
         return self.name
-    
+
     class Meta:
         db_table = 'spell'
         ordering = ('name',)
 
+
+class Source(models.Model):
+    name = models.CharField(max_length=128,
+        help_text='Handbook or Manual name')
+    altname = models.CharField(max_length=128,
+        help_text='URL version of the name; use only alphanumeric char, dashes ')
+    initials = models.CharField(max_length=30,
+        help_text='Initials to show in feat and spell descriptions: ex "SpC, PHB"')
+
+    def __unicode__(self):
+        return self.initials
+
+
+class FeatType(models.Model):
+    name = models.CharField(max_length=30)
+    altname = models.SlugField(max_length=30,
+        help_text='URL version of the name; use only alphanumeric char, dashes ')
+    description = models.TextField()
+
+    def __unicode__(self):
+        return self.name
+
+    @models.permalink
+    def get_absolute_url(self):
+        return ('feat_type_detail', [], {'id': self.id})
+
+
+class Feat(models.Model):
+    name = models.CharField(max_length=30)
+    altname = models.SlugField(max_length=30,
+        help_text='URL version of the name; use only alphanumeric char, dashes '
+                  'and keep the text in lowercase except for roman numerals.')
+    type = models.ForeignKey(FeatType,
+        help_text='Type of feat, for example "Metamagic"')
+    short_description = models.CharField(max_length=128,
+        help_text='Short description shown in feat lists')
+    prerequisite_feats = models.ManyToManyField("self",
+        symmetrical=False, blank=True,
+        help_text='An other feat or feats that the character must have in order '
+                  'to acquire this feat')
+    prerequisite_description = models.TextField(blank=True)
+    benefit = models.TextField()
+    normal = models.TextField(blank=True)
+    special = models.TextField(blank=True)
+    source = models.ForeignKey(Source, blank=True,
+        help_text='Selecet the source book that contain the feat')
+    source_page = models.IntegerField(blank=True,
+        help_text='Numer page from the source book')
+
+    def __unicode__(self):
+        return self.name
+
+    @models.permalink
+    def get_absolute_url(self):
+        return ('feat_detail', [], {'id': self.id})

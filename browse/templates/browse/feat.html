@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+
+{% block title %}{{ feat.name }} | Feat description{% endblock %}
+
+{% block bodyclass %}flex{% endblock %}
+
+{% block breadcrumbs %}
+<div class="breadcrumbs">
+    <a href="/">Home</a> &rsaquo;
+    <a href="{{ feat.get_absolute_url }}">{{ feat.name }}</a>
+</div>
+{% endblock %}
+
+{% block content_title %}<h1>{{ feat }}</h1>{% endblock %}
+
+{% block content %}
+<div id="content-main">
+    {% if editable %}
+    <p style="float:right">
+        <a href="{% url admin:srd20_feat_change feat.id %}">[edit]</a>
+    </p>
+    {% endif %}
+
+    <h2>[{{ feat.type }}]</h2>
+
+    {% if feat.short_description %}
+    <p> {{ feat.short_description }} </p>
+    {% endif %}
+
+
+    <h3> Descriptions </h3>
+    <p><em>Benefit</em>: {{ feat.benefit }}</p>
+
+    {% if feat.normal %}
+    <p><em>Normal</em>: {{ feat.normal }}</p>
+    {% endif %}
+    {% if feat.special %}
+    <p><em>Special</em>: {{ feat.special }}</p>
+    {% endif %}
+    {% if feat.source %}
+    <p><em>Source</em>: {{ feat.source }} 
+        {% if feat.source_page %} page: {{feat.source_page}}
+        {% endif %}
+    </p>
+    {% endif %}
+</div>
+{% endblock %}
+
+{% block sidebar %}
+<div id="content-related">
+    <div class="module">
+        <h2>Prerequisites</h2>
+        <table>
+            {% if feat.prerequisite_description %}
+            <tr>
+                <td colspan="2">{{ feat.prerequisite_description }}</td>
+            </tr>
+            {% endif %}
+ 
+            {% if feat.prerequisite_feats.all %}
+            <tr>
+                <th>Feats:</th>
+                <td>
+                  <ul> {% for pfeat in feat.prerequisite_feats.all %}
+                        <li> {{ pfeat }}</li>
+                       {% endfor %}
+                  </ul>
+                </td>
+                </tr>
+            {% endif %}
+       </table>
+    </div>
+</div>
+{% endblock %}
