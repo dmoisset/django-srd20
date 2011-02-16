@@ -24,18 +24,18 @@
     <h2>[{{ feat.type }}]</h2>
 
     {% if feat.short_description %}
-    <p> {{ feat.short_description }} </p>
+    <p> {{ feat.short_description|safe }} </p>
     {% endif %}
 
 
     <h3> Descriptions </h3>
-    <p><em>Benefit</em>: {{ feat.benefit }}</p>
+    <p><em>Benefit</em>: {{ feat.benefit|safe }}</p>
 
     {% if feat.normal %}
-    <p><em>Normal</em>: {{ feat.normal }}</p>
+    <p><em>Normal</em>: {{ feat.normal|safe }}</p>
     {% endif %}
     {% if feat.special %}
-    <p><em>Special</em>: {{ feat.special }}</p>
+    <p><em>Special</em>: {{ feat.special|safe }}</p>
     {% endif %}
     {% if feat.source %}
     <p><em>Source</em>: {{ feat.source }} 
@@ -53,7 +53,7 @@
         <table>
             {% if feat.prerequisite_description %}
             <tr>
-                <td colspan="2">{{ feat.prerequisite_description }}</td>
+                <td colspan="2">{{ feat.prerequisite_description|safe }}</td>
             </tr>
             {% endif %}
  
