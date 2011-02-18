@@ -1,5 +1,5 @@
 from django.contrib import admin
-from srd20.models import Spell
+from srd20.models import Spell, Feat
 
 class SpellAdmin(admin.ModelAdmin):
     list_display = ('name', 'level', 'short_description')
@@ -26,3 +26,4 @@ class SpellAdmin(admin.ModelAdmin):
     )
 
 admin.site.register(Spell, SpellAdmin)
+admin.site.register(Feat)
