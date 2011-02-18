@@ -56,3 +56,24 @@ class Spell(models.Model):
         db_table = 'spell'
         ordering = ('name',)
 
+class Feat(models.Model):
+    name = models.CharField(max_length=64)
+    altname = models.SlugField(max_length=64, blank=True, null=True)
+    type = models.CharField(max_length=32) # Many to many
+    multiple = models.CharField(max_length=4) # Should be updated to a booleanfield
+    stack = models.CharField(max_length=4) # Should be updated to a booleanfield
+    choice = models.CharField(max_length=256)
+    prerequisite = models.CharField(max_length=512)
+    benefit = models.TextField()
+    normal = models.TextField()
+    special = models.TextField()
+    full_text = models.TextField()
+    reference = models.CharField(max_length=32)
+    
+    def __unicode__(self):
+        return self.name
+    
+    class Meta:
+        db_table = 'feat'
+        ordering = ('name',)
+
