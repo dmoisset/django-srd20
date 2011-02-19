@@ -67,7 +67,6 @@ class Feat(models.Model):
     benefit = models.TextField()
     normal = models.TextField()
     special = models.TextField()
-    full_text = models.TextField()
     reference = models.CharField(max_length=32)
     
     @models.permalink
