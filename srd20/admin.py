@@ -6,7 +6,7 @@ class SpellAdmin(admin.ModelAdmin):
     list_filter = ('school',)
     search_fields = ('name',)
     prepopulated_fields = {'altname': ('name',)}
-    
+
     fieldsets = (
         (None, {
             'fields': ('name', 'altname', ('school', 'subschool'), 'descriptor', 'level', 'reference')
@@ -25,5 +25,23 @@ class SpellAdmin(admin.ModelAdmin):
         }),
     )
 
+class FeatAdmin(admin.ModelAdmin):
+    list_display = ('name', 'type')
+    list_filter = ('type',)
+    search_fields = ('name',)
+    prepopulated_fields = {'altname': ('name',)}
+
+    fieldsets = (
+        (None, {
+            'fields': ('name', 'altname', 'type', ('multiple', 'stack'), 'prerequisite', 'choice')
+        }),
+        ('Description', {
+            'fields': ('benefit', 'normal', 'special')
+        }),
+        ('Source', {
+            'fields': ('reference',),
+        }),
+    )
+
 admin.site.register(Spell, SpellAdmin)
-admin.site.register(Feat)
+admin.site.register(Feat, FeatAdmin)

@@ -51,7 +51,7 @@ class Spell(models.Model):
 
     def __unicode__(self):
         return self.name
-    
+
     class Meta:
         db_table = 'spell'
         ordering = ('name',)
@@ -70,6 +70,10 @@ class Feat(models.Model):
     full_text = models.TextField()
     reference = models.CharField(max_length=32)
     
+    @models.permalink
+    def get_absolute_url(self):
+        return ('feat_detail', [], {'slug': self.altname})
+
     def __unicode__(self):
         return self.name
     

@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+
+{% block title %}{{ feat.name }} | Feat description{% endblock %}
+
+{% block bodyclass %}flex{% endblock %}
+
+{% block breadcrumbs %}
+<div class="breadcrumbs">
+    <a href="/">Home</a> &rsaquo;
+    <a href="{{ feat.get_absolute_url }}">{{ feat.name }}</a>
+</div>
+{% endblock %}
+
+{% block content_title %}<h1>{{ feat }}</h1>{% endblock %}
+
+{% block content %}
+<div id="content-main">
+    {% if editable %}
+    <p style="float:right">
+        <a href="{% url admin:srd20_feat_change feat.id %}">[edit]</a>
+    </p>
+    {% endif %}
+
+    <h2>{{ feat.type }}</h2>
+
+    <p>{{ feat.benefit|safe }}</p>
+
+    {% if feat.normal %}
+    <p><strong>Normal</strong>: {{ feat.normal|safe }}</p>
+    {% endif %}
+    {% if feat.special %}
+    <p><strong>Special</strong>: {{ feat.special|safe }}</p>
+    {% endif %}
+</div>
+{% endblock %}
+
+{% block sidebar %}
+<div id="content-related">
+    <div class="module">
+        <h2>Description</h2>
+        <table>
+            {% if feat.prerequisite %}
+            <tr>
+                <th>Prerequisite:</th>
+                <td>{{ feat.prerequisite }}</td>
+            </tr>
+            {% endif %}
+            <tr>
+                <th>Multiple:</th>
+                <td>{{ feat.multiple }}</td>
+            </tr>
+            <tr>
+                <th>Stack:</th>
+                <td>{{ feat.stack }}</td>
+            </tr>
+            {% if feat.choice %}
+            <tr>
+                <th>Choice:</th>
+                <td>{{ feat.choice }}</td>
+            </tr>
+            {% endif %}
+        </table>
+    </div>
+</div>
+{% endblock %}
