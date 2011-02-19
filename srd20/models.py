@@ -58,7 +58,7 @@ class Spell(models.Model):
 
 class Feat(models.Model):
     name = models.CharField(max_length=64)
-    altname = models.SlugField(max_length=64, null=True) # nullable by mistake, should add a migration to fix it
+    altname = models.SlugField(max_length=64)
     type = models.CharField(max_length=32) # Should be a Many to many, perhaps with an epic flag
     multiple = models.BooleanField()
     stack = models.BooleanField()
