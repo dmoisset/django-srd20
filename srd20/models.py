@@ -60,8 +60,8 @@ class Feat(models.Model):
     name = models.CharField(max_length=64)
     altname = models.SlugField(max_length=64, null=True) # nullable by mistake, should add a migration to fix it
     type = models.CharField(max_length=32) # Should be a Many to many, perhaps with an epic flag
-    multiple = models.CharField(max_length=4) # Should be updated to a booleanfield
-    stack = models.CharField(max_length=4) # Should be updated to a booleanfield
+    multiple = models.BooleanField()
+    stack = models.BooleanField()
     choice = models.CharField(max_length=256, blank=True)
     prerequisite = models.CharField(max_length=512, blank=True)
     benefit = models.TextField()

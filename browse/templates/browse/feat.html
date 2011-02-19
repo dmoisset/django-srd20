@@ -47,11 +47,11 @@
             {% endif %}
             <tr>
                 <th>Multiple:</th>
-                <td>{{ feat.multiple }}</td>
+                <td>{{ feat.multiple|yesno:"Yes,No" }}</td>
             </tr>
             <tr>
                 <th>Stack:</th>
-                <td>{{ feat.stack }}</td>
+                <td>{{ feat.stack|yesno:"Yes,No" }}</td>
             </tr>
             {% if feat.choice %}
             <tr>
