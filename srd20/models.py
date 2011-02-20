@@ -80,3 +80,45 @@ class Feat(models.Model):
         db_table = 'feat'
         ordering = ('name',)
 
+
+class CharacterClass(models.Model):
+    name = models.CharField(max_length=32)
+    type = models.CharField(max_length=32) # should be flags: base/prestige, npc or not, epic or not, psionic or not
+    alignment = models.CharField(max_length=128) # Should be M2M to alignemnt table
+    hit_die = models.CharField(max_length=4) # Should be integer field
+    class_skills = models.TextField() # Maybe a M2M to skill, but there are some special cases
+    skill_points = models.CharField(max_length=1) # Should be integer field
+    skill_points_ability = models.CharField(max_length=3) # Always intelligence! remove?
+    spell_stat = models.CharField(max_length=4, blank=True) # ChoiceField, with empty choice
+    proficiencies = models.TextField(blank=True)
+    spell_type = models.CharField(max_length=16) # m2m to Arcane, Divine, Psionic
+    epic_feat_base_level = models.CharField(max_length=4) # Nullable integer field
+    epic_feat_interval = models.CharField(max_length=4) # Nullable integer field
+    epic_feat_list = models.TextField(blank=True)
+    epic_full_text = models.TextField(blank=True)
+    req_race = models.CharField(max_length=64, blank=True)
+    req_weapon_proficiency = models.CharField(max_length=64, blank=True) # Only Eldritch Knight uses this field
+    req_base_attack_bonus = models.CharField(max_length=4,blank=True) # Nullable integer field
+    req_skill = models.CharField(max_length=128, blank=True) # May be normalized but has special cases
+    req_feat = models.CharField(max_length=128, blank=True) # May be normalized but has special cases
+    req_spells = models.CharField(max_length=128,blank=True)
+    req_languages = models.CharField(max_length=16, blank=True) # Only Dragon Disciple uses this
+    req_psionics = models.CharField(max_length=64,blank=True)
+    req_epic_feat = models.CharField(max_length=64, blank=True) # Probably M2M
+    req_special = models.CharField(max_length=256, blank=True)
+    spell_list_1 = models.TextField(blank=True) # M2M
+    spell_list_2 = models.CharField(max_length=256, blank=True) # M2M
+    spell_list_3 = models.CharField(max_length=256, blank=True) # M2M
+    spell_list_4 = models.CharField(max_length=256, blank=True) # M2M
+    spell_list_5 = models.CharField(max_length=256, blank=True) # M2M
+    full_text = models.TextField()
+    reference = models.CharField(max_length=32)
+
+    def __unicode__(self):
+        return self.name
+    
+    class Meta:
+        db_table = 'class'
+        ordering = ('name',)
+        verbose_name_plural = 'character classes'
+
