@@ -65,6 +65,7 @@ class Feat(models.Model):
     choice = models.CharField(max_length=256, blank=True)
     prerequisite = models.CharField(max_length=512, blank=True)
     benefit = models.TextField()
+    description = models.TextField(blank=True)
     normal = models.TextField(blank=True)
     special = models.TextField(blank=True)
     reference = models.CharField(max_length=32)
