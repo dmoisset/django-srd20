@@ -23,6 +23,8 @@
 
     <h2>{{ feat.type }}</h2>
 
+    {{ feat.description|safe }}
+
     <p>{{ feat.benefit|safe }}</p>
 
     {% if feat.normal %}
