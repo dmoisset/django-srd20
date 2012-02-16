@@ -101,6 +101,7 @@ INSTALLED_APPS = (
     'srd20',
     'search',
     'browse',
+    'django_search_views',
 )
 
 try:
