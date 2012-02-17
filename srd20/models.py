@@ -70,6 +70,9 @@ class Feat(models.Model):
     special = models.TextField(blank=True)
     reference = models.CharField(max_length=32)
     
+    def short_description(self):
+        return self.description
+    
     @models.permalink
     def get_absolute_url(self):
         return ('feat_detail', [], {'slug': self.altname})

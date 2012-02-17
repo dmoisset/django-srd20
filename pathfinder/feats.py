@@ -45,11 +45,12 @@ for filename in sys.argv[1:]:
         if '-(' in slug:
             # Some id's include descriptors. remove them
             slug = slug.split('-(')[0]
-        title = f[0].text_content() # Use this instead of html() to remove embedded links
+        title = f[0].text_content().strip() # Use this instead of html() to remove embedded links
         descriptors = []
         attributes = {}
         if '(' in title:
             title, descriptors = title.split('(')
+            title = title.strip()
             assert descriptors.endswith(')')
             descriptors = descriptors[:-1] # Remove ending ')'
             descriptors = [d.strip() for d in descriptors.split(',')]
@@ -61,6 +62,11 @@ for filename in sys.argv[1:]:
                 label = normalize_attribute(attrname.html())
                 attrname.remove()  
             html = p.outerHtml()
+            if label == 'description':
+                if p[0].tag == 'p':
+                    html = p.html()
+                else:
+                    html = ''
             attributes[label] = attributes.get(label, u'') + html
             p = p.next('*')
         result.append({
