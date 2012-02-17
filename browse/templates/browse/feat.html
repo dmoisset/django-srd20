@@ -25,7 +25,7 @@
 
     {{ feat.description|safe }}
 
-    <p>{{ feat.benefit|safe }}</p>
+    <p><strong>Benefit</strong>:{{ feat.benefit|safe }}</p>
 
     {% if feat.normal %}
     <p><strong>Normal</strong>: {{ feat.normal|safe }}</p>
@@ -44,7 +44,7 @@
             {% if feat.prerequisite %}
             <tr>
                 <th>Prerequisite:</th>
-                <td>{{ feat.prerequisite }}</td>
+                <td>{{ feat.prerequisite|safe }}</td>
             </tr>
             {% endif %}
             <tr>
