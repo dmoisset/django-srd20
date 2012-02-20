@@ -65,8 +65,6 @@ for filename in sys.argv[1:]:
             if label in ('description', 'prerequisite'):
                 if p[0].tag in ('p',):
                     html = p.html()
-                elif p[0].tag in ('br',):
-                    pass # outerHtml is ok here
                 else:
                     sys.stderr.write(u"Skipping tag <%s> in %s['%s']\n" % (p[0].tag, title, label))
                     html = u''

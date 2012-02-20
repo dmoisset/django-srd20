@@ -4792,7 +4792,7 @@
         "model": "srd20.feat", 
         "fields": {
             "multiple": false, 
-            "description": "<br>You attract followers to your cause and a companion to join you on your adventures.", 
+            "description": "You attract followers to your cause and a companion to join you on your adventures.", 
             "reference": "feats.html", 
             "normal": "", 
             "choice": "", 
