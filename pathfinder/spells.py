@@ -25,36 +25,25 @@ def normalize_attribute(attr):
     else:
         attr = attr.html()
     attr = attr.strip()
-    if attr == 'Targets':
-        attr = 'Target'
-    elif attr == 'Component':
-        attr = 'Components'
-    elif attr == 'Target or Area':
-        attr = 'Target' 
-    elif attr == 'Target or Targets':
-        attr = 'Target' 
-    elif attr == 'Save':
-        attr = 'Saving Throw' 
-    elif attr == 'Saving':
-        attr = 'Saving Throw' 
-    elif attr == 'Saving throw':
-        attr = 'Saving Throw' 
-    elif attr == 'Casting':
-        attr = 'Casting Time' 
-    elif attr == 'Casting time':
-        attr = 'Casting Time' 
-    elif attr == 'SR':
-        attr = 'Spell Resistance' 
-    elif attr == 'Target, Effect, or Area':
-        attr = 'Area'
-    elif attr == 'Target, Effect, Area':
-        attr = 'Effect'
-    elif attr == 'Target/Effect':
-        attr = 'Effect'
-    elif attr == 'Area or Target':
-        attr = 'Area'
-    #if attr.endswith(':'):
-    #    attr = attr[:-1] # Remove trailing ':' if any
+
+    translation_map = {
+        'Targets': 'Target',
+        'Component': 'Components',
+        'Target or Area': 'Target',
+        'Target or Targets': 'Target',
+        'Save': 'Saving Throw',
+        'Saving': 'Saving Throw',
+        'Saving throw': 'Saving Throw',
+        'Casting': 'Casting Time',
+        'Casting time': 'Casting Time',
+        'SR':  'Spell Resistance',
+        'Target, Effect, or Area': 'Area',
+        'Target, Effect, Area': 'Effect',
+        'Target/Effect': 'Effect',
+        'Area or Target': 'Area',
+    }
+    if attr in translation_map:
+        attr = translation_map[attr]
     print attr
     assert attr in ('School', 'Level', 'Components', 'Casting Time', 'Range',
          'Effect', 'Duration', 'Saving Throw', 'Spell Resistance',
