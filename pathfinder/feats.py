@@ -17,7 +17,7 @@ def pqiter(pq):
 
 def normalize_attribute(attr):
     """
-    Normalizes the name of an attribute which is seplled ins lightly different
+    Normalizes the name of an attribute which is spelled in slightly different
     ways in paizo HTMLs
     """
     attr = attr.strip()
