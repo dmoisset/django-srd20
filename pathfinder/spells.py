@@ -44,7 +44,6 @@ def normalize_attribute(attr):
     }
     if attr in translation_map:
         attr = translation_map[attr]
-    print attr
     assert attr in ('School', 'Level', 'Components', 'Casting Time', 'Range',
          'Effect', 'Duration', 'Saving Throw', 'Spell Resistance',
          'Target', 'Area', 'Preparation Time'
