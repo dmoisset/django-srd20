@@ -4,6 +4,7 @@
 import sys, os
 import json 
 from pyquery import PyQuery as Q
+import lxml.etree
 
 def pqiter(pq):
     """
@@ -75,49 +76,83 @@ for filename in sys.argv[1:]:
                 sys.stderr.write(u"Substituting %s for %s\n" % (fn, slug))
             else:
                 sys.stderr.write(u"Skipping file %s, no id\n" % fn)
+                continue
+        
+        slug = slug.replace(',', '') # Remove commas in slug
         
         title = s[0].text_content().strip()
-        print slug,
         attributes = {}
         description = ''
         p = s.next('*')
+
+        # Get fields
         while p.hasClass('stat-block-1'):
             attrname = p.children('b')
             for a in pqiter(attrname):
                 label = normalize_attribute(a)
-#            if attrname:
-#                label = normalize_attribute(attrname.html())
-#                attrname.remove()  
-#            html = p.outerHtml()
-#            if label in ('description', 'prerequisite'):
-#                if p[0].tag in ('p',):
-#                    html = p.html()
-#                else:
-#                    sys.stderr.write(u"Skipping tag <%s> in %s['%s']\n" % (p[0].tag, title, label))
-#                    html = u''
-#            attributes[label] = attributes.get(label, u'') + html
+                # Get the rest until the next <b>
+                elem = a[0]
+                value = elem.tail or ''
+                while elem.getnext() is not None and elem.getnext().tag != 'b':
+                    elem = elem.getnext()
+                    value += lxml.etree.tostring(elem)
+                value = value.strip()
+                if value.endswith(';'):
+                    value = value[:-1]
+                attributes[label] = value
             p = p.next('*')
-#        result.append({
-#            "model": "srd20.feat",
-#            "pk": len(result),
-#            "fields": {
-#                "name": title,
-#                "altname": slug,
-#                "type": ', '.join(descriptors),
-#                "multiple": False, # info not parseable
-#                "stack": False, # info not parseable
-#                "choice": "", # info not parseable
-#                "prerequisite": attributes.get('prerequisite', ''),
-#                "benefit": attributes.get('benefit', ''),
-#                "normal": attributes.get('normal', ''),
-#                "special": attributes.get('special', ''),
-#                "reference": filename,
-#                "description": attributes.get('description', ''),
-#            }
-#        })
+
+        # The rest is description
+        while p and not p.hasClass('stat-block-title'):
+            description += p.outerHtml()
+            p = p.next('*')
+            
+        # From the school line get subschool and descriptors
+        if 'school' in attributes:
+            school = attributes['school']
+            if '[' in school:
+                position = school.index('[')
+                descriptors = school[position+1:-1]
+                school = school[:position-1].strip()
+                attributes["school"] = school
+                attributes["descriptor"] = descriptors
+            if '(' in school:
+                position = school.index('(')
+                subschool = school[position+1:-1]
+                school = school[:position-1].strip()
+                attributes["school"] = school
+                attributes["subschool"] = subschool
+
+        # Reference
+        reference = '/'.join(filename.split('/')[-3:-1])
+
+        result.append({
+            "model": "srd20.spell",
+            "pk": len(result),
+            "fields": {
+                "name": title,
+                "altname": slug,
+                "school": attributes.get("school", ""),
+                "subschool": attributes.get("subschool", ""),
+                "descriptor": attributes.get("descriptor", ""),
+                "level": attributes.get("level", ""),
+                "components": attributes.get("components", ""),
+                "casting_time": attributes.get("casting time", ""),
+                "range": attributes.get("range", ""),
+                "target": attributes.get("target", ""),
+                "area": attributes.get("area", ""),
+                "effect": attributes.get("effect", ""),
+                "duration": attributes.get("duration", ""),
+                "saving_throw": attributes.get("saving throw", ""),
+                "spell_resistance": attributes.get("spell resistance", ""),
+                "reference": reference,
+                
+                "description": description,
+            }
+        })
         if fn == 'transmutePotionToPoison.html':
             # This file has stat-block-title blocks which aren't spells
             break
 
-#print json.dumps(result, ensure_ascii=False, indent=4).encode('utf-8')
+print json.dumps(result, ensure_ascii=False, indent=4).encode('utf-8')
     
