@@ -1147,8 +1147,8 @@ arcane-concordance,Grants metamagic to arcane spells.
 campfire-wall-,Creates a shelter around a campfire.
 coordinated-effort,Grants a teamwork feat you have.
 elemental-speech,Enables you to speak to elementals and some creatures.
-"feather-step,-mass","As <i><a href=""spells/featherStep.html#_feather-step"">feather step</a></i>, but multiple creatures."
-"invigorate,-mass","As <i><a href=""spells/invigorate.html#_invigorate"">invigorate</a></i>, but multiple creatures."
+feather-step-mass,"As <i><a href=""spells/featherStep.html#_feather-step"">feather step</a></i>, but multiple creatures."
+invigorate-mass,"As <i><a href=""spells/invigorate.html#_invigorate"">invigorate</a></i>, but multiple creatures."
 jester's-jaunt,Teleport target within 30 ft. of itself.
 purging-finale,Removes one negative effect.
 reviving-finale,Allies cured 2d6 damage.
@@ -1156,12 +1156,12 @@ seek-thoughts,Detects thinking creatures' thoughts.
 thundering-drums,1d8 damage/level and knocked prone.
 denounce,Worsens attitudes toward target creature.
 discordant-blast,3d6 sonic damage in 10-ft. burst or 30-ft. cone can also bull rush creatures.
-"ghostbane-dirge,-mass","As <i><a href=""spells/ghostbaneDirge.html#_ghostbane-dirge"">ghostbane dirge</a></i>, but affecting multiple creatures."
+ghostbane-dirge-mass,"As <i><a href=""spells/ghostbaneDirge.html#_ghostbane-dirge"">ghostbane dirge</a></i>, but affecting multiple creatures."
 heroic-finale,Subject within range of your bardic performance can take an action.
 treasure-stitching-,Objects on cloth become embroidered.
 wandering-star-motes,"Outlines subject, produces light."
 bard's-escape,You and allies escape an emergency by teleporting to safety.
-"cacophonous-call,-mass",Nauseates multiple targets.
+cacophonous-call-mass,Nauseates multiple targets.
 cloak-of-dreams,Living creatures within 5 ft. fall asleep.
 deafening-song-bolt,Blast of song deals 3d10 damage and deafens targets.
 foe-to-friend,Redirect an enemy creature's attack.
@@ -1198,12 +1198,12 @@ planar-adaptation,Resist harmful effects of other plane.
 rest-eternal,Dead creature cannot be revived.
 spiritual-ally,Creates a divine ally to aid you.
 cleanse,Cures 4d8 damage +1/level (max +25) and also removes several afflictions.
-"ghostbane-dirge,-mass","As <i><a href=""spells/ghostbaneDirge.html#_ghostbane-dirge"">ghostbane dirge</a></i>, but affects multiple creatures."
+ghostbane-dirge-mass,"As <i><a href=""spells/ghostbaneDirge.html#_ghostbane-dirge"">ghostbane dirge</a></i>, but affects multiple creatures."
 life-bubble-,Protects creatures from environment.
 pillar-of-life,Created pillar heals 2d8 + 1/level (max +20).
 snake-staff,Transforms staff or other wood into snakes to fight for you.
 treasure-stitching-,Objects on cloth become embroidered.
-"planar-adaptation,-mass","As <i><a href=""spells/planarAdaptation.html#_planar-adaptation"">planar adaptation</a></i>, but affects multiple creatures."
+planar-adaptation-mass,"As <i><a href=""spells/planarAdaptation.html#_planar-adaptation"">planar adaptation</a></i>, but affects multiple creatures."
 divine-vessel,"<i>(Oracle only.)</i> Change into a huge, otherworldly creature."
 euphoric-tranquility,Makes a single creature peaceful and friendly.
 stormbolts,1d8 damage/level (max 20d8) to targets.
@@ -1243,7 +1243,7 @@ aqueous-orb,Creates rolling sphere of water.
 cloak-of-winds,Creates screen of strong wind around you.
 create-treasure-map-,Creates treasure map out of a creature's corpse.
 cup-of-dust,Causes a creature to become dehydrated.
-"feather-step,-mass","As <i><a href=""spells/featherStep.html#_feather-step"">feather step</a></i>, but multiple creatures."
+feather-step-mass,"As <i><a href=""spells/featherStep.html#_feather-step"">feather step</a></i>, but multiple creatures."
 hide-campsite,Hides all traces of your campsite.
 hydraulic-torrent-,Creates torrent of water that bull rushes any creature in its path.
 lily-pad-stride,Walk across water on moving lily pads.
@@ -1382,10 +1382,10 @@ sirocco,"Hot wind does 4d6 damage, fatigues those damaged, and knocks creatures 
 fluid-form,"Gain DR 10/slashing, increases reach 10 ft., and breathe water."
 freezing-sphere,Freezes water or deals cold damage.
 elemental-body-iv,Turns you into a Huge elemental.
-"planar-adaptation,-mass","As <i><a href=""spells/planarAdaptation.html#_planar-adaptation"">planar adaptation</a></i>, but affects multiple creatures."
+planar-adaptation-mass,"As <i><a href=""spells/planarAdaptation.html#_planar-adaptation"">planar adaptation</a></i>, but affects multiple creatures."
 summon-monster-vii,Summons elemental creature to fight for you.
 control-weather,Changes weather in local area.
-"fly,-mass",One creature/level gains ability to fly.
+fly-mass,One creature/level gains ability to fly.
 rampart,Creates 5-ft. thick earthen barrier.
 reverse-gravity,Objects and creatures fall upward.
 statue,Subject can become a statue at will.
@@ -1406,7 +1406,7 @@ horrid-wilting,Deals 1d6/level damage within 30 ft.
 polar-ray,Ranged touch attack deals 1d6/level cold damage and 1d4 points of Dexterity drain.
 seamantle,Sheathes you in protective water.
 gate,Connects two planes for travel or summoning.
-"suffocation,-mass",One creature/level suffocates.
+suffocation-mass,One creature/level suffocates.
 winds-of-vengeance,Gives you the ability to fly and attack with wind.
 clashing-rocks,20d6 damage to target creature.
 world-wave-,Earth moves you across distances.
@@ -1441,7 +1441,7 @@ retribution,Recent attacker is afflicted with penalties.
 righteous-vigor,Boosts attack bonus with each hit.
 seek-thoughts,Detects thinking creatures' thoughts.
 ward-the-faithful,Creatures of same faith gain bonuses to AC and on saving throws.
-"brand,-greater","As <i><a href=""spells/brand.html#_brand"">brand</a></i>, but brand glows when near your holy symbol."
+brand-greater,"As <i><a href=""spells/brand.html#_brand"">brand</a></i>, but brand glows when near your holy symbol."
 coward's-lament,If subject doesn't attack you it receives a penalty.
 defile-armor,"As <i><a href=""spells/sanctifyArmor.html#_sanctify-armor"">sanctify armor</a></i>, but gain DR 5/good when using judgment or smite."
 denounce,Worsens creatures' attitudes.
@@ -1451,12 +1451,12 @@ sanctify-armor,+1 AC/four levels (max +5).
 shared-wrath,"As <i><a href=""spells/wrath.html#_wrath"">wrath</a></i>, but affects multiple creatures."
 sleepwalk,Causes creature to move while asleep.
 tireless-pursuers,"As <i><a href=""spells/tirelessPursuit.html#_tireless-pursuit"">tireless pursuit</a></i>, but affects multiple creatures."
-"castigate,-mass","As <i><a href=""spells/castigate.html#_castigate"">castigate</a></i>, but affects multiple creatures."
-"ghostbane-dirge,-mass","As <i><a href=""spells/ghostbaneDirge.html#_ghostbane-dirge"">ghostbane dirge</a></i>, but affects multiple creatures."
+castigate-mass,"As <i><a href=""spells/castigate.html#_castigate"">castigate</a></i>, but affects multiple creatures."
+ghostbane-dirge-mass,"As <i><a href=""spells/ghostbaneDirge.html#_ghostbane-dirge"">ghostbane dirge</a></i>, but affects multiple creatures."
 resounding-blow,Melee attack deals 1d6 more damage.
 unwilling-shield,Subject shares wounds you receive.
 cleanse,"As <i><a href=""../spells/heal.html#_heal"">heal</a></i>, but only cures 4d8 damage +1/level (max +25)."
-"fester,-mass","As <i><a href=""spells/fester.html#_fester"">fester</a></i>, but affecting multiple targets."
+fester-mass,"As <i><a href=""spells/fester.html#_fester"">fester</a></i>, but affecting multiple targets."
 challenge-evil,Sickens creature if it refuses to fight you.
 ghostbane-dirge,Incorporeal creature takes half damage from nonmagical weapons.
 grace,Movement doesn't provoke attacks of opportunity.
@@ -1480,7 +1480,7 @@ wake-of-light-,"Magical trail aids good creatures, hinders evil ones."
 weapon-of-awe,Weapon gets +2 on damage rolls.
 divine-transfer,Transfer hit points and give DR/evil to target creature.
 fire-of-judgment,Smited creature takes damage when it attacks.
-"ghostbane-dirge,-mass","As <i><a href=""spells/ghostbaneDirge.html#_ghostbane-dirge"">ghostbane dirge</a></i>, but affects multiple creatures."
+ghostbane-dirge-mass,"As <i><a href=""spells/ghostbaneDirge.html#_ghostbane-dirge"">ghostbane dirge</a></i>, but affects multiple creatures."
 holy-whisper,"Whisper sickens evil creatures, gives good creatures bonuses."
 marks-of-forbiddance,Makes 2 creatures pass Will saves in order to attack each other.
 sanctify-armor,+1 AC/four levels (max +5).
@@ -1529,7 +1529,7 @@ versatile-weapon,Weapon bypasses some DR.
 aspect-of-the-stag,+2 AC against attacks of opportunity and increases speed.
 bloody-claws,Gives creature the ability to deal bleed damage with natural attacks.
 cloak-of-winds,Creates a whirling screen of strong wind around you.
-"feather-step,-mass","As <i><a href=""spells/featherStep.html#_feather-step"">feather step</a></i>, but affects many targets rather than one."
+feather-step-mass,"As <i><a href=""spells/featherStep.html#_feather-step"">feather step</a></i>, but affects many targets rather than one."
 instant-enemy,Target is treated as a favored enemy type of your choice.
 life-bubble-,Protects creatures from sustained environmental effects.
 strong-jaw,Natural attacks damage as two sizes bigger.
@@ -1601,7 +1601,7 @@ fire-snake,Creates a serpentine path of fire 5 ft. long/level that deals 1d6 fir
 geyser-,Creates a geyser of boiling water.
 hungry-pit-,"As <i><a href=""spells/createPit.html#_create-pit-"">create pit</a></i>, but dealing 4d6 damage to those in it as it closes."
 life-bubble-,Protects creatures from sustained environmental effects.
-"pain-strike,-mass","As <i>pain</i>, but affects multiple creatures."
+pain-strike-mass,"As <i>pain</i>, but affects multiple creatures."
 phantasmal-web,Catches subjects in illusory web.
 planar-adaptation,Resist harmful effects of other plane.
 suffocation,Target quickly suffocates to death.
@@ -1616,9 +1616,9 @@ unwilling-shield,Subject shares wounds you receive.
 deflection-,Attacks that miss are redirected back to the source of the attack.
 expend-,Wastes creatures' limited use magical ability.
 firebrand,"Allies gain <i><a href=""../magicItems/weapons.html#_weapons-flaming"">flaming</a></i> weapons, immunity to your fire spells, and a one-use ray of fire attack."
-"fly,-mass",One creature/level gains ability to fly.
+fly-mass,One creature/level gains ability to fly.
 phantasmal-revenge,Ghost from corpse hunts killer.
-"planar-adaptation,-mass","As <i><a href=""spells/planarAdaptation.html#_planar-adaptation"">planar adaptation</a></i>, but affects multiple creatures."
+planar-adaptation-mass,"As <i><a href=""spells/planarAdaptation.html#_planar-adaptation"">planar adaptation</a></i>, but affects multiple creatures."
 rampart,Creates 5-ft.-thick earthen barrier.
 vortex,Creates a whirlpool in water.
 euphoric-tranquility,Makes a creature friendly.
@@ -1627,16 +1627,16 @@ stormbolts,1d8 damage/level (max 20d8) to targets.
 wall-of-lava,"Wall damages foes that try to enter, periodically launches lava at nearby targets."
 clashing-rocks,20d6 damage to target creature.
 fiery-body,You gain various fire-related powers.
-"suffocation,-mass",One creature/level suffocates to death.
+suffocation-mass,One creature/level suffocates to death.
 tsunami,Huge wave damages and sweeps up all in its path.
 wall-of-suppression-,Creates wall that disables magic.
 winds-of-vengeance,Gives you the ability to fly and attack with wind.
 world-wave-,Earth moves you across distances.
 ant-haul-,Triples carrying capacity of a creature.
-"rejuvenate-eidolon,-lesser",Eidolon cured 1d10 damage +1/level (max +5).
+rejuvenate-eidolon-lesser,Eidolon cured 1d10 damage +1/level (max +5).
 unfetter,Remove distance restriction on eidolon.
 create-pit-,Creates an extradimensional pit.
-"evolution-surge,-lesser",Grants eidolon an evolution with 2 evolution points.
+evolution-surge-lesser,Grants eidolon an evolution with 2 evolution points.
 glide-,You take no falling damage and move 60 ft./round while falling.
 summon-eidolon,Instantly summons your eidolon for duration of spell.
 aqueous-orb,Creates rolling sphere of water.
@@ -1646,13 +1646,13 @@ rejuvenate-eidolon,"As <i><a href=""spells/rejuvenateEidolon.html#_rejuvenate-ei
 seek-thoughts,Detects creatures in the area thinking about something.
 spiked-pit,"As <i><a href=""spells/createPit.html#_create-pit-"">create pit</a></i>, but filled with spikes."
 acid-pit-,Creates a pit with a layer of acid on the bottom.
-"evolution-surge,-greater",Grants eidolon two evolutions with a total of 6 evolution points.
+evolution-surge-greater,Grants eidolon two evolutions with a total of 6 evolution points.
 purified-calling,Eidolon summoned is fully healed.
 transmogrify,Change your eidolon's evolutions.
 hungry-pit-,"As <i><a href=""spells/createPit.html#_create-pit-"">create pit</a></i>, but dealing 4d6 damage to those in it as it closes."
 planar-adaptation,Resist harmful effects of other plane.
-"rejuvenate-eidolon,-greater","As <i><a href=""spells/rejuvenateEidolon.html#_rejuvenate-eidolon,-lesser"">lesser rejuvenate eidolon</a></i>, but cures 5d10 damage +1/level (max +20)."
-"planar-adaptation,-mass","As <i><a href=""spells/planarAdaptation.html#_planar-adaptation"">planar adaptation</a></i>, but affects multiple creatures."
+rejuvenate-eidolon-greater,"As <i><a href=""spells/rejuvenateEidolon.html#_rejuvenate-eidolon,-lesser"">lesser rejuvenate eidolon</a></i>, but cures 5d10 damage +1/level (max +20)."
+planar-adaptation-mass,"As <i><a href=""spells/planarAdaptation.html#_planar-adaptation"">planar adaptation</a></i>, but affects multiple creatures."
 putrefy-food-and-drink,Makes food and water inedible.
 spark-,Ignites flammable objects.
 beguiling-gift,Subject immediately accepts an offered item and uses it.
@@ -1681,15 +1681,15 @@ spite,Inflict touch spell upon creature that attacks you.
 threefold-aspect,Appear older or younger.
 wandering-star-motes,Outlines subject and produces light as a sunrod.
 banish-seeming,Dispels touched illusion or a creature's change in form.
-"pain-strike,-mass","As <i><a href=""spells/painStrike.html#_pain-strike"">pain strike</a></i>, but affects multiple creatures."
+pain-strike-mass,"As <i><a href=""spells/painStrike.html#_pain-strike"">pain strike</a></i>, but affects multiple creatures."
 rest-eternal,Dead creature cannot be revived.
 suffocation,Target quickly suffocates to death.
 cloak-of-dreams,Causes living creatures within 5 ft. to fall asleep.
-"fester,-mass","As <i><a href=""spells/fester.html#_fester"">fester</a></i>, but affecting multiple targets."
+fester-mass,"As <i><a href=""spells/fester.html#_fester"">fester</a></i>, but affecting multiple targets."
 swarm-skin-,Turns your body into a swarm of vermin.
 unwilling-shield,Subject shares wounds you receive.
 stormbolts,1d8 damage/level (max 20d8) to targets.
-"suffocation,-mass",One creature/level suffocates to death.
+suffocation-mass,One creature/level suffocates to death.
 adjuring-step-,"You can move slowly and safely and still cast spells, until you move quickly, make an attack, or cast a harmful spell."
 illusion-of-calm,"You appear to be standing still, even when you take some actions."
 longshot,Grants a +10-foot bonus to the range increment for any ranged weapon fired.
@@ -1698,7 +1698,7 @@ shock-shield,A shield of force protects you until you dismiss it in an explosion
 targeted-bomb-admixture,Empowers bombs you throw to deal more damage to a single creature.
 ablative-barrier,Surrounds the target with layers of force.
 animal-aspect,You gain some of the beneficial qualities of an animal.
-"ant-haul,-communal","As <i><a href=""/pathfinderRPG/prd/advanced/spells/antHaul.html#_ant-haul-"">ant haul</a></i>, but you may divide the duration among creatures touched."
+ant-haul-communal,"As <i><a href=""/pathfinderRPG/prd/advanced/spells/antHaul.html#_ant-haul-"">ant haul</a></i>, but you may divide the duration among creatures touched."
 bestow-weapon-proficiency,Grants a creature proficiency in a single weapon for short period of time.
 blistering-invective,"Make an <a href=""/pathfinderRPG/prd/skills/intimidate.html#_intimidate"">Intimidate</a> check against all foes within 30 feet; those demoralized also take fire damage."
 bullet-shield,You gain a +4 deflection bonus to AC against firearm attacks.
@@ -1707,23 +1707,23 @@ kinetic-reverberation-,Channels the force of an enemy's attack back into its wea
 shadow-bomb-admixture,Empowers bombs you throw to cover the target with a shadowy substance that grants it concealment and limits its vision.
 touch-injection,"You can deliver an infusion, elixir, poison, or potion as a touch attack."
 absorb-toxicity,"You become immune to diseases and toxins, absorb one, and then spread it to others."
-"animal-aspect,-greater","As <i><a href=""spells/animalAspect.html#_animal-aspect"">animal aspect</a></i>, but you gain two animal qualities."
+animal-aspect-greater,"As <i><a href=""spells/animalAspect.html#_animal-aspect"">animal aspect</a></i>, but you gain two animal qualities."
 burst-of-speed,"You gain increased speed, and your movement ignores attacks of opportunity and allows you to move through the space of creatures larger than you are."
-"darkvision,-communal","As <i><a href=""/pathfinderRPG/prd/spells/darkvision.html#_darkvision"">darkvision</a></i>, but you may divide the duration among creatures touched."
-"delay-poison,-communal","As <i><a href=""/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison"">delay poison</a></i>, but you may divide the duration among creatures touched."
-"endure-elements,-communal","As <i><a href=""/pathfinderRPG/prd/spells/endureElements.html#_endure-elements"">endure elements</a></i>, but you may divide the duration among creatures touched."
+darkvision-communal,"As <i><a href=""/pathfinderRPG/prd/spells/darkvision.html#_darkvision"">darkvision</a></i>, but you may divide the duration among creatures touched."
+delay-poison-communal,"As <i><a href=""/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison"">delay poison</a></i>, but you may divide the duration among creatures touched."
+endure-elements-communal,"As <i><a href=""/pathfinderRPG/prd/spells/endureElements.html#_endure-elements"">endure elements</a></i>, but you may divide the duration among creatures touched."
 lightning-lash-bomb-admixture,Empowers bombs you throw with a ward that deals lightning damage each time those damaged by the bomb move more than 5 feet.
-"protection-from-arrows,-communal","As <i><a href=""/pathfinderRPG/prd/spells/protectionFromArrows.html#_protection-from-arrows"">protection from arrows</a></i>, but you may divide the duration among creatures touched."
+protection-from-arrows-communal,"As <i><a href=""/pathfinderRPG/prd/spells/protectionFromArrows.html#_protection-from-arrows"">protection from arrows</a></i>, but you may divide the duration among creatures touched."
 resinous-skin,You gain DR 5/piercing and +4 to CMD against disarm attempts.
-"resist-energy,-communal","As <i><a href=""/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy"">resist energy</a></i>, but you may divide the duration among creatures touched."
-"spider-climb,-communal","As <i><a href=""/pathfinderRPG/prd/spells/spiderClimb.html#_spider-climb"">spider climb</a></i>, but you may divide the duration among creatures touched."
-"air-walk,-communal","As <i><a href=""/pathfinderRPG/prd/spells/airWalk.html#_air-walk"">air walk</a></i>, but you may divide the duration among creatures touched."
+resist-energy-communal,"As <i><a href=""/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy"">resist energy</a></i>, but you may divide the duration among creatures touched."
+spider-climb-communal,"As <i><a href=""/pathfinderRPG/prd/spells/spiderClimb.html#_spider-climb"">spider climb</a></i>, but you may divide the duration among creatures touched."
+air-walk-communal,"As <i><a href=""/pathfinderRPG/prd/spells/airWalk.html#_air-walk"">air walk</a></i>, but you may divide the duration among creatures touched."
 mutagenic-touch,You can pass a weaker version of your mutagen to another creature.
-"tongues,-communal","As <i><a href=""/pathfinderRPG/prd/spells/tongues.html#_tongues"">tongues</a></i>, but you may divide the duration among creatures touched."
+tongues-communal,"As <i><a href=""/pathfinderRPG/prd/spells/tongues.html#_tongues"">tongues</a></i>, but you may divide the duration among creatures touched."
 viper-bomb-admixture,Empowers bombs you throw to summon poisonous biting vipers that bite those hit or splashed by the bomb.
 dust-form,You become an incorporeal creature of dust for a short period of time.
 languid-bomb-admixture,Empowers bombs you throw to cause fatigue in those directly hit or splashed by the bomb.
-"stoneskin,-communal","As <i><a href=""/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin"">stoneskin</a></i>, but you may divide the duration among creatures touched."
+stoneskin-communal,"As <i><a href=""/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin"">stoneskin</a></i>, but you may divide the duration among creatures touched."
 caging-bomb-admixture,Your bombs create a cage of force that traps creatures inside the bomb's splash radius.
 walk-through-space,You can spend a move action to teleport 30 feet or to stand while prone without provoking attacks of opportunity.
 litany-of-sloth,Single target cannot make attacks of opportunity for 1 round.
@@ -1735,18 +1735,18 @@ litany-of-eloquence,Fascinates a single creature for 1 round.
 litany-of-entanglement,Entangles a creature for 1 round.
 litany-of-warding,You gain two additional attacks of opportunity for 1 round.
 magic-siege-engine,Siege engine gains +1 on targeting and damage rolls.
-"protection-from-good,-communal","As <i><a href=""/pathfinderRPG/prd/spells/protectionFromGood.html#_protection-from-good"">protection from good</a></i>, but you may divide the duration among creatures touched."
-"protection-from-law,-communal","As <i><a href=""/pathfinderRPG/prd/spells/protectionFromLaw.html#_protection-from-law"">protection from law</a></i>, but you may divide the duration among creatures touched."
+protection-from-good-communal,"As <i><a href=""/pathfinderRPG/prd/spells/protectionFromGood.html#_protection-from-good"">protection from good</a></i>, but you may divide the duration among creatures touched."
+protection-from-law-communal,"As <i><a href=""/pathfinderRPG/prd/spells/protectionFromLaw.html#_protection-from-law"">protection from law</a></i>, but you may divide the duration among creatures touched."
 burst-of-speed,"You gain increased speed, and your movement ignores attacks of opportunity and allows you to move through the space of creatures larger than you are."
-"darkvision,-communal","As <i><a href=""/pathfinderRPG/prd/spells/darkvision.html#_darkvision"">darkvision</a></i>, but you may divide the duration among creatures touched."
+darkvision-communal,"As <i><a href=""/pathfinderRPG/prd/spells/darkvision.html#_darkvision"">darkvision</a></i>, but you may divide the duration among creatures touched."
 deadly-juggernaut,Your might increases with every kill you make.
 litany-of-escape,Teleports a friend out of a grapple.
 litany-of-sight,You can see invisible creatures and objects within 30 feet of you.
 litany-of-madness,A single target is confused for at least 1 round.
 litany-of-thunder,"A single target is deafened until the condition is removed, and is confused for 1 round."
 litany-of-vengeance,Allies attacking the target of the spell gain a +5 bonus on damage rolls for 1 round.
-"magic-siege-engine,-greater",Siege engine gains +1 on targeting and damage rolls for every four caster levels.
-"nondetection,-communal","As <i><a href=""/pathfinderRPG/prd/spells/nondetection.html#_nondetection"">nondetection</a></i>, but you may divide the duration among creatures touched."
+magic-siege-engine-greater,Siege engine gains +1 on targeting and damage rolls for every four caster levels.
+nondetection-communal,"As <i><a href=""/pathfinderRPG/prd/spells/nondetection.html#_nondetection"">nondetection</a></i>, but you may divide the duration among creatures touched."
 haunted-fey-aspect,You surround yourself with disturbing illusions.
 adjuring-step-,"You can move slowly and safely and still cast spells, until you move quickly, make an attack, or cast a harmful spell."
 abundant-ammunition,Replaces nonmagical ammunition every round.
@@ -1764,14 +1764,14 @@ discovery-torch-,"Touched object emanates bright light, granting <a href=""/path
 pilfering-hand,You may seize an object or manipulate it from afar.
 qualm,"Target gains penalties on ability checks, skill checks, and concentration checks until it spends an entire round doing nothing."
 returning-weapon,"Grants a weapon the <i><a href=""/pathfinderRPG/prd/magicItems/weapons.html#_weapons-returning"">returning</a></i> special weapon quality."
-"share-language,-communal","As <i><a href=""/pathfinderRPG/prd/advanced/spells/shareLanguage.html#_share-language-"">share language</a></i>, but you may divide the duration among creatures touched."
+share-language-communal,"As <i><a href=""/pathfinderRPG/prd/advanced/spells/shareLanguage.html#_share-language-"">share language</a></i>, but you may divide the duration among creatures touched."
 tactical-acumen,You gain an additional +1 on attack rolls or to AC due to battlefield positioning.
 thunder-fire,Ammunition in the targeted firearm deafens opponents.
-"delay-poison,-communal","As <i><a href=""/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison"">delay poison</a></i>, but you may divide the duration among creatures touched."
+delay-poison-communal,"As <i><a href=""/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison"">delay poison</a></i>, but you may divide the duration among creatures touched."
 phantom-driver,Conjures a phantom to drive vehicles.
-"returning-weapon,-communal","As <i><a href=""spells/returningWeapon.html#_returning-weapon"">returning weapon</a></i>, but you may divide the duration among weapons touched."
-"tongues,-communal","As <i><a href=""/pathfinderRPG/prd/spells/tongues.html#_tongues"">tongues</a></i>, but you may divide the duration among creatures touched."
-"phantom-steed,-communal","As <i><a href=""/pathfinderRPG/prd/spells/phantomSteed.html#_phantom-steed"">phantom steed</a></i>, but you may divide the duration among creatures touched."
+returning-weapon-communal,"As <i><a href=""spells/returningWeapon.html#_returning-weapon"">returning weapon</a></i>, but you may divide the duration among weapons touched."
+tongues-communal,"As <i><a href=""/pathfinderRPG/prd/spells/tongues.html#_tongues"">tongues</a></i>, but you may divide the duration among creatures touched."
+phantom-steed-communal,"As <i><a href=""/pathfinderRPG/prd/spells/phantomSteed.html#_phantom-steed"">phantom steed</a></i>, but you may divide the duration among creatures touched."
 shocking-image,"As <i><a href=""/pathfinderRPG/prd/spells/mirrorImage.html#_mirror-image"">mirror image</a></i>, but the duplicates emit electrical damage when destroyed."
 abundant-ammunition,Replaces nonmagical ammunition every round.
 air-bubble,Creates a small pocket of air around your head or an object.
@@ -1781,70 +1781,70 @@ liberating-command,"Target makes an <a href=""/pathfinderRPG/prd/skills/escapeAr
 moment-of-greatness,Doubles a morale bonus.
 reinforce-armaments,Temporarily mitigates the fragile quality in targeted weapon or armor.
 sun-metal,Weapon touched bursts into flames.
-"ant-haul,-communal","As <i><a href=""/pathfinderRPG/prd/advanced/spells/antHaul.html#_ant-haul-"">ant haul</a></i>, but you may divide the duration among creatures touched."
+ant-haul-communal,"As <i><a href=""/pathfinderRPG/prd/advanced/spells/antHaul.html#_ant-haul-"">ant haul</a></i>, but you may divide the duration among creatures touched."
 bestow-weapon-proficiency,Grant a creature proficiency in a single weapon for short period of time.
 effortless-armor,Armor you wear no longer slows your speed.
-"endure-elements,-communal","As <i><a href=""/pathfinderRPG/prd/spells/endureElements.html#_endure-elements"">endure elements</a></i>, but you may divide the duration among creatures touched."
+endure-elements-communal,"As <i><a href=""/pathfinderRPG/prd/spells/endureElements.html#_endure-elements"">endure elements</a></i>, but you may divide the duration among creatures touched."
 instrument-of-agony,"Weapon exudes divine fury, granting a bonus on <a href=""/pathfinderRPG/prd/skills/intimidate.html#_intimidate"">Intimidate</a> checks."
 magic-siege-engine,Siege engine gains +1 on targeting and damage rolls.
 pilfering-hand,You may seize an object or manipulate it from afar.
-"protection-from-chaos,-communal","As <i><a href=""/pathfinderRPG/prd/spells/protectionFromChaos.html#_protection-from-chaos"">protection from chaos</a></i>, but you may divide the duration among creatures touched."
-"protection-from-evil,-communal","As <i><a href=""/pathfinderRPG/prd/spells/protectionFromEvil.html#_protection-from-evil"">protection from evil</a></i>, but you may divide the duration among creatures touched."
-"protection-from-good,-communal","As <i><a href=""/pathfinderRPG/prd/spells/protectionFromGood.html#_protection-from-good"">protection from good</a></i>, but you may divide the duration among creatures touched."
-"protection-from-law,-communal","As <i><a href=""/pathfinderRPG/prd/spells/protectionFromLaw.html#_protection-from-law"">protection from law</a></i>, but you may divide the duration among creatures touched."
-"reinforce-armaments,-communal","As <i><a href=""spells/reinforceArmaments.html#_reinforce-armaments"">reinforce armaments</a></i>, but you may divide the duration among objects touched."
+protection-from-chaos-communal,"As <i><a href=""/pathfinderRPG/prd/spells/protectionFromChaos.html#_protection-from-chaos"">protection from chaos</a></i>, but you may divide the duration among creatures touched."
+protection-from-evil-communal,"As <i><a href=""/pathfinderRPG/prd/spells/protectionFromEvil.html#_protection-from-evil"">protection from evil</a></i>, but you may divide the duration among creatures touched."
+protection-from-good-communal,"As <i><a href=""/pathfinderRPG/prd/spells/protectionFromGood.html#_protection-from-good"">protection from good</a></i>, but you may divide the duration among creatures touched."
+protection-from-law-communal,"As <i><a href=""/pathfinderRPG/prd/spells/protectionFromLaw.html#_protection-from-law"">protection from law</a></i>, but you may divide the duration among creatures touched."
+reinforce-armaments-communal,"As <i><a href=""spells/reinforceArmaments.html#_reinforce-armaments"">reinforce armaments</a></i>, but you may divide the duration among objects touched."
 returning-weapon,"Grants a weapon the <i><a href=""/pathfinderRPG/prd/magicItems/weapons.html#_weapons-returning"">returning</a></i> special weapon quality."
 chain-of-perdition,Creates a floating chain of force.
 daybreak-arrow,Targeted ammunition exudes radiant energy.
 deadly-juggernaut,Your might increases with every kill you make.
-"delay-poison,-communal","As <i><a href=""/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison"">delay poison</a></i>, but you may divide the duration among creatures touched."
+delay-poison-communal,"As <i><a href=""/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison"">delay poison</a></i>, but you may divide the duration among creatures touched."
 discovery-torch-,"Touched object emanates bright light, granting <a href=""/pathfinderRPG/prd/skills/perception.html#_perception"">Perception</a> and <a href=""/pathfinderRPG/prd/skills/senseMotive.html#_sense-motive"">Sense Motive</a> bonuses."
-"resist-energy,-communal","As <i><a href=""/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy"">resist energy</a></i>, but you may divide the duration among creatures touched."
-"returning-weapon,-communal","As <i><a href=""spells/returningWeapon.html#_returning-weapon"">returning weapon</a></i>, but you may divide the duration among weapons touched."
-"share-language,-communal","As <i><a href=""/pathfinderRPG/prd/advanced/spells/shareLanguage.html#_share-language-"">share language</a></i>, but you may divide the duration among creatures touched."
+resist-energy-communal,"As <i><a href=""/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy"">resist energy</a></i>, but you may divide the duration among creatures touched."
+returning-weapon-communal,"As <i><a href=""spells/returningWeapon.html#_returning-weapon"">returning weapon</a></i>, but you may divide the duration among weapons touched."
+share-language-communal,"As <i><a href=""/pathfinderRPG/prd/advanced/spells/shareLanguage.html#_share-language-"">share language</a></i>, but you may divide the duration among creatures touched."
 debilitating-portent,"Inflicts an ill fate on a creature, halving its damage when it attacks or casts a spell."
-"protection-from-energy,-communal","As <i><a href=""/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy"">protection from energy</a></i>, but you may divide the duration among creatures touched."
+protection-from-energy-communal,"As <i><a href=""/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy"">protection from energy</a></i>, but you may divide the duration among creatures touched."
 summoner-conduit,The target takes damage whenever its summoned creature does.
-"water-walk,-communal","As <i><a href=""/pathfinderRPG/prd/spells/waterWalk.html#_water-walk"">water walk</a></i>, but you may divide the duration among creatures touched."
-"air-walk,-communal","As <i><a href=""/pathfinderRPG/prd/spells/airWalk.html#_air-walk"">air walk</a></i>, but you may divide the duration among creatures touched."
-"magic-siege-engine,-greater",Siege engine gains +1 on targeting and damage rolls for every four caster levels.
-"spell-immunity,-communal","As <i><a href=""/pathfinderRPG/prd/spells/spellImmunity.html#_spell-immunity"">spell immunity</a></i>, but you may divide the duration among creatures touched."
+water-walk-communal,"As <i><a href=""/pathfinderRPG/prd/spells/waterWalk.html#_water-walk"">water walk</a></i>, but you may divide the duration among creatures touched."
+air-walk-communal,"As <i><a href=""/pathfinderRPG/prd/spells/airWalk.html#_air-walk"">air walk</a></i>, but you may divide the duration among creatures touched."
+magic-siege-engine-greater,Siege engine gains +1 on targeting and damage rolls for every four caster levels.
+spell-immunity-communal,"As <i><a href=""/pathfinderRPG/prd/spells/spellImmunity.html#_spell-immunity"">spell immunity</a></i>, but you may divide the duration among creatures touched."
 symbol-of-striking,"As <i><a href=""/pathfinderRPG/prd/spells/symbolOfDeath.html#_symbol-of-death"">symbol of death</a></i>, but fills a 5-foot square."
-"tongues,-communal","As <i><a href=""/pathfinderRPG/prd/spells/tongues.html#_tongues"">tongues</a></i>, but you may divide the duration among creatures touched."
+tongues-communal,"As <i><a href=""/pathfinderRPG/prd/spells/tongues.html#_tongues"">tongues</a></i>, but you may divide the duration among creatures touched."
 dust-form,You become an incorporeal creature of dust for a short period of time.
 jolting-portent,"You inflict a vengeful fate on a creature, dealing electricity damage each time it attacks or casts a spell."
 frightful-aspect,"You take on a terrifying, Large-sized form of yourself and emit an aura that causes creatures to become shaken or frightened."
-"spell-immunity,-greater-communal","As <i><a href=""/pathfinderRPG/prd/spells/spellImmunity.html#_spell-immunity-greater"">greater spell immunity</a></i>, but you may divide the duration among creatures touched."
+spell-immunity-greater-communal,"As <i><a href=""/pathfinderRPG/prd/spells/spellImmunity.html#_spell-immunity-greater"">greater spell immunity</a></i>, but you may divide the duration among creatures touched."
 air-bubble,Creates a small pocket of air around your head or an object.
 damp-powder,Ruins ammunition loaded in the targeted firearm.
 deadeye's-lore,"Gain a +4 bonus on <a href=""/pathfinderRPG/prd/skills/survival.html#_survival"">Survival</a> and move full speed while tracking."
 liberating-command,"Target makes an <a href=""/pathfinderRPG/prd/skills/escapeArtist.html#_escape-artist"">Escape Artist</a> check as an immediate action and gains a bonus on it."
 weaken-powder,Targeted firearm's ammunition halves the firearm's range and imposes a –2 penalty on damage rolls.
 animal-aspect,You gain some of the beneficial qualities of an animal.
-"ant-haul,-communal","As <i><a href=""/pathfinderRPG/prd/advanced/spells/antHaul.html#_ant-haul-"">ant haul</a></i>, but you may divide the duration among creatures touched."
+ant-haul-communal,"As <i><a href=""/pathfinderRPG/prd/advanced/spells/antHaul.html#_ant-haul-"">ant haul</a></i>, but you may divide the duration among creatures touched."
 certain-grip-,"You gain a +4 competence bonus on <a href=""/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics"">Acrobatics</a> and <a href=""/pathfinderRPG/prd/skills/climb.html#_climb"">Climb</a> checks and to CMD."
-"endure-elements,-communal","As <i><a href=""/pathfinderRPG/prd/spells/endureElements.html#_endure-elements"">endure elements</a></i>, but you may divide the duration among creatures touched."
+endure-elements-communal,"As <i><a href=""/pathfinderRPG/prd/spells/endureElements.html#_endure-elements"">endure elements</a></i>, but you may divide the duration among creatures touched."
 forest-friend-,Plants in a forested area become helpful instead of hindering you and your allies.
 frost-fall,The area is covered in a chilling frost.
 wilderness-soldiers,Nearby plants aid you in combat.
-"animal-aspect,-greater","As <i><a href=""spells/animalAspect.html#_animal-aspect"">animal aspect</a></i>, but you gain two animal qualities."
+animal-aspect-greater,"As <i><a href=""spells/animalAspect.html#_animal-aspect"">animal aspect</a></i>, but you gain two animal qualities."
 companion-mind-link,"You can talk with your animal companion, and can handle it with supernatural ease."
-"delay-poison,-communal","As <i><a href=""/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison"">delay poison</a></i>, but you may divide the duration among creatures touched."
+delay-poison-communal,"As <i><a href=""/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison"">delay poison</a></i>, but you may divide the duration among creatures touched."
 pup-shape,Transforms a single animal or magical beast into a younger and cuter version of itself for a short time.
 resinous-skin,You gain DR 5/piercing and +4 to CMD against disarm attempts.
-"resist-energy,-communal","As <i><a href=""/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy"">resist energy</a></i>, but you may divide the duration among creatures touched."
-"share-language,-communal","As <i><a href=""/pathfinderRPG/prd/advanced/spells/shareLanguage.html#_share-language-"">share language</a></i>, but you may divide the duration among creatures touched."
-"spider-climb,-communal","As <i><a href=""/pathfinderRPG/prd/spells/spiderClimb.html#_spider-climb"">spider climb</a></i>, but you may divide the duration among creatures touched."
+resist-energy-communal,"As <i><a href=""/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy"">resist energy</a></i>, but you may divide the duration among creatures touched."
+share-language-communal,"As <i><a href=""/pathfinderRPG/prd/advanced/spells/shareLanguage.html#_share-language-"">share language</a></i>, but you may divide the duration among creatures touched."
+spider-climb-communal,"As <i><a href=""/pathfinderRPG/prd/spells/spiderClimb.html#_spider-climb"">spider climb</a></i>, but you may divide the duration among creatures touched."
 absorb-toxicity,"You become immune to diseases and toxins, absorb one, and then spread it to others."
 obsidian-flow,Converts the surface of the ground into molten glass.
-"protection-from-energy,-communal","As <i><a href=""/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy"">protection from energy</a></i>, but you may divide the duration among creatures touched."
-"air-walk,-communal","As <i><a href=""/pathfinderRPG/prd/spells/airWalk.html#_air-walk"">air walk</a></i>, but you may divide the duration among creatures touched."
+protection-from-energy-communal,"As <i><a href=""/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy"">protection from energy</a></i>, but you may divide the duration among creatures touched."
+air-walk-communal,"As <i><a href=""/pathfinderRPG/prd/spells/airWalk.html#_air-walk"">air walk</a></i>, but you may divide the duration among creatures touched."
 dust-form,You become an incorporeal creature of dust for a short period of time.
-"stoneskin,-communal","As <i><a href=""/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin"">stoneskin</a></i>, but you may divide the duration among creatures touched."
+stoneskin-communal,"As <i><a href=""/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin"">stoneskin</a></i>, but you may divide the duration among creatures touched."
 tar-pool,Converts the top layer of the ground into hot tar.
 siege-of-trees,Transforms Large trees into arboreal catapults of the same size.
 frightful-aspect,"You take on a terrifying, Large-sized form of yourself and emit an aura that causes creatures to become shaken or frightened."
-"siege-of-trees,-greater","As <i><a href=""spells/siegeOfTrees.html#_siege-of-trees"">siege of trees</a></i>, but can transform Huge and Gargantuan trees into arboreal catapults of the same size."
+siege-of-trees-greater,"As <i><a href=""spells/siegeOfTrees.html#_siege-of-trees"">siege of trees</a></i>, but can transform Huge and Gargantuan trees into arboreal catapults of the same size."
 bowstaff,"A shortbow may double as a club, or a longbow as a quarterstaff."
 compel-hostility,Compels opponents to attack you instead of your allies.
 deadeye's-lore,"Gain a +4 bonus on <a href=""/pathfinderRPG/prd/skills/survival.html#_survival"">Survival</a> and move full speed while tracking."
@@ -1863,36 +1863,36 @@ effortless-armor,Armor you wear no longer slows your speed.
 instrument-of-agony,"Weapon exudes divine fury, granting a bonus on <a href=""/pathfinderRPG/prd/skills/intimidate.html#_intimidate"">Intimidate</a> checks."
 litany-of-defense,Doubles armor's enhancement bonus.
 magic-siege-engine,Siege engine gains +1 on targeting and damage rolls.
-"protection-from-chaos,-communal","As <i><a href=""/pathfinderRPG/prd/spells/protectionFromChaos.html#_protection-from-chaos"">protection from chaos</a></i>, but you may divide the duration among creatures touched."
-"protection-from-evil,-communal","As <i><a href=""/pathfinderRPG/prd/spells/protectionFromEvil.html#_protection-from-evil"">protection from evil</a></i>, but you may divide the duration among creatures touched."
-"protection-from-good,-communal","As <i><a href=""/pathfinderRPG/prd/spells/protectionFromGood.html#_protection-from-good"">protection from good</a></i>, but you may divide the duration among creatures touched."
-"protection-from-law,-communal","As <i><a href=""/pathfinderRPG/prd/spells/protectionFromLaw.html#_protection-from-law"">protection from law</a></i>, but you may divide the duration among creatures touched."
+protection-from-chaos-communal,"As <i><a href=""/pathfinderRPG/prd/spells/protectionFromChaos.html#_protection-from-chaos"">protection from chaos</a></i>, but you may divide the duration among creatures touched."
+protection-from-evil-communal,"As <i><a href=""/pathfinderRPG/prd/spells/protectionFromEvil.html#_protection-from-evil"">protection from evil</a></i>, but you may divide the duration among creatures touched."
+protection-from-good-communal,"As <i><a href=""/pathfinderRPG/prd/spells/protectionFromGood.html#_protection-from-good"">protection from good</a></i>, but you may divide the duration among creatures touched."
+protection-from-law-communal,"As <i><a href=""/pathfinderRPG/prd/spells/protectionFromLaw.html#_protection-from-law"">protection from law</a></i>, but you may divide the duration among creatures touched."
 qualm,"Target gains penalties on ability checks, skill checks, and concentration checks until it spends an entire round doing nothing."
-"returning-weapon,-communal","As <i><a href=""spells/returningWeapon.html#_returning-weapon"">returning weapon</a></i>, but you may divide the duration among weapons touched."
+returning-weapon-communal,"As <i><a href=""spells/returningWeapon.html#_returning-weapon"">returning weapon</a></i>, but you may divide the duration among weapons touched."
 tactical-acumen,You gain an additional +1 on attack rolls or to AC due to battlefield positioning.
 burst-of-speed,"You gain increased speed, and your movement ignores attacks of opportunity and allows you to move through the space of creatures larger than you are."
 daybreak-arrow,Targeted ammunition exudes radiant energy.
 deadly-juggernaut,Your might increases with every kill you make.
-"delay-poison,-communal","As <i><a href=""/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison"">delay poison</a></i>, but you may divide the duration among creatures touched."
+delay-poison-communal,"As <i><a href=""/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison"">delay poison</a></i>, but you may divide the duration among creatures touched."
 litany-of-eloquence,Fascinates a single creature for 1 round.
 litany-of-entanglement,Entangles a creature for 1 round.
 litany-of-righteousness,A single evil creature takes more damage from creatures with a good aura.
 litany-of-warding,You gain two additional attacks of opportunity for 1 round.
 locate-weakness,You roll damage twice when you roll damage for a critical hit and take the best damage.
-"resist-energy,-communal","As <i><a href=""/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy"">resist energy</a></i>, but you may divide the duration among creatures touched."
+resist-energy-communal,"As <i><a href=""/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy"">resist energy</a></i>, but you may divide the duration among creatures touched."
 find-quarry,You can sense whether a particular creature is within 20 miles of your location.
 judgment-light,You gain an additional effect while a judgment is active.
 litany-of-escape,Teleports a friend out of a grapple.
 litany-of-sight,You can see invisible creatures and objects within 30 feet of you.
-"magic-siege-engine,-greater",Siege engine gains +1 on targeting and damage rolls for every four caster levels.
+magic-siege-engine-greater,Siege engine gains +1 on targeting and damage rolls for every four caster levels.
 named-bullet,Imbues ammunition with accuracy against a specific creature type.
-"protection-from-energy,-communal","As <i><a href=""/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy"">protection from energy</a></i>, but you may divide the duration among creatures touched."
+protection-from-energy-communal,"As <i><a href=""/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy"">protection from energy</a></i>, but you may divide the duration among creatures touched."
 litany-of-thunder,"A single target is deafened until the condition is removed, and is confused for 1 round."
 litany-of-vengeance,Allies attacking the target of the spell gain a +5 bonus on damage rolls for 1 round.
-"spell-immunity,-communal","As <i><a href=""/pathfinderRPG/prd/spells/spellImmunity.html#_spell-immunity"">spell immunity</a></i>, but you may divide the duration among creatures touched."
-"stoneskin,-communal","As <i><a href=""/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin"">stoneskin</a></i>, but you may divide the duration among creatures touched."
+spell-immunity-communal,"As <i><a href=""/pathfinderRPG/prd/spells/spellImmunity.html#_spell-immunity"">spell immunity</a></i>, but you may divide the duration among creatures touched."
+stoneskin-communal,"As <i><a href=""/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin"">stoneskin</a></i>, but you may divide the duration among creatures touched."
 litany-of-madness,A single target is confused for at least 1 round.
-"named-bullet,-greater","As <i><a href=""spells/namedBullet.html#_named-bullet"">named bullet</a></i>, but deals 2 points of damage per caster level."
+named-bullet-greater,"As <i><a href=""spells/namedBullet.html#_named-bullet"">named bullet</a></i>, but deals 2 points of damage per caster level."
 adjuring-step-,"You can move slowly and safely and still cast spells, until you move quickly, make an attack, or cast a harmful spell."
 illusion-of-calm,"You appear to be standing still, even when you take some actions."
 jury-rig,Removes the broken condition from the targeted object.
@@ -1910,15 +1910,15 @@ animal-aspect,You gain some of the beneficial qualities of an animal.
 bestow-weapon-proficiency,Grants a creature proficiency in a single weapon for short period of time.
 brow-gasher,Slashing weapon deals bleed damage to an opponent's head.
 effortless-armor,Armor you wear no longer slows your speed.
-"mount,-communal","As <i><a href=""/pathfinderRPG/prd/spells/mount.html#_mount"">mount</a></i>, but you may divide the duration among creatures touched."
+mount-communal,"As <i><a href=""/pathfinderRPG/prd/spells/mount.html#_mount"">mount</a></i>, but you may divide the duration among creatures touched."
 pilfering-hand,You may seize an object or manipulate it from afar.
 reloading-hands,Loads a single shot into your weapon every round.
-"reinforce-armaments,-communal","As <i><a href=""spells/reinforceArmaments.html#_reinforce-armaments"">reinforce armaments</a></i>, but you may divide the duration among objects touched."
-"returning-weapon,-communal","As <i><a href=""spells/returningWeapon.html#_returning-weapon"">returning weapon</a></i>, but you may divide the duration among weapons touched."
+reinforce-armaments-communal,"As <i><a href=""spells/reinforceArmaments.html#_reinforce-armaments"">reinforce armaments</a></i>, but you may divide the duration among objects touched."
+returning-weapon-communal,"As <i><a href=""spells/returningWeapon.html#_returning-weapon"">returning weapon</a></i>, but you may divide the duration among weapons touched."
 tactical-acumen,You gain an additional +1 on attack rolls or to AC due to battlefield positioning.
 telekinetic-assembly,Assembles a siege engine using 1 fewer worker for every two caster levels.
 twisted-space,Targeted creature's attacks target a random square instead of the intended target.
-"animal-aspect,-greater","As <i><a href=""spells/animalAspect.html#_animal-aspect"">animal aspect</a></i>, but you gain two animal qualities."
+animal-aspect-greater,"As <i><a href=""spells/animalAspect.html#_animal-aspect"">animal aspect</a></i>, but you gain two animal qualities."
 burst-of-speed,"You gain increased speed, and your movement ignores attacks of opportunity and allows you to move through the space of creatures larger than you are."
 locate-weakness,You roll damage twice when you roll damage for a critical hit and take the best damage.
 pellet-blast,Creates an explosion of conjured metal pellets.
@@ -1935,27 +1935,27 @@ tactical-acumen,You gain an additional +1 on attack rolls or to AC due to battle
 bestow-weapon-proficiency,Grants a creature proficiency in a single weapon for short period of time.
 divine-arrow,Imbues a projectile with holy energy.
 effortless-armor,Armor you wear no longer slows your speed.
-"endure-elements,-communal","As <i><a href=""/pathfinderRPG/prd/spells/endureElements.html#_endure-elements"">endure elements</a></i>, but you may divide the duration among creatures touched."
+endure-elements-communal,"As <i><a href=""/pathfinderRPG/prd/spells/endureElements.html#_endure-elements"">endure elements</a></i>, but you may divide the duration among creatures touched."
 litany-of-defense,Doubles armor's enhancement bonus.
 litany-of-eloquence,Fascinates a single creature for 1 round.
 litany-of-entanglement,Entangles a creature for 1 round.
 litany-of-righteousness,A single evil creature takes more damage from creatures with a good aura.
 litany-of-warding,You gain two additional attacks of opportunity for 1 round.
 magic-siege-engine,Siege engine gains +1 on targeting and damage rolls.
-"protection-from-chaos,-communal","As <i><a href=""/pathfinderRPG/prd/spells/protectionFromChaos.html#_protection-from-chaos"">protection from chaos</a></i>, but you may divide the duration among creatures touched."
-"protection-from-evil,-communal","As <i><a href=""/pathfinderRPG/prd/spells/protectionFromEvil.html#_protection-from-evil"">protection from evil</a></i>, but you may divide the duration among creatures touched."
-"protection-from-good,-communal","As <i><a href=""/pathfinderRPG/prd/spells/protectionFromGood.html#_protection-from-good"">protection from good</a></i>, but you may divide the duration among creatures touched."
-"protection-from-law,-communal","As <i><a href=""/pathfinderRPG/prd/spells/protectionFromLaw.html#_protection-from-law"">protection from law</a></i>, but you may divide the duration among creatures touched."
+protection-from-chaos-communal,"As <i><a href=""/pathfinderRPG/prd/spells/protectionFromChaos.html#_protection-from-chaos"">protection from chaos</a></i>, but you may divide the duration among creatures touched."
+protection-from-evil-communal,"As <i><a href=""/pathfinderRPG/prd/spells/protectionFromEvil.html#_protection-from-evil"">protection from evil</a></i>, but you may divide the duration among creatures touched."
+protection-from-good-communal,"As <i><a href=""/pathfinderRPG/prd/spells/protectionFromGood.html#_protection-from-good"">protection from good</a></i>, but you may divide the duration among creatures touched."
+protection-from-law-communal,"As <i><a href=""/pathfinderRPG/prd/spells/protectionFromLaw.html#_protection-from-law"">protection from law</a></i>, but you may divide the duration among creatures touched."
 burst-of-speed,"You gain increased speed, and your movement ignores attacks of opportunity and allows you to move through the space of creatures larger than you are."
 daybreak-arrow,Targeted ammunition exudes radiant energy.
 deadly-juggernaut,Your might increases with every kill you make.
-"delay-poison,-communal","As <i><a href=""/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison"">delay poison</a></i>, but you may divide the duration among creatures touched."
+delay-poison-communal,"As <i><a href=""/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison"">delay poison</a></i>, but you may divide the duration among creatures touched."
 litany-of-escape,Teleports a friend out of a grapple.
 litany-of-sight,You can see invisible creatures and objects within 30 feet of you.
-"resist-energy,-communal","As <i><a href=""/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy"">resist energy</a></i>, but you may divide the duration among creatures touched."
+resist-energy-communal,"As <i><a href=""/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy"">resist energy</a></i>, but you may divide the duration among creatures touched."
 litany-of-thunder,"A single target is deafened until the condition is removed, and is confused for 1 round."
 litany-of-vengeance,Allies attacking the target of the spell gain a +5 bonus on damage rolls for 1 round.
-"magic-siege-engine,-greater",Siege engine gains +1 on targeting and damage rolls for every four caster levels.
+magic-siege-engine-greater,Siege engine gains +1 on targeting and damage rolls for every four caster levels.
 abundant-ammunition,Replaces nonmagical ammunition every round.
 air-bubble,Creates a small pocket of air around your head or an object.
 bowstaff,"A shortbow may double as a club, or a longbow as a quarterstaff."
@@ -1966,28 +1966,28 @@ longshot,Grants a +10-foot bonus to the range increment for any ranged weapon fi
 returning-weapon,"Grants a weapon the <i><a href=""/pathfinderRPG/prd/magicItems/weapons.html#_weapons-returning"">returning</a></i> special weapon quality."
 sun-metal,Weapon touched bursts into flames.
 animal-aspect,You gain some of the beneficial qualities of an animal.
-"ant-haul,-communal","As <i><a href=""/pathfinderRPG/prd/advanced/spells/antHaul.html#_ant-haul-"">ant haul</a></i>, but you may divide the duration among creatures touched."
+ant-haul-communal,"As <i><a href=""/pathfinderRPG/prd/advanced/spells/antHaul.html#_ant-haul-"">ant haul</a></i>, but you may divide the duration among creatures touched."
 brow-gasher,Slashing weapon deals bleed damage to an opponent's head.
 effortless-armor,Armor you wear no longer slows your speed.
-"endure-elements,-communal","As <i><a href=""/pathfinderRPG/prd/spells/endureElements.html#_endure-elements"">endure elements</a></i>, but you may divide the duration among creatures touched."
+endure-elements-communal,"As <i><a href=""/pathfinderRPG/prd/spells/endureElements.html#_endure-elements"">endure elements</a></i>, but you may divide the duration among creatures touched."
 forest-friend-,Plants in a forested area become helpful instead of hindering you and your allies.
 locate-weakness,You roll damage twice when you roll damage for a critical hit and take the best damage.
 reloading-hands,Loads a single shot into your weapon every round.
-"returning-weapon,-communal","As <i><a href=""spells/returningWeapon.html#_returning-weapon"">returning weapon</a></i>, but you may divide the duration among weapons touched."
+returning-weapon-communal,"As <i><a href=""spells/returningWeapon.html#_returning-weapon"">returning weapon</a></i>, but you may divide the duration among weapons touched."
 ricochet-shot,Imbues a projectile weapon to give its ammunition the ability to ricochet.
 wilderness-soldiers,Nearby plants aid you in combat.
-"animal-aspect,-greater","As <i><a href=""spells/animalAspect.html#_animal-aspect"">animal aspect</a></i>, but you gain two animal qualities."
+animal-aspect-greater,"As <i><a href=""spells/animalAspect.html#_animal-aspect"">animal aspect</a></i>, but you gain two animal qualities."
 burst-of-speed,"You gain increased speed, and your movement ignores attacks of opportunity and allows you to move through the space of creatures larger than you are."
 companion-mind-link,"You can talk with your animal companion, and can handle it with supernatural ease."
-"delay-poison,-communal","As <i><a href=""/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison"">delay poison</a></i>, but you may divide the duration among creatures touched."
+delay-poison-communal,"As <i><a href=""/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison"">delay poison</a></i>, but you may divide the duration among creatures touched."
 named-bullet,Imbues ammunition with accuracy against a specific creature type.
-"protection-from-energy,-communal","As <i><a href=""/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy"">protection from energy</a></i>, but you may divide the duration among creatures touched."
-"resist-energy,-communal","As <i><a href=""/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy"">resist energy</a></i>, but you may divide the duration among creatures touched."
-"darkvision,-communal","As <i><a href=""/pathfinderRPG/prd/spells/darkvision.html#_darkvision"">darkvision</a></i>, but you may divide the duration among creatures touched."
+protection-from-energy-communal,"As <i><a href=""/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy"">protection from energy</a></i>, but you may divide the duration among creatures touched."
+resist-energy-communal,"As <i><a href=""/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy"">resist energy</a></i>, but you may divide the duration among creatures touched."
+darkvision-communal,"As <i><a href=""/pathfinderRPG/prd/spells/darkvision.html#_darkvision"">darkvision</a></i>, but you may divide the duration among creatures touched."
 find-quarry,You can sense whether a particular creature is within 20 miles of your location.
-"named-bullet,-greater","As <i><a href=""spells/namedBullet.html#_named-bullet"">named bullet</a></i>, but deals 2 points of damage per caster level."
+named-bullet-greater,"As <i><a href=""spells/namedBullet.html#_named-bullet"">named bullet</a></i>, but deals 2 points of damage per caster level."
 terrain-bond,Treat the terrain you are in as a favored terrain for the spell's duration.
-"water-walk,-communal","As <i><a href=""/pathfinderRPG/prd/spells/waterWalk.html#_water-walk"">water walk</a></i>, but you may divide the duration among creatures touched."
+water-walk-communal,"As <i><a href=""/pathfinderRPG/prd/spells/waterWalk.html#_water-walk"">water walk</a></i>, but you may divide the duration among creatures touched."
 haunted-fey-aspect,You surround yourself with disturbing illusions.
 adjuring-step-,"You can move slowly and safely and still cast spells, until you move quickly, make an attack, or cast a harmful spell."
 abundant-ammunition,Replaces nonmagical ammunition every round.
@@ -2010,27 +2010,27 @@ unerring-weapon,"Grants a +2 bonus, +1 per four caster levels, on attack rolls t
 weaken-powder,Targeted firearm's ammunition halves the firearm's range and imposes a –2 penalty on damage rolls.
 adoration,"You gain a bonus on <a href=""/pathfinderRPG/prd/skills/diplomacy.html#_diplomacy"">Diplomacy</a> checks and performance combat checks."
 animal-aspect,You gain some of the beneficial qualities of an animal.
-"ant-haul,-communal","As <i><a href=""/pathfinderRPG/prd/advanced/spells/antHaul.html#_ant-haul-"">ant haul</a></i>, but you may divide the duration among creatures touched."
+ant-haul-communal,"As <i><a href=""/pathfinderRPG/prd/advanced/spells/antHaul.html#_ant-haul-"">ant haul</a></i>, but you may divide the duration among creatures touched."
 bestow-weapon-proficiency,Grants a creature proficiency in a single weapon for short period of time.
 brow-gasher,Slashing weapon deals bleed damage to an opponent's head.
 bullet-shield,You gain a +4 deflection bonus to AC against firearm attacks.
 certain-grip-,"You gain a +4 competence bonus on <a href=""/pathfinderRPG/prd/skills/acrobatics.html#_acrobatics"">Acrobatics</a> and <a href=""/pathfinderRPG/prd/skills/climb.html#_climb"">Climb</a> checks and to CMD."
 destabilize-powder,Ammunition in the targeted firearm is prone to misfire.
-"endure-elements,-communal","As <i><a href=""/pathfinderRPG/prd/spells/endureElements.html#_endure-elements"">endure elements</a></i>, but you may divide the duration among creatures touched."
+endure-elements-communal,"As <i><a href=""/pathfinderRPG/prd/spells/endureElements.html#_endure-elements"">endure elements</a></i>, but you may divide the duration among creatures touched."
 fiery-shuriken-,Calls forth several fiery projectiles ready to be flung at opponents.
 frost-fall,The area is covered in a chilling frost.
 kinetic-reverberation-,Channels the force of an enemy's attack back into its weapon.
 magic-siege-engine,Siege gains +1 on targeting and damage rolls.
-"mount,-communal","As <i><a href=""/pathfinderRPG/prd/spells/mount.html#_mount"">mount</a></i>, but you may divide the duration among creatures touched."
+mount-communal,"As <i><a href=""/pathfinderRPG/prd/spells/mount.html#_mount"">mount</a></i>, but you may divide the duration among creatures touched."
 pilfering-hand,You may seize an object or manipulate it from afar.
 reloading-hands,Loads a single shot into your weapon every round.
-"protection-from-chaos,-communal","As <i><a href=""/pathfinderRPG/prd/spells/protectionFromChaos.html#_protection-from-chaos"">protection from chaos</a></i>, but you may divide the duration among creatures touched."
-"protection-from-evil,-communal","As <i><a href=""/pathfinderRPG/prd/spells/protectionFromEvil.html#_protection-from-evil"">protection from evil</a></i>, but you may divide the duration among creatures touched."
-"protection-from-good,-communal","As <i><a href=""/pathfinderRPG/prd/spells/protectionFromGood.html#_protection-from-good"">protection from good</a></i>, but you may divide the duration among creatures touched."
-"protection-from-law,-communal","As <i><a href=""/pathfinderRPG/prd/spells/protectionFromLaw.html#_protection-from-law"">protection from law</a></i>, but you may divide the duration among creatures touched."
+protection-from-chaos-communal,"As <i><a href=""/pathfinderRPG/prd/spells/protectionFromChaos.html#_protection-from-chaos"">protection from chaos</a></i>, but you may divide the duration among creatures touched."
+protection-from-evil-communal,"As <i><a href=""/pathfinderRPG/prd/spells/protectionFromEvil.html#_protection-from-evil"">protection from evil</a></i>, but you may divide the duration among creatures touched."
+protection-from-good-communal,"As <i><a href=""/pathfinderRPG/prd/spells/protectionFromGood.html#_protection-from-good"">protection from good</a></i>, but you may divide the duration among creatures touched."
+protection-from-law-communal,"As <i><a href=""/pathfinderRPG/prd/spells/protectionFromLaw.html#_protection-from-law"">protection from law</a></i>, but you may divide the duration among creatures touched."
 qualm,"Target gains penalties on ability checks, skill checks, and concentration checks until it spends an entire round doing nothing."
 recoil-fire,Ammunition in the targeted firearm generates excessive recoil.
-"reinforce-armaments,-communal","As <i><a href=""spells/reinforceArmaments.html#_reinforce-armaments"">reinforce armaments</a></i>, but you may divide the duration among objects touched."
+reinforce-armaments-communal,"As <i><a href=""spells/reinforceArmaments.html#_reinforce-armaments"">reinforce armaments</a></i>, but you may divide the duration among objects touched."
 returning-weapon,"Grants a weapon the <i><a href=""/pathfinderRPG/prd/magicItems/weapons.html#_weapons-returning"">returning</a></i> special weapon quality."
 ricochet-shot,Imbues a projectile weapon to give its ammunition the ability to ricochet.
 spontaneous-immolation,Target takes 3d6 points of fire damage and catches on fire.
@@ -2042,79 +2042,79 @@ twisted-space,Targeted creature's attacks target a random square instead of the 
 warding-weapon,"The weapon you use for the focus of this spell defends you, allowing you to cast spells without provoking attacks of opportunity."
 ablative-barrier,Surrounds the target with layers of force.
 chain-of-perdition,Creates a floating chain of force.
-"darkvision,-communal","As <i><a href=""/pathfinderRPG/prd/spells/darkvision.html#_darkvision"">darkvision</a></i>, but you may divide the duration among creatures touched."
+darkvision-communal,"As <i><a href=""/pathfinderRPG/prd/spells/darkvision.html#_darkvision"">darkvision</a></i>, but you may divide the duration among creatures touched."
 flash-fire,Ammunition in the targeted firearm creates a tremendous flash capable of blinding the weapon's bearer and those around him.
 healing-thief,You siphon half of all magical healing that the targeted creature receives.
 hostile-levitation,Levitates the targeted creature up off the ground.
 locate-weakness,You roll damage twice when you roll damage for a critical hit and take the best damage.
 pellet-blast,Creates an explosion of conjured metal pellets.
 phantom-driver,Conjures a phantom to drive vehicles.
-"protection-from-arrows,-communal","As <i><a href=""/pathfinderRPG/prd/spells/protectionFromArrows.html#_protection-from-arrows"">protection from arrows</a></i>, but you may divide the duration among creatures touched."
+protection-from-arrows-communal,"As <i><a href=""/pathfinderRPG/prd/spells/protectionFromArrows.html#_protection-from-arrows"">protection from arrows</a></i>, but you may divide the duration among creatures touched."
 pup-shape,Transforms a single animal or magical beast into a younger and cuter version of itself for a short period of time.
 resinous-skin,You gain DR 5/piercing and +4 to CMD against disarm attempts.
-"resist-energy,-communal","As <i><a href=""/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy"">resist energy</a></i>, but you may divide the duration among creatures touched."
-"returning-weapon,-communal","As <i><a href=""spells/returningWeapon.html#_returning-weapon"">returning weapon</a></i>, but you may divide the duration among weapons touched."
-"share-language,-communal","As <i><a href=""/pathfinderRPG/prd/advanced/spells/shareLanguage.html#_share-language-"">share language</a></i>, but you may divide the duration among creatures touched."
-"spider-climb,-communal","As <i><a href=""/pathfinderRPG/prd/spells/spiderClimb.html#_spider-climb"">spider climb</a></i>, but you may divide the duration among creatures touched."
+resist-energy-communal,"As <i><a href=""/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy"">resist energy</a></i>, but you may divide the duration among creatures touched."
+returning-weapon-communal,"As <i><a href=""spells/returningWeapon.html#_returning-weapon"">returning weapon</a></i>, but you may divide the duration among weapons touched."
+share-language-communal,"As <i><a href=""/pathfinderRPG/prd/advanced/spells/shareLanguage.html#_share-language-"">share language</a></i>, but you may divide the duration among creatures touched."
+spider-climb-communal,"As <i><a href=""/pathfinderRPG/prd/spells/spiderClimb.html#_spider-climb"">spider climb</a></i>, but you may divide the duration among creatures touched."
 touch-injection,"You can deliver an infusion, elixir, poison, or potion as a touch attack."
-"animal-aspect,-greater","As <i><a href=""spells/animalAspect.html#_animal-aspect"">animal aspect</a></i>, but you gain two animal qualities."
-"magic-siege-engine,-greater",Siege engine gains +1 on targeting and damage rolls for every four caster levels.
+animal-aspect-greater,"As <i><a href=""spells/animalAspect.html#_animal-aspect"">animal aspect</a></i>, but you gain two animal qualities."
+magic-siege-engine-greater,Siege engine gains +1 on targeting and damage rolls for every four caster levels.
 named-bullet,Imbues ammunition with accuracy against a specific creature type.
-"nondetection,-communal","As <i><a href=""/pathfinderRPG/prd/spells/nondetection.html#_nondetection"">nondetection</a></i>, but you may divide the duration among creatures touched."
+nondetection-communal,"As <i><a href=""/pathfinderRPG/prd/spells/nondetection.html#_nondetection"">nondetection</a></i>, but you may divide the duration among creatures touched."
 obsidian-flow,Converts the surface of the ground into molten glass.
 phantom-chariot,Conjures a quasi-real heavy chariot pulled by four horses.
-"phantom-steed,-communal","As <i><a href=""/pathfinderRPG/prd/spells/phantomSteed.html#_phantom-steed"">phantom steed</a></i>, but you may divide the duration among creatures touched."
-"protection-from-energy,-communal","As <i><a href=""/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy"">protection from energy</a></i>, but you may divide the duration among creatures touched."
+phantom-steed-communal,"As <i><a href=""/pathfinderRPG/prd/spells/phantomSteed.html#_phantom-steed"">phantom steed</a></i>, but you may divide the duration among creatures touched."
+protection-from-energy-communal,"As <i><a href=""/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy"">protection from energy</a></i>, but you may divide the duration among creatures touched."
 shocking-image,"As <i><a href=""/pathfinderRPG/prd/spells/mirrorImage.html#_mirror-image"">mirror image</a></i>, but the duplicates emit electrical damage when destroyed."
 telekinetic-charge-,Launches an ally through the air.
-"tongues,-communal","As <i><a href=""/pathfinderRPG/prd/spells/tongues.html#_tongues"">tongues</a></i>, but you may divide the duration among creatures touched."
+tongues-communal,"As <i><a href=""/pathfinderRPG/prd/spells/tongues.html#_tongues"">tongues</a></i>, but you may divide the duration among creatures touched."
 absorb-toxicity,"You become immune to diseases and toxins, absorb one, and then spread it to others."
 energy-siege-shot,A Large siege engine deals energy damage that you designate with other effects depending on the type of energy you choose.
 hostile-juxtaposition,"You create a dimensional link with a targeted creature, and switch spots with it."
-"stoneskin,-communal","As <i><a href=""/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin"">stoneskin</a></i>, but you may divide the duration among creatures touched."
+stoneskin-communal,"As <i><a href=""/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin"">stoneskin</a></i>, but you may divide the duration among creatures touched."
 summoner-conduit,The target eidolon's summoner takes damage whenever the eidolon does.
 symbol-of-striking,"As <i><a href=""/pathfinderRPG/prd/spells/symbolOfDeath.html#_symbol-of-death"">symbol of death</a></i>, but fills a 5-foot square."
 wreath-of-blades,"Four mithral daggers speed around you, attacking nearby creatures and protecting your spellcasting from attacks of opportunity."
-"energy-siege-shot,-greater","As <i><a href=""spells/energySiegeShot.html#_energy-siege-shot"">energy siege shot</a></i>, but you can affect any size siege engine."
-"named-bullet,-greater","As <i><a href=""spells/namedBullet.html#_named-bullet"">named bullet</a></i>, but deals 2 points of damage for every caster level."
+energy-siege-shot-greater,"As <i><a href=""spells/energySiegeShot.html#_energy-siege-shot"">energy siege shot</a></i>, but you can affect any size siege engine."
+named-bullet-greater,"As <i><a href=""spells/namedBullet.html#_named-bullet"">named bullet</a></i>, but deals 2 points of damage for every caster level."
 tar-pool,Converts the top layer of the ground into hot tar.
 arcane-cannon,Your focus becomes a magical cannon that fires on its own.
-"hostile-juxtaposition,-greater",You may target one creature for every four of your caster levels.
+hostile-juxtaposition-greater,You may target one creature for every four of your caster levels.
 walk-through-space,You can spend a move action to teleport 30 feet or to stand while prone without provoking attacks of opportunity.
 frightful-aspect,"You take on a terrifying, Large-sized form of yourself and emit an aura that causes creatures to become shaken or frightened."
 heroic-invocation,"Grants a number of creatures bonuses on attacks and damage, temporary hit points, and immunity to fear and charm effects."
-"mind-blank,-communal","As <i><a href=""/pathfinderRPG/prd/spells/mindBlank.html#_mind-blank"">mind blank</a></i>, but you may divide the duration among creatures touched."
+mind-blank-communal,"As <i><a href=""/pathfinderRPG/prd/spells/mindBlank.html#_mind-blank"">mind blank</a></i>, but you may divide the duration among creatures touched."
 compel-hostility,Compels opponents to attack you instead of your allies.
 jury-rig,Removes the broken condition from the targeted object.
 life-conduit,"You are bound even tighter to your eidolon than normal, and may share hit points with it through your life link ability."
 ablative-barrier,Surrounds the target with layers of force.
-"ant-haul,-communal","As <i><a href=""/pathfinderRPG/prd/advanced/spells/antHaul.html#_ant-haul-"">ant haul</a></i>, but you may divide the duration among creatures touched."
-"mount,-communal","As <i><a href=""/pathfinderRPG/prd/spells/mount.html#_mount"">mount</a></i>, but you may divide the duration among creatures touched."
-"protection-from-chaos,-communal","As <i><a href=""/pathfinderRPG/prd/spells/protectionFromChaos.html#_protection-from-chaos"">protection from chaos</a></i>, but you may divide the duration among creatures touched."
-"protection-from-evil,-communal","As <i><a href=""/pathfinderRPG/prd/spells/protectionFromEvil.html#_protection-from-evil"">protection from evil</a></i>, but you may divide the duration among creatures touched."
-"protection-from-good,-communal","As <i><a href=""/pathfinderRPG/prd/spells/protectionFromGood.html#_protection-from-good"">protection from good</a></i>, but you may divide the duration among creatures touched."
-"protection-from-law,-communal","As <i><a href=""/pathfinderRPG/prd/spells/protectionFromLaw.html#_protection-from-law"">protection from law</a></i>, but you may divide the duration among creatures touched."
+ant-haul-communal,"As <i><a href=""/pathfinderRPG/prd/advanced/spells/antHaul.html#_ant-haul-"">ant haul</a></i>, but you may divide the duration among creatures touched."
+mount-communal,"As <i><a href=""/pathfinderRPG/prd/spells/mount.html#_mount"">mount</a></i>, but you may divide the duration among creatures touched."
+protection-from-chaos-communal,"As <i><a href=""/pathfinderRPG/prd/spells/protectionFromChaos.html#_protection-from-chaos"">protection from chaos</a></i>, but you may divide the duration among creatures touched."
+protection-from-evil-communal,"As <i><a href=""/pathfinderRPG/prd/spells/protectionFromEvil.html#_protection-from-evil"">protection from evil</a></i>, but you may divide the duration among creatures touched."
+protection-from-good-communal,"As <i><a href=""/pathfinderRPG/prd/spells/protectionFromGood.html#_protection-from-good"">protection from good</a></i>, but you may divide the duration among creatures touched."
+protection-from-law-communal,"As <i><a href=""/pathfinderRPG/prd/spells/protectionFromLaw.html#_protection-from-law"">protection from law</a></i>, but you may divide the duration among creatures touched."
 twisted-space,Targeted creature's attacks target a random square instead of the intended target.
 warding-weapon,"The weapon you use for the focus of this spell defends you, allowing you to cast spells without provoking attacks of opportunity."
 pellet-blast,Creates an explosion of conjured metal pellets.
-"life-conduit,-improved",Transfers 2d6 hit points to your eidolon as a swift action.
+life-conduit-improved,Transfers 2d6 hit points to your eidolon as a swift action.
 obsidian-flow,Converts the surface of the ground into molten glass.
 phantom-chariot,Conjures a quasi-real heavy chariot pulled by four horses.
-"phantom-steed,-communal","As <i><a href=""/pathfinderRPG/prd/spells/phantomSteed.html#_phantom-steed"">phantom steed</a></i>, but you may divide the duration among creatures touched."
-"protection-from-arrows,-communal","As <i><a href=""/pathfinderRPG/prd/spells/protectionFromArrows.html#_protection-from-arrows"">protection from arrows</a></i>, but you may divide the duration among creatures touched."
-"resist-energy,-communal","As <i><a href=""/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy"">resist energy</a></i>, but you may divide the duration among creatures touched."
-"spider-climb,-communal","As <i><a href=""/pathfinderRPG/prd/spells/spiderClimb.html#_spider-climb"">spider climb</a></i>, but you may divide the duration among creatures touched."
+phantom-steed-communal,"As <i><a href=""/pathfinderRPG/prd/spells/phantomSteed.html#_phantom-steed"">phantom steed</a></i>, but you may divide the duration among creatures touched."
+protection-from-arrows-communal,"As <i><a href=""/pathfinderRPG/prd/spells/protectionFromArrows.html#_protection-from-arrows"">protection from arrows</a></i>, but you may divide the duration among creatures touched."
+resist-energy-communal,"As <i><a href=""/pathfinderRPG/prd/spells/resistEnergy.html#_resist-energy"">resist energy</a></i>, but you may divide the duration among creatures touched."
+spider-climb-communal,"As <i><a href=""/pathfinderRPG/prd/spells/spiderClimb.html#_spider-climb"">spider climb</a></i>, but you may divide the duration among creatures touched."
 hostile-juxtaposition,"You create a dimensional link with a targeted creature, and switch spots with it."
-"protection-from-energy,-communal","As <i><a href=""/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy"">protection from energy</a></i>, but you may divide the duration among creatures touched."
-"stoneskin,-communal","As <i><a href=""/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin"">stoneskin</a></i>, but you may divide the duration among creatures touched."
+protection-from-energy-communal,"As <i><a href=""/pathfinderRPG/prd/spells/protectionFromEnergy.html#_protection-from-energy"">protection from energy</a></i>, but you may divide the duration among creatures touched."
+stoneskin-communal,"As <i><a href=""/pathfinderRPG/prd/spells/stoneskin.html#_stoneskin"">stoneskin</a></i>, but you may divide the duration among creatures touched."
 summoner-conduit,The target takes damage whenever its summoned creature does.
-"tongues,-communal","As <i><a href=""/pathfinderRPG/prd/spells/tongues.html#_tongues"">tongues</a></i>, but you may divide the duration among creatures touched."
+tongues-communal,"As <i><a href=""/pathfinderRPG/prd/spells/tongues.html#_tongues"">tongues</a></i>, but you may divide the duration among creatures touched."
 energy-siege-shot,A Large siege engine deals energy damage that you designate with other effects depending on the type of energy you choose.
-"life-conduit,-greater",You transfer 3d6 hit points to your eidolon as a swift action.
+life-conduit-greater,You transfer 3d6 hit points to your eidolon as a swift action.
 tar-pool,Converts the top layer of the ground into hot tar.
 wreath-of-blades,"Four mithral daggers speed around you, attacking nearby creatures and protecting your spellcasting from attacks of opportunity."
-"energy-siege-shot,-greater","As <i><a href=""spells/energySiegeShot.html#_energy-siege-shot"">energy siege shot</a></i>, but you can affect any size siege engine."
-"hostile-juxtaposition,-greater",You may target one creature for every four of your caster levels.
+energy-siege-shot-greater,"As <i><a href=""spells/energySiegeShot.html#_energy-siege-shot"">energy siege shot</a></i>, but you can affect any size siege engine."
+hostile-juxtaposition-greater,You may target one creature for every four of your caster levels.
 walk-through-space,You can spend a move action to teleport 30 feet or to stand while prone without provoking attacks of opportunity.
 air-bubble,Creates a small pocket of air around your head or an object.
 compel-hostility,Compels opponents to attack you instead of your allies.
@@ -2130,36 +2130,36 @@ adoration,"You gain a bonus on <a href=""/pathfinderRPG/prd/skills/diplomacy.htm
 bestow-weapon-proficiency,Grants a creature proficiency in a single weapon for short period of time.
 destabilize-powder,Ammunition in the targeted firearm is prone to misfire.
 frost-fall,The area is covered in a chilling frost.
-"mask-dweomer,-communal","As <i><a href=""/pathfinderRPG/prd/advanced/spells/maskDweomer.html#_mask-dweomer"">mask dweomer</a></i>, but you may divide the duration among creatures touched."
-"mount,-communal","As <i><a href=""/pathfinderRPG/prd/spells/mount.html#_mount"">mount</a></i>, but you may divide the duration among creatures touched."
+mask-dweomer-communal,"As <i><a href=""/pathfinderRPG/prd/advanced/spells/maskDweomer.html#_mask-dweomer"">mask dweomer</a></i>, but you may divide the duration among creatures touched."
+mount-communal,"As <i><a href=""/pathfinderRPG/prd/spells/mount.html#_mount"">mount</a></i>, but you may divide the duration among creatures touched."
 qualm,"Target gains penalties on ability checks, skill checks, and concentration checks until it spends an entire round doing nothing."
 recoil-fire,Ammunition in the targeted firearm generates excessive recoil.
-"reinforce-armaments,-communal","As <i><a href=""spells/reinforceArmaments.html#_reinforce-armaments"">reinforce armaments</a></i>, but you may divide the spell's duration among objects touched."
+reinforce-armaments-communal,"As <i><a href=""spells/reinforceArmaments.html#_reinforce-armaments"">reinforce armaments</a></i>, but you may divide the spell's duration among objects touched."
 returning-weapon,"Grants a weapon the <i><a href=""/pathfinderRPG/prd/magicItems/weapons.html#_weapons-returning"">returning</a></i> special weapon quality."
 stabilize-powder,Ammunition in the targeted firearm is less likely to misfire.
 thunder-fire,Ammunition in the targeted firearm deafens opponents.
-"delay-poison,-communal","As <i><a href=""/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison"">delay poison</a></i>, but you may divide the duration among creatures touched."
+delay-poison-communal,"As <i><a href=""/pathfinderRPG/prd/spells/delayPoison.html#_delay-poison"">delay poison</a></i>, but you may divide the duration among creatures touched."
 flash-fire,Ammunition in the targeted firearm creates a tremendous flash capable of blinding the weapon's bearer and those around him.
 healing-thief,You siphon half of all magical healing that the targeted creature receives.
 hostile-levitation,Levitates the targeted creature up off the ground.
 locate-weakness,You roll damage twice when you roll damage for a critical hit and take the best damage.
 pup-shape,Transforms a single animal or magical beast into a younger and cuter version of itself for a short period of time.
-"returning-weapon,-communal","As <i><a href=""spells/returningWeapon.html#_returning-weapon"">returning weapon</a></i>, but you may divide the duration among weapons touched."
+returning-weapon-communal,"As <i><a href=""spells/returningWeapon.html#_returning-weapon"">returning weapon</a></i>, but you may divide the duration among weapons touched."
 absorb-toxicity,"You become immune to diseases and toxins, absorb one, and then spread it to others."
 debilitating-portent,"Inflicts an ill fate on a creature, halving its damage when it attacks or casts a spell"
 named-bullet,Imbues ammunition with accuracy against a specific creature type.
-"tongues,-communal","As <i><a href=""/pathfinderRPG/prd/spells/tongues.html#_tongues"">tongues</a></i>, but you may divide the duration among creatures touched."
+tongues-communal,"As <i><a href=""/pathfinderRPG/prd/spells/tongues.html#_tongues"">tongues</a></i>, but you may divide the duration among creatures touched."
 hostile-juxtaposition,"You create a dimensional link with a targeted creature, and switch spots with it."
 summoner-conduit,The target takes damage whenever its summoned creature does.
 symbol-of-striking,"As <i><a href=""/pathfinderRPG/prd/spells/symbolOfDeath.html#_symbol-of-death"">symbol of death</a></i>, but fills a 5-foot square."
 wreath-of-blades,"Four mithral daggers speed around you, attacking nearby creatures and protecting your spellcasting from attacks of opportunity."
 dust-form,You become an incorporeal creature of dust for a short period of time.
-"named-bullet,-greater","As <i><a href=""spells/namedBullet.html#_named-bullet"">named bullet</a></i>, but deals 2 points of damage for every caster level."
-"hostile-juxtaposition,-greater",You may target one creature for every four of your caster levels.
+named-bullet-greater,"As <i><a href=""spells/namedBullet.html#_named-bullet"">named bullet</a></i>, but deals 2 points of damage for every caster level."
+hostile-juxtaposition-greater,You may target one creature for every four of your caster levels.
 walk-through-space,You can spend a move action to teleport 30 feet or to stand while prone without provoking attacks of opportunity.
 frightful-aspect,"You take on a terrifying, Large-sized form of yourself and emit an aura that causes creatures to become shaken or frightened."
 heroic-invocation,"Grants a number of creatures bonuses on attacks and damage, temporary hit points, and immunity to fear and charm effects."
-"mind-blank,-communal","As <i><a href=""/pathfinderRPG/prd/spells/mindBlank.html#_mind-blank"">mind blank</a></i>, but you may divide the duration among creatures touched."
+mind-blank-communal,"As <i><a href=""/pathfinderRPG/prd/spells/mindBlank.html#_mind-blank"">mind blank</a></i>, but you may divide the duration among creatures touched."
 anticipate-peril,Target gains a bonus on one initiative check.
 polypurpose-panacea,Gain a relaxing or entertaining effect.
 vocal-alteration,"<a href=""/pathfinderRPG/prd//skills/disguise.html#_disguise"">Disguise</a> target's voice."
@@ -2169,7 +2169,7 @@ blood-transcription,Learn a spell from the target's blood.
 defensive-shock,Electricity damages your attackers.
 ghostly-disguise,You look like a ghost of yourself.
 skinsend,Animate and possess your own skin as if it were a separate creature.
-"age-resistance,-lesser",Ignore penalties from middle age.
+age-resistance-lesser,Ignore penalties from middle age.
 burrow,Target gains a burrow speed of 15.
 countless-eyes,Extra eyes give all-around vision.
 eruptive-pustules,Acid boils burst when you are attacked.
@@ -2177,14 +2177,14 @@ marionette-possession,"As <i><a href=""/pathfinderRPG/prd//spells/magicJar.html#
 monstrous-physique-i,Take the form and some of the powers of a Small or Medium monstrous humanoid.
 undead-anatomy-i,Take the form and some of the powers of a Small or Medium undead.
 age-resistance,Ignore penalties from old age.
-"darkvision,-greater",See 120 ft. in total darkness.
+darkvision-greater,See 120 ft. in total darkness.
 echolocation,Sonic sense gives you blindsight 40 ft.
-"false-life,-greater",Gain 2d10 temporary hp + 1/level.
+false-life-greater,Gain 2d10 temporary hp + 1/level.
 monstrous-physique-ii,Take the form and some of the powers of a Tiny or Large monstrous humanoid.
 touch-of-slime,Touch infests a target with green slime.
 vermin-shape-i-,Take the form and some of the powers of a Small or Medium vermin.
 vitriolic-mist,"As <i><a href=""/pathfinderRPG/prd//spells/fireShield.html#_fire-shield"">fire shield</a></i>, except acid damage."
-"age-resistance,-greater",Ignore any penalties from venerable age.
+age-resistance-greater,Ignore any penalties from venerable age.
 monstrous-physique-iii,Take the form and some of the powers of a Diminutive or Huge monstrous humanoid.
 undead-anatomy-ii,Take the form and some of the powers of a Tiny or Large undead.
 vermin-shape-ii,"As <i>vermin shape</i>, but Tiny or Large."
@@ -2199,7 +2199,7 @@ unadulterated-loathing,Target is compelled to avoid another creature.
 vestment-of-the-champion,Armor or shield gains a <br/>+1 enhancement per four levels.
 blade-of-dark-triumph,"Bonded weapon gains <i><a href=""/pathfinderRPG/prd//magicItems/weapons.html#_weapons-ghost-touch"">ghost touch</a></i>."
 utter-contempt,Target's attitude worsens by two categories.
-"darkvision,-greater",See 120 ft. in total darkness.
+darkvision-greater,See 120 ft. in total darkness.
 unholy-sword,"Weapon becomes +5, deals +2d6 damage vs. good."
 anticipate-peril,Target gains a bonus on one initiative check.
 chord-of-shards,Performance deals 2d6 piercing damage.
@@ -2250,7 +2250,7 @@ terrible-remorse,Creature is compelled to harm itself.
 vision-of-hell,Illusory hellscape makes creatures shaken.
 witness,See through the target's eyes and ears.
 dance-of-a-hundred-cuts,Gain +1 combat bonus/3 levels.
-"daze,-mass","As <i><a href=""/pathfinderRPG/prd//spells/daze.html#_daze"">daze</a></i>, but affecting multiple creatures."
+daze-mass,"As <i><a href=""/pathfinderRPG/prd//spells/daze.html#_daze"">daze</a></i>, but affecting multiple creatures."
 echolocation,Sonic sense gives you blindsight 40 ft.
 envious-urge,Targets steal from or disarm others.
 primal-scream,Free yourself from enchantments and paralysis effects.
@@ -2278,7 +2278,7 @@ remove-sickness,"Suppress disease, nausea, and the sickened condition."
 restore-corpse,Skeletal corpse grows flesh.
 sanctify-corpse,Prevent a corpse from becoming an undead creature.
 summon-minor-monster,Summon 1d3 Tiny animals.
-"animate-dead,-lesser",Create one skeleton or zombie.
+animate-dead-lesser,Create one skeleton or zombie.
 arrow-of-law,Harm and possibly daze chaotic creatures.
 boiling-blood,Targets take fire damage; orcs get +2 Strength.
 compassionate-ally,Target is compelled to help injured ally.
@@ -2312,12 +2312,12 @@ spit-venom,Spit blinding black adder venom.
 symbol-of-revelation,Triggered symbol reveals illusions.
 symbol-of-slowing,Triggered rune slows creatures.
 terrible-remorse,Creature is compelled to harm itself.
-"astral-projection,-lesser",Limited astral travel.
-"contagion,-greater",Infect a subject with a magical disease.
+astral-projection-lesser,Limited astral travel.
+contagion-greater,Infect a subject with a magical disease.
 curse-of-magic-negation,Target gains the negated spellblight.
-"curse,-major","As <i><a href=""/pathfinderRPG/prd//spells/bestowCurse.html#_bestow-curse"">bestow curse</a></i>, but harder to remove."
+curse-major,"As <i><a href=""/pathfinderRPG/prd//spells/bestowCurse.html#_bestow-curse"">bestow curse</a></i>, but harder to remove."
 fickle-winds,Wind walls selectively block attacks.
-"forbid-action,-greater","As <i><a href=""/pathfinderRPG/prd/ultimateMagic/spells/forbidAction.html#_forbid-action"">forbid action</a></i>, but 1 creature/level."
+forbid-action-greater,"As <i><a href=""/pathfinderRPG/prd/ultimateMagic/spells/forbidAction.html#_forbid-action"">forbid action</a></i>, but 1 creature/level."
 holy-ice,Create wall or javelins of frozen holy water.
 rapid-repair,Construct gains fast healing 5.
 reprobation,Marked target is shunned by your religion.
@@ -2331,13 +2331,13 @@ plague-storm,"Cloud infects creatures like <i><a href=""/pathfinderRPG/prd//spel
 symbol-of-sealing,"Creates triggered <i><a href=""/pathfinderRPG/prd//spells/wallOfForce.html#_wall-of-force"">wall of force</a></i>."
 bestow-grace-of-the-champion,Target gains paladin abilities for 1 round/level.
 circle-of-clarity,Emanation hampers illusions and stealth.
-"create-demiplane,-lesser",Create your own demiplane.
+create-demiplane-lesser,Create your own demiplane.
 lunar-veil,Dispel light and revert lycanthropes.
 waves-of-ecstasy,Pleasure stuns and staggers creatures.
 call-construct,Summon your golem to you.
 create-demiplane,"As <i><a href=""/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane,-lesser"">lesser create demiplane</a></i>, but larger and with planar traits."
 orb-of-the-void,Sphere inflicts negative levels.
-"create-demiplane,-greater","As <i><a href=""/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane"">create demiplane</a></i>, but larger and with more planar traits."
+create-demiplane-greater,"As <i><a href=""/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane"">create demiplane</a></i>, but larger and with more planar traits."
 cursed-earth,"Plants die, living creatures catch diseases, or dead creatures rise as zombies."
 interplanetary-teleport,Teleport to another planet.
 overwhelming-presence,Creatures bow before you as if you were divine.
@@ -2369,7 +2369,7 @@ mad-monkeys,Summon a swarm of mischievous monkeys.
 rain-of-frogs,Summon a swarm of poisonous frogs.
 spit-venom,Spit blinding black adder venom.
 vermin-shape-i-,Take the form and some of the powers of a Small or Medium vermin.
-"age-resistance,-lesser",Ignore penalties from middle age.
+age-resistance-lesser,Ignore penalties from middle age.
 arboreal-hammer,Tree branches attack opponents.
 atavism,Animal gains advanced creature simple template.
 cape-of-wasps,Wasp swarm defends or carries you.
@@ -2379,7 +2379,7 @@ ride-the-waves,Target can breathe water and swim.
 touch-of-slime,Touch infests a target with green slime.
 vermin-shape-ii,"As <i>vermin shape</i>, but Tiny or Large."
 volcanic-storm,Hot rocks deal 5d6 damage.
-"contagion,-greater",Infect a subject with a magical disease.
+contagion-greater,Infect a subject with a magical disease.
 fickle-winds,Wind walls selectively block attacks.
 raise-animal-companion,"As <i><a href=""/pathfinderRPG/prd//spells/raiseDead.html#_raise-dead"">raise dead</a></i>, but on an animal."
 reprobation,Marked target is shunned by your religion.
@@ -2387,9 +2387,9 @@ age-resistance,Ignore penalties from old age.
 eagle-aerie,Summon 1 giant eagle/3 levels.
 epidemic,Infect a subject with a highly contagious disease.
 plague-storm,"Cloud infects creatures like <i><a href=""/pathfinderRPG/prd//spells/contagion.html#_contagion"">contagion</a></i>."
-"age-resistance,-greater",Ignore penalties from venerable age.
+age-resistance-greater,Ignore penalties from venerable age.
 scouring-winds,Winds block vision and deal 3d6 damage.
-"atavism,-mass",One animal/level gains advanced template.
+atavism-mass,One animal/level gains advanced template.
 blood-mist,Mist causes Wisdom damage and rage.
 polar-midnight,Cold darkness paralyzes and deals damage.
 summon-elder-worm,Summon a giant purple worm.
@@ -2420,14 +2420,14 @@ terrible-remorse,Creature is compelled to harm itself.
 witness,See through the target's eyes and ears.
 battlemind-link,You and an ally gain attack and AC bonuses.
 curse-of-magic-negation,Target gains the negated spellblight.
-"daze,-mass","As <i><a href=""/pathfinderRPG/prd//spells/daze.html#_daze"">daze</a></i>, but affecting multiple creatures."
+daze-mass,"As <i><a href=""/pathfinderRPG/prd//spells/daze.html#_daze"">daze</a></i>, but affecting multiple creatures."
 fleshworm-infestation,Worms deal hp and Dex damage.
-"interrogation,-greater","As <i><a href=""/pathfinderRPG/prd/ultimateMagic/spells/interrogation.html#_interrogation"">interrogation</a></i>, except with more pain and more questions."
+interrogation-greater,"As <i><a href=""/pathfinderRPG/prd/ultimateMagic/spells/interrogation.html#_interrogation"">interrogation</a></i>, except with more pain and more questions."
 leashed-shackles,Target is restricted to a specific location.
 reprobation,Marked target is shunned by your religion.
 divine-pursuit,Gain a movement type of your prey.
-"forbid-action,-greater","As <i><a href=""/pathfinderRPG/prd/ultimateMagic/spells/forbidAction.html#_forbid-action"">forbid action</a></i>, but 1 creature/level."
-"lend-judgment,-greater",Ally receives all your judgments.
+forbid-action-greater,"As <i><a href=""/pathfinderRPG/prd/ultimateMagic/spells/forbidAction.html#_forbid-action"">forbid action</a></i>, but 1 creature/level."
+lend-judgment-greater,Ally receives all your judgments.
 overwhelming-presence,Creatures bow before you as if you were divine.
 corrosive-touch,Touch attack deals 1d4 acid/level.
 frostbite,Target takes cold damage and is fatigued.
@@ -2477,7 +2477,7 @@ web-shelter,Create a comfortable shelter made of webbing.
 blessing-of-the-mole,"1 ally/level gains darkvision and a +2 <a href=""/pathfinderRPG/prd//skills/stealth.html#_stealth"">Stealth</a> bonus."
 burrow,Target gains a burrow speed of 15.
 fickle-winds,Wind walls selectively block attacks.
-"darkvision,-greater",See 120 ft. in total darkness.
+darkvision-greater,See 120 ft. in total darkness.
 raise-animal-companion,"As <i><a href=""/pathfinderRPG/prd//spells/raiseDead.html#_raise-dead"">raise dead</a></i>, but on an animal."
 anticipate-peril,Target gains a bonus on one initiative check.
 bungle,Target takes a &#8211;20 penalty on its next attack roll or check.
@@ -2525,7 +2525,7 @@ symbol-of-mirroring,Triggered rune creates mirror images.
 unnatural-lust,Target is compelled to kiss or caress another creature.
 unshakable-chill,Target is afflicted with severe cold.
 web-shelter,Create a comfortable shelter made of webbing.
-"animate-dead,-lesser",Create one skeleton or zombie.
+animate-dead-lesser,Create one skeleton or zombie.
 anthropomorphic-animal,Animal becomes bipedal.
 ash-storm,Hamper vision and movement.
 burrow,Target gains a burrow speed of 15.
@@ -2549,13 +2549,13 @@ toxic-gift,Target suffers the effect of the poison in you.
 unadulterated-loathing,Target is compelled to avoid another creature.
 undead-anatomy-i,Take the form and some of the powers of a Small or Medium undead.
 vision-of-hell,Illusory hellscape makes creatures shaken.
-"age-resistance,-lesser",Ignore penalties from middle age.
+age-resistance-lesser,Ignore penalties from middle age.
 agonize-,Pain encourages an outsider to obey you.
 control-summoned-creature,Direct a summoned monster as if you had summoned it.
 curse-of-magic-negation,Target gains the negated spellblight.
-"darkvision,-greater",See 120 ft. in total darkness.
-"daze,-mass","As <i><a href=""/pathfinderRPG/prd//spells/daze.html#_daze"">daze</a></i>, but affecting multiple creatures."
-"false-life,-greater",Gain 2d10 temporary hp + 1/level.
+darkvision-greater,See 120 ft. in total darkness.
+daze-mass,"As <i><a href=""/pathfinderRPG/prd//spells/daze.html#_daze"">daze</a></i>, but affecting multiple creatures."
+false-life-greater,Gain 2d10 temporary hp + 1/level.
 familiar-melding,Possess your familiar.
 fleshworm-infestation,Worms deal hp and Dex damage.
 malfunction,Construct behaves oddly for 1 round/level.
@@ -2564,7 +2564,7 @@ monstrous-physique-ii,Take the form and some of the powers of a Tiny or Large mo
 overwhelming-grief,Grieving target can take no actions and is denied its Dex bonus.
 ride-the-waves,Target can breathe water and swim.
 shadow-step,Teleport from one shadow to another.
-"simulacrum,-lesser",Creates a double of a weak creature.
+simulacrum-lesser,Creates a double of a weak creature.
 symbol-of-revelation,Triggered symbol reveals illusions.
 symbol-of-slowing,Triggered rune slows creatures.
 terrible-remorse,Creature is compelled to harm itself.
@@ -2573,7 +2573,7 @@ vermin-shape-i-,Take the form and some of the powers of a Small or Medium vermin
 vitriolic-mist,"As <i><a href=""/pathfinderRPG/prd//spells/fireShield.html#_fire-shield"">fire shield</a></i>, except acid damage."
 volcanic-storm,Hot rocks deal 5d6 damage.
 acidic-spray,1d6/level acid damage plus 1 round of acid.
-"astral-projection,-lesser",Limited astral travel.
+astral-projection-lesser,Limited astral travel.
 corrosive-consumption,Acidic patch damages an opponent.
 curse-of-disgust,Target is sickened when viewing a trigger.
 echolocation,Sonic sense gives you blindsight 40 ft.
@@ -2596,8 +2596,8 @@ age-resistance,Ignore penalties from old age.
 battlemind-link,You and an ally gain attack and AC bonuses.
 cold-ice-strike,Cone of ice slivers deals 1d6 cold/level.
 conjure-black-pudding,Summon a black pudding.
-"contagion,-greater",Infect a subject with a magical disease.
-"curse,-major","As <i><a href=""/pathfinderRPG/prd//spells/bestowCurse.html#_bestow-curse"">bestow curse</a></i>, but harder to remove."
+contagion-greater,Infect a subject with a magical disease.
+curse-major,"As <i><a href=""/pathfinderRPG/prd//spells/bestowCurse.html#_bestow-curse"">bestow curse</a></i>, but harder to remove."
 envious-urge,Targets steal from or disarm others.
 ice-crystal-teleport,"Target is frozen, then teleported."
 leashed-shackles,Target is restricted to a specific location.
@@ -2607,11 +2607,11 @@ symbol-of-sealing,"Create triggered <i><a href=""/pathfinderRPG/prd//spells/wall
 undead-anatomy-iii,Take the form and some of the powers of a Diminutive or Huge undead.
 utter-contempt,Target's attitude worsens by two categories.
 vengeful-outrage,Target is compelled to destroy one enemy.
-"age-resistance,-greater",Ignore penalties from venerable age.
+age-resistance-greater,Ignore penalties from venerable age.
 caustic-eruption,Burst deals 1d6 acid/level and lingers.
 circle-of-clarity,Emanation hampers illusions and stealth.
 control-construct,Take control of a construct.
-"create-demiplane,-lesser",Create your own demiplane.
+create-demiplane-lesser,Create your own demiplane.
 epidemic,Infect a subject with a highly contagious disease.
 ice-body,Your body becomes living ice.
 joyful-rapture,Negate harmful emotions.
@@ -2627,9 +2627,9 @@ create-demiplane,"As <i><a href=""/pathfinderRPG/prd/ultimateMagic/spells/create
 orb-of-the-void,Sphere inflicts negative levels.
 prediction-of-failure,"Target is permanently shaken and sickened, and may gain a spellblight."
 undead-anatomy-iv,"As <i><a href=""/pathfinderRPG/prd/ultimateMagic/spells/undeadAnatomy.html#_undead-anatomy-iii"">undead anatomy III</a></i>, but with more abilities."
-"create-demiplane,-greater","As <i><a href=""/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane"">create demiplane</a></i>, but larger and with more planar traits."
+create-demiplane-greater,"As <i><a href=""/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane"">create demiplane</a></i>, but larger and with more planar traits."
 cursed-earth,"Plants die, living creatures catch diseases, or dead creatures rise as zombies."
-"icy-prison,-mass","As <i><a href=""/pathfinderRPG/prd/ultimateMagic/spells/icyPrison.html#_icy-prison"">icy prison</a></i>, but it affects 1 creature/level."
+icy-prison-mass,"As <i><a href=""/pathfinderRPG/prd/ultimateMagic/spells/icyPrison.html#_icy-prison"">icy prison</a></i>, but it affects 1 creature/level."
 interplanetary-teleport,Teleport to another planet.
 overwhelming-presence,Creatures bow before you as if you were divine.
 ride-the-lightning,Transform into electricity.
@@ -2642,7 +2642,7 @@ icicle-dagger,Masterwork ice dagger deals +1 cold damage.
 ray-of-sickening,Ray makes the subject sickened.
 summon-minor-monster,Summon 1d3 Tiny animals.
 cushioning-bands,Force bands protect against crushing.
-"restore-eidolon,-lesser","<i><a href=""/pathfinderRPG/prd//spells/restoration.html#_restoration-lesser"">Lesser restoration</a></i> for an eidolon."
+restore-eidolon-lesser,"<i><a href=""/pathfinderRPG/prd//spells/restoration.html#_restoration-lesser"">Lesser restoration</a></i> for an eidolon."
 web-shelter,Create a comfortable shelter made of webbing.
 agonize-,Pain encourages an outsider to obey you.
 control-summoned-creature,Direct a summoned monster as if you had summoned it.
@@ -2650,10 +2650,10 @@ mad-monkeys,Summon a swarm of mischievous monkeys.
 marionette-possession,"As magic jar, but limited to line of sight."
 rain-of-frogs,Summon a swarm of poisonous frogs.
 restore-eidolon,"<i><a href=""/pathfinderRPG/prd//spells/restoration.html#_restoration"">Restoration</a></i> for an eidolon."
-"daze,-mass","As <i><a href=""/pathfinderRPG/prd//spells/daze.html#_daze"">daze</a></i>, but affecting multiple creatures."
+daze-mass,"As <i><a href=""/pathfinderRPG/prd//spells/daze.html#_daze"">daze</a></i>, but affecting multiple creatures."
 vitriolic-mist,"As <i><a href=""/pathfinderRPG/prd//spells/fireShield.html#_fire-shield"">fire shield</a></i>, except acid damage."
 conjure-black-pudding,Summon a black pudding.
-"create-demiplane,-lesser",Create your own demiplane.
+create-demiplane-lesser,Create your own demiplane.
 ice-crystal-teleport,"Target is frozen, then teleported."
 create-demiplane,"As <i><a href=""/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane,-lesser"">lesser create demiplane</a></i>, but larger and with planar traits."
 eagle-aerie,Summon 1 giant eagle/3 levels.
@@ -2717,11 +2717,11 @@ unadulterated-loathing,Target is compelled to avoid another creature.
 vermin-shape-i-,Take the form and some of the powers of a Small or Medium vermin.
 vision-of-hell,Illusory hellscape makes creatures shaken.
 witness,See through the target's eyes and ears.
-"age-resistance,-lesser",Ignore penalties from middle age.
+age-resistance-lesser,Ignore penalties from middle age.
 cape-of-wasps,Wasp swarm defends or carries you.
 curse-of-magic-negation,Target gains the negated spellblight.
-"daze,-mass","As <i><a href=""/pathfinderRPG/prd//spells/daze.html#_daze"">daze</a></i>, but affecting multiple creatures."
-"false-life,-greater",Gain 2d10 temporary hp + 1/level.
+daze-mass,"As <i><a href=""/pathfinderRPG/prd//spells/daze.html#_daze"">daze</a></i>, but affecting multiple creatures."
+false-life-greater,Gain 2d10 temporary hp + 1/level.
 familiar-melding,Possess your familiar.
 fleshworm-infestation,Worms deal hp and Dex damage.
 ride-the-waves,Target can breathe water and swim.
@@ -2732,8 +2732,8 @@ symbol-of-slowing,Triggered rune slows creatures.
 touch-of-slime,Touch infests a target with green slime.
 vermin-shape-ii,"As <i>vermin shape</i>, but Tiny or Large."
 volcanic-storm,Hot rocks deal 5d6 damage.
-"contagion,-greater",Infect a subject with a magical disease.
-"curse,-major","As <i><a href=""/pathfinderRPG/prd//spells/bestowCurse.html#_bestow-curse"">bestow curse</a></i>, but harder to remove."
+contagion-greater,Infect a subject with a magical disease.
+curse-major,"As <i><a href=""/pathfinderRPG/prd//spells/bestowCurse.html#_bestow-curse"">bestow curse</a></i>, but harder to remove."
 curse-of-disgust,Target is sickened while viewing trigger.
 plague-carrier,Target's attacks carry filth fever.
 possess-object,Possess and animate one object.
@@ -2745,8 +2745,8 @@ ice-crystal-teleport,"Target is frozen, then teleported."
 plague-storm,"Cloud infects creatures like <i><a href=""/pathfinderRPG/prd//spells/contagion.html#_contagion"">contagion</a></i>."
 symbol-of-sealing,"Create triggered <i><a href=""/pathfinderRPG/prd//spells/wallOfForce.html#_wall-of-force"">wall of force</a></i>."
 vengeful-outrage,Target is compelled to destroy one enemy.
-"age-resistance,-greater",Ignore penalties from venerable age.
-"create-demiplane,-lesser",Create your own demiplane.
+age-resistance-greater,Ignore penalties from venerable age.
+create-demiplane-lesser,Create your own demiplane.
 ice-body,Your body becomes living ice.
 lunar-veil,Dispel light and revert lycanthropes.
 scouring-winds,Winds block vision and deal 3d6 damage per round.
@@ -2754,7 +2754,7 @@ temporary-resurrection,Bring a creature to life for 24 hours.
 waves-of-ecstasy,Pleasure stuns and staggers creatures.
 create-demiplane,"As <i><a href=""/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane,-lesser"">lesser create demiplane</a></i>, but larger and with planar traits."
 prediction-of-failure,"Target is permanently shaken and sickened, and may gain a spellblight."
-"create-demiplane,-greater","As <i><a href=""/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane"">create demiplane</a></i>, but larger and with more planar traits."
+create-demiplane-greater,"As <i><a href=""/pathfinderRPG/prd/ultimateMagic/spells/createDemiplane.html#_create-demiplane"">create demiplane</a></i>, but larger and with more planar traits."
 cursed-earth,"Plants die, living creatures catch diseases, or dead creatures rise as zombies."
 symbol-of-strife,Triggered rune makes creatures attack.
 symbol-of-vulnerability,Triggered rune gives penalties.

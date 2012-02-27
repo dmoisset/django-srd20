@@ -39,6 +39,7 @@ for filename in sys.argv[1:]:
             }[target]
         if target.startswith('_'):
             target = target[1:]
+        target = target.replace(',', '') # Remove commas (usde in ", mass" ", greater", etc)
         
         desc_elem = s[0].getparent()
         description = desc_elem.tail or ''
