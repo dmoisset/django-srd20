@@ -3,6 +3,7 @@
 
 import sys, os
 import json 
+import csv
 from pyquery import PyQuery as Q
 import lxml.etree
 
@@ -51,6 +52,12 @@ def normalize_attribute(attr):
      )
     return attr.lower()
 
+# Load descriptions
+descriptions = {}
+r = csv.reader(open("descriptions.csv", "r"))
+for slug, description in r:
+    descriptions[slug.decode('utf-8')] = description.decode('utf-8')
+
 # Iterate over input files
 result = []
 for filename in sys.argv[1:]:
@@ -79,6 +86,9 @@ for filename in sys.argv[1:]:
                 continue
         
         slug = slug.replace(',', '') # Remove commas in slug
+
+        if slug not in descriptions:
+            sys.stderr.write('Warning: no short description for %s\n' % slug)
         
         title = s[0].text_content().strip()
         attributes = {}
@@ -148,6 +158,7 @@ for filename in sys.argv[1:]:
                 "reference": reference,
                 
                 "description": description,
+                "short_description": descriptions.get(slug, '')
             }
         })
         if fn == 'transmutePotionToPoison.html':
