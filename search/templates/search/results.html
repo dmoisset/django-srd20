@@ -23,7 +23,7 @@
 
 <ul>
 {% for r in results %}
-    <li><a href="{{ r.get_absolute_url }}">{{ r }}</a>: {{ r.short_description }}</li>
+    <li><a href="{{ r.get_absolute_url }}">{{ r }}</a>: {{ r.short_description|safe }}</li>
 {% empty %}
 No results found
 {% endfor %}
