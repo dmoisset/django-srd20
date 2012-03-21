@@ -27,9 +27,9 @@ class Spell(models.Model):
     area = models.CharField(max_length=256, blank=True)
     effect = models.CharField(max_length=256, blank=True)
     duration = models.CharField(max_length=128)
-    saving_throw = models.CharField(max_length=128) # may be normalized, not sure 
+    saving_throw = models.CharField(max_length=256) # may be normalized, not sure 
     spell_resistance = models.CharField(max_length=64) # may be normalized, not sure 
-    short_description = models.CharField(max_length=128,
+    short_description = models.CharField(max_length=256,
         help_text='Short description shown in spell lists')
     to_develop = models.TextField(blank=True,
         help_text='Cost to develop epic spell')
