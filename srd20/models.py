@@ -10,7 +10,7 @@ class Spell(models.Model):
                   'and keep the text in lowercase except for roman numerals.')
     school = models.CharField(max_length=32,
         help_text='School of magic, for example "Illusion"') # Probably a FK to a list
-    subschool = models.CharField(max_length=32, blank=True,
+    subschool = models.CharField(max_length=128, blank=True,
         help_text='Subschool of the magic school, if any. Example: "Figment"') # probably a FK to a list
     descriptor = models.CharField(max_length=256, blank=True,
         help_text='Descriptor list (comma separated). Example "Fire, Chaos"') # A Many to Many to a table. probably with an attribute (may have all of the descriptors or any of them)
@@ -21,7 +21,7 @@ class Spell(models.Model):
         help_text='Comma separated list of Class lvl. Example: "Bard 3, Sor/Wiz 4"') # This should be a many-to-many to class level
     components = models.CharField(max_length=256,
         help_text='Comma separated list,as shown in spell. Example: "V, S, M/DF, XP"') # This should be a set of flags: V, S, M, F, DF, XP, ... possibly from the nullability of other fields
-    casting_time = models.CharField(max_length=32) # amount + unit, sometimes with notes
+    casting_time = models.CharField(max_length=64) # amount + unit, sometimes with notes
     range = models.CharField(max_length=64) # Maybe normalized, but more complex
     target = models.CharField(max_length=256, blank=True)
     area = models.CharField(max_length=256, blank=True)
