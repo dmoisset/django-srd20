@@ -12,14 +12,14 @@ class Spell(models.Model):
         help_text='School of magic, for example "Illusion"') # Probably a FK to a list
     subschool = models.CharField(max_length=32, blank=True,
         help_text='Subschool of the magic school, if any. Example: "Figment"') # probably a FK to a list
-    descriptor = models.CharField(max_length=64, blank=True,
+    descriptor = models.CharField(max_length=256, blank=True,
         help_text='Descriptor list (comma separated). Example "Fire, Chaos"') # A Many to Many to a table. probably with an attribute (may have all of the descriptors or any of them)
     spellcraft_dc = models.CharField(max_length=64, blank=True,
         verbose_name='Spellcraft DC',
         help_text='DC to cast (epic spells)') # This should be a nullable int, possibly with a flag for see text notes
     level = models.CharField(max_length=128, blank=True,
         help_text='Comma separated list of Class lvl. Example: "Bard 3, Sor/Wiz 4"') # This should be a many-to-many to class level
-    components = models.CharField(max_length=64,
+    components = models.CharField(max_length=256,
         help_text='Comma separated list,as shown in spell. Example: "V, S, M/DF, XP"') # This should be a set of flags: V, S, M, F, DF, XP, ... possibly from the nullability of other fields
     casting_time = models.CharField(max_length=32) # amount + unit, sometimes with notes
     range = models.CharField(max_length=64) # Maybe normalized, but more complex
@@ -63,7 +63,7 @@ class Feat(models.Model):
     multiple = models.BooleanField()
     stack = models.BooleanField()
     choice = models.CharField(max_length=256, blank=True)
-    prerequisite = models.CharField(max_length=512, blank=True)
+    prerequisite = models.CharField(max_length=1024, blank=True)
     benefit = models.TextField()
     description = models.TextField(blank=True)
     normal = models.TextField(blank=True)
