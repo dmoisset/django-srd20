@@ -14,7 +14,7 @@
 
 {% block nav-global %}{% if not user.is_active or not user.is_staff %}
 <div id="user-tools">
-    <a href="{% url admin:index %}">Log in</a> | <form action="{% url search:category_results %}" style="display: inline-block; margin-top: -5px;">Search: <input type="text" name="q"/><input type="submit" value="Go"/></form>
+    {% if not user.is_authenticated %}<a href="{% url auth_login %}">Log in</a>{% else %}Welcome <strong>{{user}}</strong> | <a href="{% url django.contrib.auth.views.logout %}">Logout</a> {% endif%} | <form action="{% url search:category_results %}" style="display: inline-block; margin-top: -5px;">Search: <input type="text" name="q"/><input type="submit" value="Go"/></form>
 </div>
 {% endif %}{% endblock %}
 
