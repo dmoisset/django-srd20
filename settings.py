@@ -107,11 +107,12 @@ INSTALLED_APPS = (
     
     'south',
     'registration',
+    'django_search_views',
 
     'srd20',
     'search',
     'browse',
-    'django_search_views',
+    'favorites',
 )
 
 try:
