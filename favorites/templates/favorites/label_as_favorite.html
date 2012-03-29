@@ -1,0 +1,1 @@
+<form action="{% if not is_favorite %}{{ favorite_url }}{% else %}{{ unfavorite_url }}{% endif %}" method="post">{% csrf_token %}<input type="submit" value="{% if not is_favorite %}Favorite{% else %}Unfavorite{% endif %}" /></form>
