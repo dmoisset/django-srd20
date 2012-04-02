@@ -12,4 +12,5 @@ urlpatterns = patterns('',
     (r'^search/', include(search.search_site.urls)),
     (r'^account/', include('registration.backends.simple.urls')),
     (r'^favorites/', include('favorites.urls')),
+    (r"^likes/", include("phileo.urls")),
 )

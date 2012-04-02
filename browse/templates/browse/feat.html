@@ -1,6 +1,16 @@
 {% extends "base.html" %}
 
-{% load favorites_tags %}
+{% load phileo_tags %}
+
+{% block extrastyle %}
+    {{ block.super }}
+    {% likes_css %}
+{% endblock %}
+{% block extrahead %}
+    {{ block.super }}
+    <script src="{{ STATIC_URL }}admin/js/jquery.min.js" type="text/javascript"></script>
+    {% likes_js user feat %}
+{% endblock %}
 
 {% block title %}{{ feat.name }} | Feat description{% endblock %}
 
@@ -13,7 +23,7 @@
 </div>
 {% endblock %}
 
-{% block content_title %}<h1>{{ feat }} {% favorite_feat feat %}</h1>{% endblock %}
+{% block content_title %}<h1>{{ feat }}</h1>{% endblock %}
 
 {% block content %}
 <div id="content-main">
@@ -22,7 +32,7 @@
         <a href="{% url admin:srd20_feat_change feat.id %}">[edit]</a>
     </p>
     {% endif %}
-
+    {% likes_widget user feat %}
     <h2>{{ feat.type }}</h2>
 
     {{ feat.description|safe }}

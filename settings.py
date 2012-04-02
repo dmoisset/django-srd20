@@ -96,6 +96,10 @@ TEMPLATE_DIRS = (
 
 LOGIN_REDIRECT_URL = '/'
 
+PHILEO_LIKABLE_MODELS = [
+    "srd20.Spell",
+    "srd20.Feat",
+]
 INSTALLED_APPS = (
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -107,12 +111,12 @@ INSTALLED_APPS = (
     
     'south',
     'registration',
+    'phileo',
     'django_search_views',
 
     'srd20',
     'search',
     'browse',
-    'favorites',
 )
 
 try:
