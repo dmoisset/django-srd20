@@ -25,8 +25,23 @@
     <ul>
     {% for l in like_list %}
         <li><a href="{{ l.receiver.get_absolute_url }}">{{ l.receiver }}</a>: {{ l.receiver.short_description }}</li>
+    {% empty %}
+        <li>No favorite feats</li>
     {% endfor %}
     </ul>
+
+    <h2>Spells</h2>
+
+    {% likes user "srd20.Spell" as like_list %}
+
+    <ul>
+    {% for l in like_list %}
+        <li><a href="{{ l.receiver.get_absolute_url }}">{{ l.receiver }}</a>: {{ l.receiver.short_description }}</li>
+    {% empty %}
+        <li>No favorite spells</li>
+    {% endfor %}
+    </ul>
+
 </div>
 {% endblock %}
 
