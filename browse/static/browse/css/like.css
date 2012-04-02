@@ -1,0 +1,21 @@
+form.phileo {
+    display: inline;
+}
+input.phileo-toggle {
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    text-indent: -1000em;
+    width: 20px;
+    height: 20px;
+}
+form.phileo.like input.phileo-toggle {
+    background: url(/static/browse/img/star-dim.png) no-repeat;
+    background-size: 100%;
+}
+form.phileo.like.phileo-liked input.phileo-toggle {
+    background: url(/static/browse/img/star.png) no-repeat;
+    background-size: 100%;
+}
+.phileo-count {display: none;}
+
