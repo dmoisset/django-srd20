@@ -1,5 +1,7 @@
 from django.shortcuts import get_object_or_404, render_to_response
 from django.template import RequestContext
+from django.views.generic import TemplateView
+
 from srd20.models import Spell, Feat
 
 def spell_detail(request, slug):
@@ -22,3 +24,8 @@ def feat_detail(request, slug):
         },
         context_instance=RequestContext(request)
     )
+    
+class Favorites(TemplateView):
+    template_name = "browse/favorites.html"
+
+favorites = Favorites.as_view()
