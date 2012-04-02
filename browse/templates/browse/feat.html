@@ -5,6 +5,18 @@
 {% block extrastyle %}
     {{ block.super }}
     {% likes_css %}
+    <style type="text/css">
+        div.phileo {
+            display: inline;
+            float: none;
+        }
+        a.phileo {
+            float: none;
+            height: 20px;
+            font-size: 20px;
+        }
+        .phileo-count {display: none;}
+    </style>
 {% endblock %}
 {% block extrahead %}
     {{ block.super }}
@@ -23,7 +35,7 @@
 </div>
 {% endblock %}
 
-{% block content_title %}<h1>{{ feat }}</h1>{% endblock %}
+{% block content_title %}<h1>{{ feat }} {% likes_widget user feat %}</h1>{% endblock %}
 
 {% block content %}
 <div id="content-main">
@@ -32,7 +44,7 @@
         <a href="{% url admin:srd20_feat_change feat.id %}">[edit]</a>
     </p>
     {% endif %}
-    {% likes_widget user feat %}
+    
     <h2>{{ feat.type }}</h2>
 
     {{ feat.description|safe }}
