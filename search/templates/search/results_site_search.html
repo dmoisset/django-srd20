@@ -14,23 +14,25 @@
 {% block content_title %}<h1>Search results{% if query %} for '{{ query }}'{% endif %}</h1>{% endblock %}
 
 {% block content %}
-<form method="get">
-<table>
-{{ form }}
-</table>
-<input type="Submit" />
-</form>
+<div id="content-main">
+    <form method="get">
+        <table>
+            {{ form }}
+        </table>
+        <input type="Submit" />
+    </form>
 
-<ul>
-{% for category,items in results %}
-    {% if items %}
-        <h2>{{ category.verbose_name|title }}</h2>
-        {% for r in items %}
-            <li><a href="{{ r.get_absolute_url }}">{{ r }}</a>: {{ r.short_description|safe }}</li>
-        {% endfor %}
-    {% endif %}
-{% empty %}
-No results found
-{% endfor %}
-</ul>
+    {% for category,items in results %}
+        {% if items %}
+            <h2>{{ category.verbose_name|title }}</h2>
+            <ul>
+                {% for r in items %}
+                    <li><a href="{{ r.get_absolute_url }}">{{ r }}</a>: {{ r.short_description|safe }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    {% empty %}
+    No results found
+    {% endfor %}
+</div>
 {% endblock %}

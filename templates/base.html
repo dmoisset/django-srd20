@@ -24,3 +24,13 @@
 {{ block.super }} | <form action="{% url search:category_results %}" style="display: inline-block; margin-top: -5px;">Search: <input type="text" name="q"/><input type="submit" value="Go"/></form>
 {% endblock %}
 
+{% block sidebar %}
+{% if user.is_authenticated %}
+<div id="content-related">
+    <div class="module">
+        <h2>Other options</h2>
+        <ul><li><a href="{% url favorite_lists %}">Favorites</a></li></ul>
+    </div>
+</div>
+{% endif %}
+{% endblock %}
