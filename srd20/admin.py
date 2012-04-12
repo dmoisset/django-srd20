@@ -1,5 +1,5 @@
 from django.contrib import admin
-from srd20.models import Spell, Feat, CharacterClass
+from srd20.models import Spell, Feat, CharacterClass, Monster
 
 class SpellAdmin(admin.ModelAdmin):
     list_display = ('name', 'level', 'short_description')
@@ -43,7 +43,13 @@ class FeatAdmin(admin.ModelAdmin):
         }),
     )
 
+class MonsterAdmin(admin.ModelAdmin):
+    list_display = ('name', 'type')
+    list_filter = ('cr', 'type', 'size', 'alignment')
+    search_fields = ('name',)
+
 admin.site.register(Spell, SpellAdmin)
 admin.site.register(Feat, FeatAdmin)
+admin.site.register(Monster, MonsterAdmin)
 admin.site.register(CharacterClass)
 
