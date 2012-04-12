@@ -5,6 +5,8 @@ import sys, os
 import json 
 import csv
 import re
+from decimal import Decimal
+
 from pyquery import PyQuery as Q
 import lxml.etree
 
@@ -19,7 +21,7 @@ CRMAP = {
 }
 
 ALIGNMENTS = set(['LG', 'NG', 'CG', 'LN', 'N', 'CN', 'LE', 'NE', 'CE'])
-SIZES = set(['Diminutive', 'Fine', 'Tiny', 'Small', 'Medium', 'Large', 'Huge', 'Gargantuan', 'Colossal'])
+SIZES = ['Fine', 'Diminutive', 'Tiny', 'Small', 'Medium', 'Large', 'Huge', 'Gargantuan', 'Colossal']
 TYPES = set([
     'aberration', 'animal', 'construct', 'dragon', 'fey', 'humanoid',
     'magical beast', 'monstrous humanoid', 'ooze', 'outsider', 'plant',
@@ -77,7 +79,6 @@ result = []
 abilities = []
 
 xpline = re.compile("XP [0-9,]*")
-maxl=0
 for filename in sys.argv[1:]:
     monster_html = Q(filename=filename, parser='html')
     monsters = monster_html("#body .monster-header")
@@ -175,10 +176,9 @@ for filename in sys.argv[1:]:
                         elem = elem.getnext()
                         value += lxml.etree.tostring(elem)
                     value = value.strip()
-                    if value.endswith(';'):
+                    if value.endswith(';') or value.endswith(','):
                         value = value[:-1]
                     attributes[label] = value
-                    if label in ('treasure'): maxl = max(maxl, len(value))
 
             elif eclass == 'stat-block-2':
                 # Continues the last item
@@ -195,10 +195,10 @@ for filename in sys.argv[1:]:
             
         # Reference
         reference = '/'.join(filename.split('/')[-3:-1])
-
+        
         try: flavor_text
         except NameError: sys.stderr.write("%s: No flavor text\n" % slug)
-
+        
         result.append({
             "model": "srd20.monster",
             "pk": len(result),
@@ -206,28 +206,69 @@ for filename in sys.argv[1:]:
                 "name": title,
                 "altname": slug,
                 "flavor_text": flavor_text,
+
                 "cr": cr,
                 "xp": xp,
-#                "school": attributes.get("school", ""),
-#                "subschool": attributes.get("subschool", ""),
-#                "descriptor": attributes.get("descriptor", ""),
-#                "level": attributes.get("level", ""),
-#                "components": attributes.get("components", ""),
-#                "casting_time": attributes.get("casting time", ""),
-#                "range": attributes.get("range", ""),
-#                "target": attributes.get("target", ""),
-#                "area": attributes.get("area", ""),
-#                "effect": attributes.get("effect", ""),
-#                "duration": attributes.get("duration", ""),
-#                "saving_throw": attributes.get("saving throw", ""),
-#                "spell_resistance": attributes.get("spell resistance", ""),
-#                "reference": reference,
-#                
+                "alignment": attributes['alignment'],
+                "size": SIZES.index(attributes['size']) - 4,
+                "type": attributes['type'],
+                "subtypes": attributes.get("subtypes", ""),
+                "other_type": attributes.get("other_type", ""),
+                "class_level": attributes.get("class_level", ""),
+                "initiative": int(attributes["init"].replace(u"–", "")),
+                "senses": attributes["senses"],
+                "aura": attributes.get("aura", ""),
+                
+                "armor_class": attributes['ac'],
+                "hit_points": attributes['hp'],
+                "fortitude_save": attributes['fort'],
+                "reflex_save": attributes['ref'],
+                "will_save": attributes['will'],
+                "defensive abilities": attributes.get('defensive abilities', ""),
+                "damage_reduction_amount": int(attributes.get('dr', "0/").split('/')[0]),
+                "damage_reduction_condition": attributes.get('dr', "0/").split('/',1)[1],
+                "immunities": attributes.get('immunities', ""),
+                "spell_resistance": int(attributes.get('sr', "0")),
+                "weaknesses": attributes.get('weaknesses', ""),
+                
+                "speed": attributes.get('speed', ""),
+                "melee": attributes.get('melee', ""),
+                "ranged": attributes.get('ranged', ""),
+                "space": Decimal(attributes.get('space', "5").replace(' ft.', '').replace(" ft", "").replace("-1/2", ".5")),
+                "reach": attributes.get('reach', ""),
+                "special_attacks": attributes.get('special attacks', ""),
+                "spell_like_abilities": attributes.get('spell-like abilities', ""),
+                "spells_known": attributes.get('spells known', ""),
+                "sorcerer_spells_known": attributes.get('sorcerer spells known', ""),
+                "spells_prepared": attributes.get('spells prepared', ""),
+                "opposition_schools": attributes.get('opposition schools', ""),
+
+                "strength": int(attributes['str'].replace(u"—", "0")),
+                "dexterity": int(attributes['dex']),
+                "constitution": int(attributes['con'].replace(u"—", "0")),
+                "intelligence": int(attributes['int'].replace(u"—", "0")),
+                "wisdom": int(attributes['wis']),
+                "charisma": int(attributes['cha']),
+                "base_attack_bonus": int(attributes['base atk']),
+                "combat_maneuver_bonus": attributes['cmb'],
+                "combat_defense_bonus": attributes['cmd'],
+                "feats": attributes.get('feats', ''),
+                "skills": attributes.get('skills', ''),
+                "racial_modifiers": attributes.get('racial modifiers', ''),
+                "languages": attributes.get('languages', ''),
+                "special_qualities": attributes.get('sq', ''),
+                "gear": attributes.get('gear', ''),
+                "environment": attributes['environment'],
+                "organization": attributes['organization'],
+                "treasure": attributes.get('treasure', ''),
+                "abilities": attributes.get('abilities', ''),
+                "description": attributes.get('description', ''),
+
+                "reference": reference,
+                
                 "description": description,
-#                "short_description": descriptions.get(slug, '')
             }
         })
         del cr, xp, slug, title, attributes, description, flavor_text
 
-#print json.dumps(result, ensure_ascii=False, indent=4).encode('utf-8')
-print maxl
+print json.dumps(result, ensure_ascii=False, indent=4).encode('utf-8')

@@ -201,9 +201,9 @@ class Monster(models.Model):
     charisma = models.IntegerField()
     base_attack_bonus = models.IntegerField()
     combat_maneuver_bonus = models.CharField(max_length=64)
-    combat_defense_bonus = models.CharField(max_length=64)
+    combat_maneuver_defense = models.CharField(max_length=64)
     feats = models.TextField(blank=True)
-    skills = models.TextField()
+    skills = models.TextField(blank=True)
     racial_modifiers = models.CharField(max_length=128, blank=True)
     languages = models.TextField(blank=True)
     special_qualities = models.CharField(max_length=512, blank=True)
@@ -212,7 +212,7 @@ class Monster(models.Model):
     # Ecology
     environment = models.CharField(max_length=128)
     organization = models.TextField()
-    treasure = models.TextField(max_length=128)
+    treasure = models.TextField(max_length=128, blank=True)
 
     # Other
     abilities = models.TextField(blank=True)
