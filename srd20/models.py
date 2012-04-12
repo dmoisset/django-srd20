@@ -126,3 +126,103 @@ class CharacterClass(models.Model):
         ordering = ('name',)
         verbose_name_plural = 'character classes'
 
+class Monster(models.Model):
+
+    SIZE_CHOICES = (
+        (-4, 'Fine'),
+        (-3, 'Diminutive'),
+        (-2, 'Tiny'),
+        (-1, 'Small'),
+        ( 0, 'Medium'),
+        ( 1, 'Large'),
+        ( 2, 'Huge'),
+        ( 3, 'Gargantuan'),
+        ( 4, 'Colossal'),
+    )
+
+    TYPES = [
+        'aberration', 'animal', 'construct', 'dragon', 'fey', 'humanoid',
+        'magical beast', 'monstrous humanoid', 'ooze', 'outsider', 'plant',
+        'undead', 'vermin'
+    ]
+    TYPE_CHOICES = zip(TYPES, TYPES)
+
+    name = models.CharField(max_length=64)
+    altname = models.CharField(max_length=64)
+    flavor_text = models.TextField()
+
+    # Basic information
+    cr = models.IntegerField(help_text="values less than 1 map to 1/2, 1/3, 1/4, 1/6, 1/8")
+    xp = models.IntegerField() # This should be a function of cr
+    alignment = models.CharField(max_length=4)  # May be "Any", or a specific alignment coded in the usual style
+    size = models.IntegerField(choices=SIZE_CHOICES)
+    type = models.CharField(choices=TYPE_CHOICES, max_length=32)
+    subtypes = models.CharField(max_length=64, blank=True)
+    other_type = models.CharField(max_length=64, blank=True) # Other type information (for example base creatur for inherited templates)
+    class_level = models.CharField(max_length=16, blank=True)
+    initiative = models.IntegerField()
+    senses = models.CharField(max_length=512, blank=True)
+    aura = models.CharField(max_length=256, blank=True)
+
+    # Defense
+    armor_class = models.CharField(max_length=128)
+    hit_points = models.CharField(max_length=256)
+     # The saves are typically integers, but sometimes mention modifiers
+    fortitude_save = models.CharField(max_length=128)
+    reflex_save = models.CharField(max_length=128)
+    will_save = models.CharField(max_length=128)
+    defensive_abilities = models.CharField(max_length=256, blank=True)
+    damage_reduction_amount = models.PositiveIntegerField(default=0)
+    damage_reduction_condition = models.CharField(max_length=64, blank=True)
+    immunities = models.CharField(max_length=512, blank=True)
+    resistance = models.CharField(max_length=128, blank=True)
+    spell_resistance = models.PositiveIntegerField(default=0)
+    weaknesses = models.CharField(max_length=256, blank=True)
+
+    # Offense
+    speed = models.CharField(max_length=128, blank=True)
+    melee = models.CharField(max_length=512, blank=True)
+    ranged = models.CharField(max_length=128, blank=True)
+    space = models.DecimalField(max_digits=6, decimal_places=2, null=True)
+    reach = models.CharField(max_length=128, blank=True) # Not a decimalfield, usually includes clarifications
+    special_attacks = models.TextField(blank=True)
+    spell_like_abilities = models.TextField(blank=True)
+    spells_known = models.TextField(blank=True)
+    sorcerer_spells_known = models.TextField(blank=True)
+    spells_prepared = models.TextField(blank=True)
+    opposition_schools = models.CharField(max_length=64, blank=True)
+    
+    # Statistics
+    strength = models.IntegerField()
+    dexterity = models.IntegerField()
+    constitution = models.IntegerField()
+    intelligence = models.IntegerField()
+    wisdom = models.IntegerField()
+    charisma = models.IntegerField()
+    base_attack_bonus = models.IntegerField()
+    combat_maneuver_bonus = models.CharField(max_length=64)
+    combat_defense_bonus = models.CharField(max_length=64)
+    feats = models.TextField(blank=True)
+    skills = models.TextField()
+    racial_modifiers = models.CharField(max_length=128, blank=True)
+    languages = models.TextField(blank=True)
+    special_qualities = models.CharField(max_length=512, blank=True)
+    gear = models.CharField(max_length=128, blank=True)
+
+    # Ecology
+    environment = models.CharField(max_length=128)
+    organization = models.TextField()
+    treasure = models.TextField(max_length=128)
+
+    # Other
+    abilities = models.TextField(blank=True)
+    description = models.TextField(blank=True)
+    reference = models.CharField(max_length=64)
+
+    class Meta:
+        ordering = ['name']
+
+    def __unicode__(self):
+        return self.name
+
+
