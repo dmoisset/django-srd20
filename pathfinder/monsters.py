@@ -227,7 +227,8 @@ for filename in sys.argv[1:]:
                 "defensive_abilities": attributes.get('defensive abilities', ""),
                 "damage_reduction_amount": int(attributes.get('dr', "0/").split('/')[0]),
                 "damage_reduction_condition": attributes.get('dr', "0/").split('/',1)[1],
-                "immunities": attributes.get('immunities', ""),
+                "immunities": attributes.get('immune', ""),
+                "resistance": attributes.get('resist', ""),
                 "spell_resistance": int(attributes.get('sr', "0")),
                 "weaknesses": attributes.get('weaknesses', ""),
                 
