@@ -119,8 +119,12 @@
             <tr>
                 <th>Melee</th>
                 <td>{{ monster.melee|safe }}</td>
-                <th>Special Attacks</th>
-                <td colspan="3">{{ monster.special_attacks|safe }}</td>
+                {% if monster.special_attacks %}
+                    <th>Special Attacks</th>
+                    <td colspan="3">{{ monster.special_attacks|safe }}</td>
+                {% else %}
+                    <td colspan="4"></td>
+                {% endif %}
             </tr>
             {% if monster.ranged or monster.spell_like_abilities %}
                 <tr>
