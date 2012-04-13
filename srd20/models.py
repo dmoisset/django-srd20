@@ -1,3 +1,4 @@
+# encoding: utf-8
 from django.db import models
 
 class Spell(models.Model):
@@ -225,4 +226,13 @@ class Monster(models.Model):
     def __unicode__(self):
         return self.name
 
+    @models.permalink
+    def get_absolute_url(self):
+        return ('monster_detail', [], {'slug': self.altname})
 
+    def get_cr_display(self):
+        cr = self.cr
+        if cr<1:
+            return {0: u"½", -1: u"⅓", -2: u"¼", -3: u"⅙" , -4: u"⅛"}[cr]
+        else:
+            return str(cr)
