@@ -46,10 +46,10 @@
 
     <h3>{{monster.alignment}} {{monster.get_size_display }} {{ monster.type }}
         {% if monster.subtypes %}({{ monster.subtypes }}){% endif %}
-    </h3>
     {% if monster.other_type or monster.class_level %}
-    <h3>{{ monster.other_type}} {{ monster.name|lower }} {{ monster.class_level }}</h3>
+     / {{ monster.other_type}} {{ monster.name|lower }} {{ monster.class_level }}</h3>
     {% endif %}
+    </h3>
 
     <div class="module">
         <h2>Defense</h2>
@@ -232,7 +232,9 @@
             </tr>
             <tr>
                 <th>Init:</th>
-                <td colspan="3">{{ monster.initiative }}</td>
+                <td>{{ monster.initiative }}</td>
+                <th>XP</th>
+                <td>{{ monster.xp }}</td>
             </tr>
             <tr>
                 <th>Senses:</th>
@@ -272,10 +274,6 @@
                 <td colspan="3">{{ monster.gear }}</td>
             </tr>
             {% endif %}
-        </table>
-        <h2>Other</h2>
-        <table>
-            <th>XP</th><td>{{ monster.xp }}</td>
         </table>
 
     </div>
