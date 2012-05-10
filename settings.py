@@ -117,6 +117,7 @@ INSTALLED_APPS = (
     'srd20',
     'search',
     'browse',
+    'encounter',
 )
 
 try:
