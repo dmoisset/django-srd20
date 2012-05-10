@@ -90,7 +90,7 @@
                     <td colspan="2"></td>
                 {% endif %}
                 {% if monster.weaknesses %}
-                    <th>Weaknesses:</th><td>{{ monster.weaknesses }}</td>
+                    <th>Weaknesses:</th><td>{{ monster.weaknesses|safe }}</td>
                 {% else %}
                     <td colspan="2"></td>
                 {% endif %}
