@@ -236,3 +236,10 @@ class Monster(models.Model):
             return {0: u"½", -1: u"⅓", -2: u"¼", -3: u"⅙" , -4: u"⅛"}[cr]
         else:
             return str(cr)
+    
+    def short_description(self):
+        subtypes = "(%s)" % self.subtypes if self.subtypes else ""
+        cclass = ""
+        result = "CR%s %s %s %s %s" % (self.get_cr_display(), self.alignment, self.get_size_display(), self.type, subtypes)
+        return result
+

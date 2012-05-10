@@ -1,6 +1,6 @@
 from django_search_views.search import SearchCategory, Search
 
-from srd20.models import Spell, Feat
+from srd20.models import Spell, Feat, Monster
 
 # These are the fields searched by the full text search
 SEARCH_FIELDS = (
@@ -31,8 +31,13 @@ class FeatByName(SearchCategory):
     lookups = ['name__icontains']
     def verbose_name(self): return u'feats'
 
+class MonsterByName(SearchCategory):
+    model = Monster    
+    lookups = ['name__icontains']
+    def verbose_name(self): return u'monsters'
+
 class SiteSearch(Search):
-    categories = [SpellByName, SpellFullText, FeatByName]
+    categories = [SpellByName, SpellFullText, FeatByName, MonsterByName]
 
 site = SiteSearch()
 urls = site.urls()
