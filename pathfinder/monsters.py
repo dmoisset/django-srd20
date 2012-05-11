@@ -49,29 +49,40 @@ def normalize_attribute(attr):
     attr = attr.strip()
 
     translation_map = {
+        'Arcane School Spell-Like Abilities': 'Spell-Like Abilities',
         'Atk': 'Base Atk',
         'Attacks': 'Special Attacks',
         'Bloodline Spell-Like Ability': 'Spell-Like Abilities',
+        'Cleric Spells Prepared': 'Spells Prepared',
+        'Conjurer Spells Prepared': 'Spells Prepared',
         'Defensive Ability': 'Defensive Abilities',
+        'Domain Spell-Like Abilities': 'Spell-Like Abilities', 
+        'Ifrit Spell-Like Abilities': 'Spell-Like Abilities',
         'Language': 'Languages',
         'Racial Modifier': 'Racial Modifiers',
+        'Ranger Spells Prepared': 'Spells Prepared',
+        'Sorcerer Spell-Like Abilities': 'Spells Prepared',
         'Special Attack': 'Special Attacks',
+        'Spell-like Abilities': 'Spell-Like Abilities',
+        'Spell-Like Ability': 'Spell-Like Abilities',
         'Spell-Lilke Abilities': 'Spell-Like Abilities',
         'Special Qualities': 'SQ',
+        'Weakness': 'Weaknesses',
+        'Witch Spells Prepared': 'Spells Prepared',
     }
 
     if attr in translation_map:
         attr = translation_map[attr]
     assert attr in (
-        'AC', 'Aura', 'Base', 'Base Atk', 'Cha', 'CMB', 'CMD', 'Con',
-        'Defensive Abilities', 'Dex', 'DR', 'Environment', 'Feats', 'Gear',
+        'AC', 'Aura', 'Base', 'Base Atk', 'Bloodline', 'Cha', 'CMB', 'CMD', 'Con',
+        'Defensive Abilities', 'D', 'Dex', 'DR', 'Domains', 'Environment', 'Feats', 'Gear',
         'hp', 'Fort', 'Immune', 'Init', 'Int', 'Languages', 'Melee',
         'Opposition Schools', 'Organization', 'Racial Modifiers', 'Ranged',
         'Reach', 'Ref', 'Resist', 'Skills', 'Senses', 'Sorcerer Spells Known',
         'Space', 'Special', 'Special Attacks', 'Speed', 'Spell-Like Abilities',
         'Spells Known', 'Spells Prepared', 'SQ', 'SR', 'Str', 'Treasure',
         'Weaknesses', 'Will', 'Wis'
-    )
+    ), "Unkown attribute '%s'" % attr
     return attr.lower()
 
 # Iterate over input files
@@ -82,6 +93,8 @@ xpline = re.compile("XP [0-9,]*")
 for filename in sys.argv[1:]:
     monster_html = Q(filename=filename, parser='html')
     monsters = monster_html("#body .monster-header")
+
+    # sys.stderr.write(" *** %s \n" % filename)
 
     for m in pqiter(monsters):
         slug = m.attr('id')
@@ -94,14 +107,27 @@ for filename in sys.argv[1:]:
         p = m.next('p')
 
         if p.attr('class') != 'flavor-text':
-            sys.stderr.write("%s: No flavor-text after <h1>. Skipping\n" % slug)
-            continue
+            sys.stderr.write("%s: No flavor-text after <h1>. " % slug)
+            
+            if p.next('p').hasClass('stat-block-title'):
+                sys.stderr.write("Assuming following <p> as flavor-text.\n")
+                flavor_text = p[0].text_content()
+                p = p.next()
+            else:
+                sys.stderr.write("Skipping\n")
+                continue
 
         has_type_line = False
+
+        # sys.stderr.write(" *** %s \n" % slug)
 
         # Get fields
         while p.attr('class'):
             eclass = p.attr('class')
+            # remove irrelevant classes
+            class_list = eclass.split()
+            if 'para-style-override' in class_list: class_list.remove('para-style-override')
+            eclass = ' '.join(class_list)
             etext = p[0].text_content()
             if eclass == 'flavor-text':
                 flavor_text = etext
@@ -114,12 +140,12 @@ for filename in sys.argv[1:]:
                     cr = int(cr)
             elif eclass == 'stat-block-xp' or xpline.match(etext.strip()):
                 _, xp = etext.split('XP')
-                xp = int(xp.replace(',','').strip())
+                xp = int(xp.replace(',','').replace('each','').strip())
             elif eclass == 'stat-block-breaker':
                 # Collect special abilities
-                if etext.lower() == "special abilities":
+                if etext.lower().startswith("special abilities"):
                     p = p.next('p')
-                    while p.attr('class') in ('stat-block-1', 'stat-block-2'):
+                    while p.hasClass('stat-block-1') or p.hasClass('stat-block-2') or p.hasClass('stat-block-indent'):
                         abilities.append(lxml.etree.tostring(p[0]))
                         p = p.next('p')                        
             elif eclass == 'stat-block-1':
@@ -180,7 +206,7 @@ for filename in sys.argv[1:]:
                         value = value[:-1]
                     attributes[label] = value
 
-            elif eclass == 'stat-block-2':
+            elif eclass in ('stat-block-2', 'stat-block-indent'):
                 # Continues the last item
                 attributes[label] += lxml.etree.tostring(p[0])
             else:
@@ -235,7 +261,7 @@ for filename in sys.argv[1:]:
                 "speed": attributes.get('speed', ""),
                 "melee": attributes.get('melee', ""),
                 "ranged": attributes.get('ranged', ""),
-                "space": attributes.get('space', "5").replace(' ft.', '').replace(" ft", "").replace("-1/2", ".5"),
+                "space": attributes.get('space', u"5").replace(' ft.', '').replace(" ft", "").replace("-1/2", ".5").replace(u"–1/2", ".5"),
                 "reach": attributes.get('reach', ""),
                 "special_attacks": attributes.get('special attacks', ""),
                 "spell_like_abilities": attributes.get('spell-like abilities', ""),
@@ -243,6 +269,7 @@ for filename in sys.argv[1:]:
                 "sorcerer_spells_known": attributes.get('sorcerer spells known', ""),
                 "spells_prepared": attributes.get('spells prepared', ""),
                 "opposition_schools": attributes.get('opposition schools', ""),
+                # TODO: domains/bloodline!
 
                 "strength": int(attributes['str'].replace(u"—", "0")),
                 "dexterity": int(attributes['dex']),

@@ -192,6 +192,7 @@ class Monster(models.Model):
     sorcerer_spells_known = models.TextField(blank=True)
     spells_prepared = models.TextField(blank=True)
     opposition_schools = models.CharField(max_length=64, blank=True)
+    # TODO: domains
     
     # Statistics
     strength = models.IntegerField()
