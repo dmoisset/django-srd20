@@ -147,7 +147,9 @@ for filename in sys.argv[1:]:
                     p = p.next('p')
                     while p.hasClass('stat-block-1') or p.hasClass('stat-block-2') or p.hasClass('stat-block-indent'):
                         abilities.append(lxml.etree.tostring(p[0]))
-                        p = p.next('p')                        
+                        p = p.next('p')
+                    # Leave p right at the last paragraph processed
+                    p = p.prev('p')
             elif eclass == 'stat-block-1':
                 
                 attrname = p.children('b')
