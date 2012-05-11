@@ -261,7 +261,7 @@ for filename in sys.argv[1:]:
                 "speed": attributes.get('speed', ""),
                 "melee": attributes.get('melee', ""),
                 "ranged": attributes.get('ranged', ""),
-                "space": attributes.get('space', u"5").replace(' ft.', '').replace(" ft", "").replace("-1/2", ".5").replace(u"–1/2", ".5"),
+                "space": attributes.get('space', u"5").replace(' ft.', '').replace(" ft", "").replace(' feet', '').replace("-1/2", ".5").replace(u"–1/2", ".5"),
                 "reach": attributes.get('reach', ""),
                 "special_attacks": attributes.get('special attacks', ""),
                 "spell_like_abilities": attributes.get('spell-like abilities', ""),
