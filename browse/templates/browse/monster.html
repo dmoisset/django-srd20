@@ -85,7 +85,7 @@
             <tr>
                 {% if monster.resistance %}
                     <th>Resistance:</th>
-                    <td>{{ monster.resistance }}</td>
+                    <td>{{ monster.resistance|safe }}</td>
                 {% else %}
                     <td colspan="2"></td>
                 {% endif %}

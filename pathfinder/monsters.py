@@ -97,7 +97,7 @@ for filename in sys.argv[1:]:
     # sys.stderr.write(" *** %s \n" % filename)
 
     for m in pqiter(monsters):
-        slug = m.attr('id')
+        slug = m.attr('id').replace(',','')
 #        fn = os.path.basename(filename)
 
         title = m[0].text_content().strip()
