@@ -146,14 +146,21 @@ class Monster(models.Model):
         'magical beast', 'monstrous humanoid', 'ooze', 'outsider', 'plant',
         'undead', 'vermin'
     ]
-    TYPE_CHOICES = zip(TYPES, TYPES)
+    TYPE_CHOICES = [(t, t.capitalize()) for t in TYPES]
+    CR_CHOICES = [
+        (-4, u'⅛'),
+        (-3, u'⅙'),
+        (-2, u'¼'),
+        (-1, u'⅓'),
+        (0, u'½'),
+    ] + [(i, str(i)) for i in range(1,31)]
 
     name = models.CharField(max_length=64)
     altname = models.CharField(max_length=64)
     flavor_text = models.TextField()
 
     # Basic information
-    cr = models.IntegerField(help_text="values less than 1 map to 1/2, 1/3, 1/4, 1/6, 1/8")
+    cr = models.IntegerField(choices=CR_CHOICES)
     xp = models.IntegerField() # This should be a function of cr
     alignment = models.CharField(max_length=4)  # May be "Any", or a specific alignment coded in the usual style
     size = models.IntegerField(choices=SIZE_CHOICES)
@@ -230,13 +237,6 @@ class Monster(models.Model):
     @models.permalink
     def get_absolute_url(self):
         return ('monster_detail', [], {'slug': self.altname})
-
-    def get_cr_display(self):
-        cr = self.cr
-        if cr<1:
-            return {0: u"½", -1: u"⅓", -2: u"¼", -3: u"⅙" , -4: u"⅛"}[cr]
-        else:
-            return str(cr)
     
     def short_description(self):
         subtypes = "(%s)" % self.subtypes if self.subtypes else ""

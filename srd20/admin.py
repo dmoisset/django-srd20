@@ -44,8 +44,8 @@ class FeatAdmin(admin.ModelAdmin):
     )
 
 class MonsterAdmin(admin.ModelAdmin):
-    list_display = ('name', 'type')
-    list_filter = ('cr', 'type', 'size', 'alignment')
+    list_display = ('name', 'alignment', 'size', 'type', 'environment', 'cr')
+    list_filter = ('cr', 'type', 'size', 'alignment', 'reference')
     search_fields = ('name',)
 
 admin.site.register(Spell, SpellAdmin)

@@ -169,32 +169,6 @@
     
     {{ monster.description|safe }}
 
-    {% comment %}
-    {% if spell.verbal_components %}
-    <p><em>Verbal Components</em>: {{ spell.verbal_components }}</p>
-    {% endif %}
-    {% if spell.material_components %}
-    <p><em>Material Component</em>: {{ spell.material_components }}</p>
-    {% endif %}
-    {% if spell.arcane_material_components %}
-    <p><em>Arcane Material Component</em>: {{ spell.arcane_material_components }}</p>
-    {% endif %}
-    {% if spell.focus %}
-    <p><em>Focus</em>: {{ spell.focus }}</p>
-    {% endif %}
-    {% if spell.arcane_focus %}
-    <p><em>Arcane Focus</em>: {{ spell.arcane_focus }}</p>
-    {% endif %}
-    {% if spell.cleric_focus %}
-    <p><em>Cleric Focus</em>: {{ spell.cleric_focus }}</p>
-    {% endif %}
-    {% if spell.druid_focus %}
-    <p><em>Druid Focus</em>: {{ spell.druid_focus }}</p>
-    {% endif %}
-    {% if spell.xp_cost %}
-    <p><em>XP Cost</em>: {{ spell.xp_cost }}</p>
-    {% endif %}
-    {% endcomment %}
     
 </div>
 {% endblock %}
@@ -278,6 +252,26 @@
                 <td colspan="3">{{ monster.gear }}</td>
             </tr>
             {% endif %}
+        </table>
+
+    </div>
+
+    <div class="module">
+        <h2>Ecology</h2>
+        <table>
+            <tr>
+                <th>Environment:</th>
+                <td>{{ monster.environment }}</td>
+            </tr>
+            <tr>
+                <th>Organization:</th>
+                <td>{{ monster.organization }}</td>
+            </tr>
+            <tr>
+                <th>Treasure:</th>
+                <td>{{ monster.treasure }}</td>
+            </tr>
+
         </table>
 
     </div>
