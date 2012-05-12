@@ -99,6 +99,7 @@ LOGIN_REDIRECT_URL = '/'
 PHILEO_LIKABLE_MODELS = [
     "srd20.Spell",
     "srd20.Feat",
+    "srd20.Monster",
 ]
 INSTALLED_APPS = (
     'django.contrib.auth',
