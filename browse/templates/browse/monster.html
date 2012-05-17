@@ -166,6 +166,17 @@
             {% endif %}
         </table>
     </div>
+
+    {% if monster.monsterability_set.all %}
+        <div class="module">
+            <h2>Special abilities</h2>
+            <table>
+                {% for a in monster.monsterability_set.all %}
+                    <tr><th>{{ a.name }} ({{ a.kind|capfirst }})</th><td>{{ a.description|safe }}</td></tr>
+                {% endfor %}
+            </table>
+        </div>
+    {% endif %}
     
     {{ monster.description|safe }}
 
@@ -221,7 +232,7 @@
             {% if monster.aura %}
             <tr>
                 <th>Aura:</th>
-                <td>{{ monster.aura|safe }}</td>
+                <td colspan="3">{{ monster.aura|safe }}</td>
             </tr>
             {% endif %}
             <tr>

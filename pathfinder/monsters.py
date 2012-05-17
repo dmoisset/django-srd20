@@ -350,7 +350,7 @@ for filename in sys.argv[1:]:
                     "monster": monster_id,
                     "name": a[0],
                     "kind": a[1].lower(),
-                    "description": a[2],
+                    "description": u'\n'.join(a[2]),
                 }
             })
             ability_id += 1
