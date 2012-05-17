@@ -173,12 +173,12 @@ class Monster(models.Model):
     aura = models.CharField(max_length=256, blank=True)
 
     # Defense
-    armor_class = models.CharField(max_length=128)
+    armor_class = models.CharField(max_length=256)
     hit_points = models.CharField(max_length=256)
      # The saves are typically integers, but sometimes mention modifiers
-    fortitude_save = models.CharField(max_length=128)
+    fortitude_save = models.CharField(max_length=256)
     reflex_save = models.CharField(max_length=128)
-    will_save = models.CharField(max_length=128)
+    will_save = models.CharField(max_length=256)
     defensive_abilities = models.CharField(max_length=256, blank=True)
     damage_reduction_amount = models.PositiveIntegerField(default=0)
     damage_reduction_condition = models.CharField(max_length=64, blank=True)
@@ -190,7 +190,7 @@ class Monster(models.Model):
     # Offense
     speed = models.CharField(max_length=128, blank=True)
     melee = models.CharField(max_length=512, blank=True)
-    ranged = models.CharField(max_length=128, blank=True)
+    ranged = models.CharField(max_length=256, blank=True)
     space = models.DecimalField(max_digits=6, decimal_places=2, null=True)
     reach = models.CharField(max_length=128, blank=True) # Not a decimalfield, usually includes clarifications
     special_attacks = models.TextField(blank=True)
@@ -213,15 +213,15 @@ class Monster(models.Model):
     combat_maneuver_defense = models.CharField(max_length=64)
     feats = models.TextField(blank=True)
     skills = models.TextField(blank=True)
-    racial_modifiers = models.CharField(max_length=128, blank=True)
+    racial_modifiers = models.CharField(max_length=512, blank=True)
     languages = models.TextField(blank=True)
     special_qualities = models.CharField(max_length=512, blank=True)
     gear = models.CharField(max_length=128, blank=True)
 
     # Ecology
-    environment = models.CharField(max_length=128)
+    environment = models.CharField(max_length=256)
     organization = models.TextField()
-    treasure = models.TextField(max_length=128, blank=True)
+    treasure = models.TextField(blank=True)
 
     # Other
     abilities = models.TextField(blank=True)
