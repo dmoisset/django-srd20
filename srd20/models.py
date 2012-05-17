@@ -244,3 +244,14 @@ class Monster(models.Model):
         result = "CR%s %s %s %s %s" % (self.get_cr_display(), self.alignment, self.get_size_display(), self.type, subtypes)
         return result
 
+class MonsterAbility(models.Model):
+    ABILITY_KINDS = (
+        ('sp', 'Spell-Like'),
+        ('su', 'Supernatural'),
+        ('ex', 'Extraordinary'),
+    )
+    monster = models.ForeignKey(Monster)
+    name = models.CharField(max_length=128)
+    kind = models.CharField(max_length=2, choices=ABILITY_KINDS)
+    description = models.TextField()
+

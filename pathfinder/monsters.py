@@ -67,6 +67,7 @@ def normalize_attribute(attr):
         'Spell-Like Ability': 'Spell-Like Abilities',
         'Spell-Lilke Abilities': 'Spell-Like Abilities',
         'Special Qualities': 'SQ',
+        'Vulnerability': 'Weaknesses',
         'Weakness': 'Weaknesses',
         'Witch Spells Prepared': 'Spells Prepared',
     }
@@ -87,12 +88,17 @@ def normalize_attribute(attr):
 
 # Iterate over input files
 result = []
-abilities = []
 
 xpline = re.compile("XP [0-9,]*")
 for filename in sys.argv[1:]:
     monster_html = Q(filename=filename, parser='html')
     monsters = monster_html("#body .monster-header")
+
+    if len(monsters) == 0:
+        # Try to fallback to alternate:
+        monsters = monster_html("#body p.flavor-text").prev('h1')
+        if len(monsters) == 0:
+            sys.stderr.write("No monsters found in %s\n" % filename)
 
     # sys.stderr.write(" *** %s \n" % filename)
 
@@ -103,17 +109,26 @@ for filename in sys.argv[1:]:
         title = m[0].text_content().strip()
 
         attributes = {}
+        abilities = []
         description = ''
+
+        if m.next('div').hasClass('stat-block'):
+            div = m.next('div')
+            body = lxml.etree.tostring(div[0])
+            # Hack: remove <div> and </div>
+            body = body[body.find('>')+1:]
+            body = body[:body.rfind('<')-1]
+            div.replaceWith(body)
+
         p = m.next('p')
 
         if p.attr('class') != 'flavor-text':
-            sys.stderr.write("%s: No flavor-text after <h1>. " % slug)
-            
             if p.next('p').hasClass('stat-block-title'):
-                sys.stderr.write("Assuming following <p> as flavor-text.\n")
+                # sys.stderr.write("Assuming following <p> as flavor-text.\n")
                 flavor_text = p[0].text_content()
                 p = p.next()
             else:
+                sys.stderr.write("%s: No flavor-text after <h1>. " % slug)
                 sys.stderr.write("Skipping\n")
                 continue
 
@@ -143,13 +158,38 @@ for filename in sys.argv[1:]:
                 xp = int(xp.replace(',','').replace('each','').strip())
             elif eclass == 'stat-block-breaker':
                 # Collect special abilities
-                if etext.lower().startswith("special abilities"):
+                if etext.lower().startswith("special abilities") or etext.lower().startswith("special features"):
+                    parsed = []
+                    attributes['special abilities'] = parsed
                     p = p.next('p')
                     while p.hasClass('stat-block-1') or p.hasClass('stat-block-2') or p.hasClass('stat-block-indent'):
                         abilities.append(lxml.etree.tostring(p[0]))
                         p = p.next('p')
                     # Leave p right at the last paragraph processed
                     p = p.prev('p')
+                    
+                    # Parse abilities:
+                    for a in abilities:
+                        pq = Q(a, parser='html')
+                        if pq.children('b'):
+                            title = pq.children('b')[0].text_content().strip()
+                            if title.endswith(':'):
+                                title=title[:-1].strip()
+                            if '(' in title:
+                                title, kind = title.split('(',1)
+                                title = title.strip()
+                                kind = kind.replace(')', '').strip().title()
+                                if kind not in ('Su', 'Ex', 'Sp'):
+                                    sys.stderr.write("%s: Warning; invalid ability kind for %s\n" % (slug, title))
+                                assert kind in ('Su', 'Ex', 'Sp')
+                            else:
+                                if title != 'Spells':
+                                    sys.stderr.write("%s: Warning; no ability kind in %s. Default to Sp\n" % (slug, repr(title)))
+                                kind = 'Sp'
+                            pq.remove('b')
+                            parsed.append((title, [lxml.etree.tostring(pq[0])]))
+                        else:
+                            parsed[-1][-1].append(lxml.etree.tostring(pq[0]))
             elif eclass == 'stat-block-1':
                 
                 attrname = p.children('b')
