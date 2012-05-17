@@ -181,7 +181,7 @@ class Monster(models.Model):
     will_save = models.CharField(max_length=256)
     defensive_abilities = models.CharField(max_length=256, blank=True)
     damage_reduction_amount = models.PositiveIntegerField(default=0)
-    damage_reduction_condition = models.CharField(max_length=64, blank=True)
+    damage_reduction_condition = models.CharField(max_length=128, blank=True)
     immunities = models.CharField(max_length=512, blank=True)
     resistance = models.CharField(max_length=128, blank=True)
     spell_resistance = models.PositiveIntegerField(default=0)
