@@ -62,11 +62,11 @@
                 {% else %}
                     <th>HP:</th><td colspan="3">{{ monster.hit_points|safe }}</td>                
                 {% endif %}
-                <th>Fort:</th><td>{{ monster.fortitude_save }}</td>
+                <th>Fort:</th><td>{{ monster.fortitude_save|safe }}</td>
             </tr>
             <tr>
-                <th>AC:</th><td colspan="3">{{ monster.armor_class }}</td>
-                <th>Ref:</th><td>{{ monster.reflex_save }}</td>
+                <th>AC:</th><td colspan="3">{{ monster.armor_class|safe }}</td>
+                <th>Ref:</th><td>{{ monster.reflex_save|safe }}</td>
             </tr>
             <tr>
                 {% if monster.damage_reduction_amount %}
@@ -79,7 +79,7 @@
                 {% else %}
                     <td colspan="2"></td>
                 {% endif%}
-                <th>Will:</th><td>{{ monster.will_save }}</td>
+                <th>Will:</th><td>{{ monster.will_save|safe }}</td>
             </tr>
             {% if monster.immunities or monster.resistance or monster.defensive_abilities %}
             <tr>
@@ -108,7 +108,7 @@
         <table>
             <tr>
                 <th>Speed</th>
-                <td>{{ monster.speed }}</td>
+                <td>{{ monster.speed|safe }}</td>
                 <th>Space</th>
                 <td>{{ monster.space }} ft.</td>
                 {% if monster.reach %}
@@ -269,7 +269,7 @@
             </tr>
             <tr>
                 <th>Treasure:</th>
-                <td>{{ monster.treasure }}</td>
+                <td>{{ monster.treasure|safe }}</td>
             </tr>
 
         </table>
