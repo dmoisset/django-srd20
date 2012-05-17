@@ -88,6 +88,8 @@ def normalize_attribute(attr):
 
 # Iterate over input files
 result = []
+monster_id = 1
+ability_id = 1
 
 xpline = re.compile("XP [0-9,]*")
 for filename in sys.argv[1:]:
@@ -172,22 +174,22 @@ for filename in sys.argv[1:]:
                     for a in abilities:
                         pq = Q(a, parser='html')
                         if pq.children('b'):
-                            title = pq.children('b')[0].text_content().strip()
-                            if title.endswith(':'):
-                                title=title[:-1].strip()
-                            if '(' in title:
-                                title, kind = title.split('(',1)
-                                title = title.strip()
+                            atitle = pq.children('b')[0].text_content().strip()
+                            if atitle.endswith(':'):
+                                atitle=atitle[:-1].strip()
+                            if '(' in atitle:
+                                atitle, kind = atitle.split('(',1)
+                                atitle = atitle.strip()
                                 kind = kind.replace(')', '').strip().title()
                                 if kind not in ('Su', 'Ex', 'Sp'):
-                                    sys.stderr.write("%s: Warning; invalid ability kind for %s\n" % (slug, title))
+                                    sys.stderr.write("%s: Warning; invalid ability kind for %s\n" % (slug, atitle))
                                 assert kind in ('Su', 'Ex', 'Sp')
                             else:
-                                if title != 'Spells':
-                                    sys.stderr.write("%s: Warning; no ability kind in %s. Default to Sp\n" % (slug, repr(title)))
+                                if atitle != 'Spells':
+                                    sys.stderr.write("%s: Warning; no ability kind in %s. Default to Sp\n" % (slug, repr(atitle)))
                                 kind = 'Sp'
                             pq.remove('b')
-                            parsed.append((title, [lxml.etree.tostring(pq[0])]))
+                            parsed.append((atitle, kind, [lxml.etree.tostring(pq[0])]))
                         else:
                             parsed[-1][-1].append(lxml.etree.tostring(pq[0]))
             elif eclass == 'stat-block-1':
@@ -269,7 +271,7 @@ for filename in sys.argv[1:]:
         
         result.append({
             "model": "srd20.monster",
-            "pk": len(result),
+            "pk": monster_id,
             "fields": {
                 "name": title,
                 "altname": slug,
@@ -303,7 +305,7 @@ for filename in sys.argv[1:]:
                 "speed": attributes.get('speed', ""),
                 "melee": attributes.get('melee', ""),
                 "ranged": attributes.get('ranged', ""),
-                "space": attributes.get('space', u"5").replace(' ft.', '').replace(" ft", "").replace(' feet', '').replace("-1/2", ".5").replace(u"–1/2", ".5"),
+                "space": attributes.get('space', u"5").replace('ft.', '').replace("ft", "").replace(' feet', '').replace("-1/2", ".5").replace(u"–1/2", ".5").strip(),
                 "reach": attributes.get('reach', ""),
                 "special_attacks": attributes.get('special attacks', ""),
                 "spell_like_abilities": attributes.get('spell-like abilities', ""),
@@ -339,6 +341,21 @@ for filename in sys.argv[1:]:
                 "description": description,
             }
         })
+        # Add special abilities:
+        for a in attributes.get('special abilities', []):
+            result.append({
+                "model": "srd20.monsterability",
+                "pk": ability_id,
+                "fields": {
+                    "monster": monster_id,
+                    "name": a[0],
+                    "kind": a[1].lower(),
+                    "description": a[2],
+                }
+            })
+            ability_id += 1
+        monster_id += 1
+
         del cr, xp, slug, title, attributes, description, flavor_text
 
 print json.dumps(result, ensure_ascii=False, indent=4).encode('utf-8')

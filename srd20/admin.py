@@ -1,5 +1,5 @@
 from django.contrib import admin
-from srd20.models import Spell, Feat, CharacterClass, Monster
+from srd20.models import Spell, Feat, CharacterClass, Monster, MonsterAbility
 
 class SpellAdmin(admin.ModelAdmin):
     list_display = ('name', 'level', 'short_description')
@@ -43,10 +43,14 @@ class FeatAdmin(admin.ModelAdmin):
         }),
     )
 
+class MonsterAbilityInline(admin.TabularInline):
+    model = MonsterAbility
+
 class MonsterAdmin(admin.ModelAdmin):
     list_display = ('name', 'alignment', 'size', 'type', 'environment', 'cr')
     list_filter = ('cr', 'type', 'size', 'alignment', 'reference')
     search_fields = ('name',)
+    inlines = [MonsterAbilityInline]
 
 admin.site.register(Spell, SpellAdmin)
 admin.site.register(Feat, FeatAdmin)
