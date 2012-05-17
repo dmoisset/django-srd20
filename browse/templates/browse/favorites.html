@@ -42,6 +42,18 @@
     {% endfor %}
     </ul>
 
+    {% likes user "srd20.Monster" as like_list %}
+
+    <h2>Monsters</h2>
+
+    <ul>
+    {% for l in like_list %}
+        <li><a href="{{ l.receiver.get_absolute_url }}">{{ l.receiver }}</a>: {{ l.receiver.short_description }}</li>
+    {% empty %}
+        <li>No favorite monsters</li>
+    {% endfor %}
+    </ul>
+
 </div>
 {% endblock %}
 
